@@ -1,0 +1,239 @@
+TwoSided = false
+bDisableDepthTest = false
+bIsMasked = false
+ReferencedTextures[4] =
+{
+    ReferencedTextures[0] = Texture2D'/Game/Aki/Render/Common/T_DefaultColorWhite_D.T_DefaultColorWhite_D'
+    ReferencedTextures[1] = Texture2D'/Game/Aki/Render/Common/T_DefaultNormal_N.T_DefaultNormal_N'
+    ReferencedTextures[2] = Texture2D'/Game/Aki/Render/Common/T_fakeInteriorTest_basecolor.T_fakeInteriorTest_basecolor'
+    ReferencedTextures[3] = TextureCube4'/Game/Aki/Scene/Cubemaps/T_Zbudio_0011_CUBE.T_Zbudio_0011_CUBE'
+}
+Expressions[0] = {}
+CachedExpressionData =
+{
+    Parameters =
+    {
+        Entries[5] =
+        {
+            Entries[0] =
+            {
+                ParameterInfos[21] =
+                {
+                    ParameterInfos[0] = { Name=RFL_Intensity }
+                    ParameterInfos[1] = { Name=RoomScale_Z }
+                    ParameterInfos[2] = { Name=Close Day Emissive }
+                    ParameterInfos[3] = { Name=scaleZ }
+                    ParameterInfos[4] = { Name=NormalInten }
+                    ParameterInfos[5] = { Name=OverlayIntensity }
+                    ParameterInfos[6] = { Name=RefractiveInstensity }
+                    ParameterInfos[7] = { Name=RoomScale_X }
+                    ParameterInfos[8] = { Name=MaskEmissive }
+                    ParameterInfos[9] = { Name=EmissiveIntensity }
+                    ParameterInfos[10] = { Name=RFL_Angle }
+                    ParameterInfos[11] = { Name=LocalPosition_X }
+                    ParameterInfos[12] = { Name=UV_X }
+                    ParameterInfos[13] = { Name=LocalPosition_Y }
+                    ParameterInfos[14] = { Name=u }
+                    ParameterInfos[15] = { Name=UV_Y }
+                    ParameterInfos[16] = { Name=v }
+                    ParameterInfos[17] = { Name=RoomScale_Y }
+                    ParameterInfos[18] = { Name=LP_Radius }
+                    ParameterInfos[19] = { Name=WallIntensity }
+                    ParameterInfos[20] = { Name=BaseColorIntensity }
+                }
+            }
+            Entries[1] =
+            {
+                ParameterInfos[5] =
+                {
+                    ParameterInfos[0] = { Name=GlassColor }
+                    ParameterInfos[1] = { Name=OverlayColor }
+                    ParameterInfos[2] = { Name=LightColor }
+                    ParameterInfos[3] = { Name=LP_Color }
+                    ParameterInfos[4] = { Name=OriginBias }
+                }
+            }
+            Entries[2] =
+            {
+                ParameterInfos[7] =
+                {
+                    ParameterInfos[0] = { Name=RFL_Cubemap }
+                    ParameterInfos[1] = { Name=Map_Z_Axes }
+                    ParameterInfos[2] = { Name=Map_Y_Axes }
+                    ParameterInfos[3] = { Name=GlassTex }
+                    ParameterInfos[4] = { Name=OverlayMap }
+                    ParameterInfos[5] = { Name=Map_X_Axes }
+                    ParameterInfos[6] = { Name=Normal Texture }
+                }
+            }
+            Entries[3] = { ParameterInfos[0]={} }
+            Entries[4] = { ParameterInfos[0]={} }
+        }
+        ScalarValues[21] =
+        {
+            ScalarValues[0] = 1
+            ScalarValues[1] = 1
+            ScalarValues[2] = 0
+            ScalarValues[3] = 1
+            ScalarValues[4] = 1
+            ScalarValues[5] = 0
+            ScalarValues[6] = 1.33
+            ScalarValues[7] = 1
+            ScalarValues[8] = 1
+            ScalarValues[9] = 1
+            ScalarValues[10] = 0
+            ScalarValues[11] = 1
+            ScalarValues[12] = 1
+            ScalarValues[13] = 1
+            ScalarValues[14] = 0
+            ScalarValues[15] = 1
+            ScalarValues[16] = 0
+            ScalarValues[17] = 1
+            ScalarValues[18] = 0.85
+            ScalarValues[19] = 1
+            ScalarValues[20] = 1
+        }
+        VectorValues[5] =
+        {
+            VectorValues[0] = { R=0, G=0, B=0, A=0 }
+            VectorValues[1] = { R=1, G=1, B=1, A=0 }
+            VectorValues[2] = { R=1, G=1, B=1, A=1 }
+            VectorValues[3] = { R=1, G=1, B=1, A=1 }
+            VectorValues[4] = { R=0, G=0, B=0, A=1 }
+        }
+        TextureValues[7] =
+        {
+            TextureValues[0] = TextureCube4'/Game/Aki/Scene/Cubemaps/T_Zbudio_0011_CUBE.T_Zbudio_0011_CUBE'
+            TextureValues[1] = Texture2D'/Game/Aki/Render/Common/T_DefaultColorWhite_D.T_DefaultColorWhite_D'
+            TextureValues[2] = Texture2D'/Game/Aki/Render/Common/T_DefaultColorWhite_D.T_DefaultColorWhite_D'
+            TextureValues[3] = Texture2D'/Game/Aki/Render/Common/T_fakeInteriorTest_basecolor.T_fakeInteriorTest_basecolor'
+            TextureValues[4] = Texture2D'/Game/Aki/Render/Common/T_DefaultColorWhite_D.T_DefaultColorWhite_D'
+            TextureValues[5] = Texture2D'/Game/Aki/Render/Common/T_DefaultColorWhite_D.T_DefaultColorWhite_D'
+            TextureValues[6] = Texture2D'/Game/Aki/Render/Common/T_DefaultNormal_N.T_DefaultNormal_N'
+        }
+    }
+    ReferencedTextures[5] =
+    {
+        ReferencedTextures[1] = Texture2D'/Game/Aki/Render/Common/T_DefaultColorWhite_D.T_DefaultColorWhite_D'
+        ReferencedTextures[2] = Texture2D'/Game/Aki/Render/Common/T_DefaultNormal_N.T_DefaultNormal_N'
+        ReferencedTextures[3] = Texture2D'/Game/Aki/Render/Common/T_fakeInteriorTest_basecolor.T_fakeInteriorTest_basecolor'
+        ReferencedTextures[4] = TextureCube4'/Game/Aki/Scene/Cubemaps/T_Zbudio_0011_CUBE.T_Zbudio_0011_CUBE'
+    }
+}
+BlendMode = BLEND_Opaque (0)
+OpacityMaskClipValue = 0.333
+CollectedTextureParameters[7] =
+{
+    CollectedTextureParameters[0] =
+    {
+        Texture = TextureCube4'/Game/Aki/Scene/Cubemaps/T_Zbudio_0011_CUBE.T_Zbudio_0011_CUBE'
+        Name = RFL_Cubemap
+        Group = None
+    }
+    CollectedTextureParameters[1] =
+    {
+        Texture = Texture2D'/Game/Aki/Render/Common/T_DefaultColorWhite_D.T_DefaultColorWhite_D'
+        Name = Map_Z_Axes
+        Group = None
+    }
+    CollectedTextureParameters[2] =
+    {
+        Texture = Texture2D'/Game/Aki/Render/Common/T_DefaultColorWhite_D.T_DefaultColorWhite_D'
+        Name = Map_Y_Axes
+        Group = None
+    }
+    CollectedTextureParameters[3] =
+    {
+        Texture = Texture2D'/Game/Aki/Render/Common/T_fakeInteriorTest_basecolor.T_fakeInteriorTest_basecolor'
+        Name = GlassTex
+        Group = None
+    }
+    CollectedTextureParameters[4] =
+    {
+        Texture = Texture2D'/Game/Aki/Render/Common/T_DefaultColorWhite_D.T_DefaultColorWhite_D'
+        Name = OverlayMap
+        Group = None
+    }
+    CollectedTextureParameters[5] =
+    {
+        Texture = Texture2D'/Game/Aki/Render/Common/T_DefaultColorWhite_D.T_DefaultColorWhite_D'
+        Name = Map_X_Axes
+        Group = None
+    }
+    CollectedTextureParameters[6] =
+    {
+        Texture = Texture2D'/Game/Aki/Render/Common/T_DefaultNormal_N.T_DefaultNormal_N'
+        Name = Normal Texture
+        Group = None
+    }
+}
+CollectedScalarParameters[21] =
+{
+    CollectedScalarParameters[0] = { Value=1, Name=RFL_Intensity, Group=None }
+    CollectedScalarParameters[1] = { Value=1, Name=RoomScale_Z, Group=None }
+    CollectedScalarParameters[2] = { Value=0, Name=Close Day Emissive, Group=None }
+    CollectedScalarParameters[3] = { Value=1, Name=scaleZ, Group=None }
+    CollectedScalarParameters[4] = { Value=1, Name=NormalInten, Group=None }
+    CollectedScalarParameters[5] = { Value=0, Name=OverlayIntensity, Group=None }
+    CollectedScalarParameters[6] =
+    {
+        Value = 1.33
+        Name = RefractiveInstensity
+        Group = None
+    }
+    CollectedScalarParameters[7] = { Value=1, Name=RoomScale_X, Group=None }
+    CollectedScalarParameters[8] = { Value=1, Name=MaskEmissive, Group=None }
+    CollectedScalarParameters[9] = { Value=1, Name=EmissiveIntensity, Group=None }
+    CollectedScalarParameters[10] = { Value=0, Name=RFL_Angle, Group=None }
+    CollectedScalarParameters[11] = { Value=1, Name=LocalPosition_X, Group=None }
+    CollectedScalarParameters[12] = { Value=1, Name=UV_X, Group=None }
+    CollectedScalarParameters[13] = { Value=1, Name=LocalPosition_Y, Group=None }
+    CollectedScalarParameters[14] = { Value=0, Name=u, Group=None }
+    CollectedScalarParameters[15] = { Value=1, Name=UV_Y, Group=None }
+    CollectedScalarParameters[16] = { Value=0, Name=v, Group=None }
+    CollectedScalarParameters[17] = { Value=1, Name=RoomScale_Y, Group=None }
+    CollectedScalarParameters[18] = { Value=0.85, Name=LP_Radius, Group=None }
+    CollectedScalarParameters[19] = { Value=1, Name=WallIntensity, Group=None }
+    CollectedScalarParameters[20] = { Value=1, Name=BaseColorIntensity, Group=None }
+}
+CollectedVectorParameters[5] =
+{
+    CollectedVectorParameters[0] =
+    {
+        Value = { R=0, G=0, B=0, A=0 }
+        Name = GlassColor
+        Group = None
+    }
+    CollectedVectorParameters[1] =
+    {
+        Value = { R=1, G=1, B=1, A=0 }
+        Name = OverlayColor
+        Group = None
+    }
+    CollectedVectorParameters[2] =
+    {
+        Value = { R=1, G=1, B=1, A=1 }
+        Name = LightColor
+        Group = None
+    }
+    CollectedVectorParameters[3] =
+    {
+        Value = { R=1, G=1, B=1, A=1 }
+        Name = LP_Color
+        Group = None
+    }
+    CollectedVectorParameters[4] =
+    {
+        Value = { R=0, G=0, B=0, A=1 }
+        Name = OriginBias
+        Group = None
+    }
+}
+FlattenedTexture = None
+MobileBaseTexture = None
+MobileNormalTexture = None
+bUseMobileSpecular = false
+MobileSpecularPower = 16
+MobileSpecularMask = MSM_Constant (0)
+MobileMaskTexture = None
+TextureStreamingData[0] = {}

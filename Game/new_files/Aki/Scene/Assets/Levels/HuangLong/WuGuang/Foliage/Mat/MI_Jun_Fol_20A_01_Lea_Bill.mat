@@ -1,0 +1,10 @@
+Diffuse=T4_Com_Lea_02A_D
+Emissive=T_DefaultMaskGreen_M
+Other[0]=T_Noise_11
+Other[1]=DefaultDiffuse
+Other[2]=DebugNumberStrip
+Other[3]=DebugNumberPeriod
+Other[4]=T_DefaultColorBlack_Linear_D
+Other[5]=T_FlareNoise_M
+Other[6]=T_Foliage_Noise02_M
+Other[7]=T4_Com_Lea_01A_D

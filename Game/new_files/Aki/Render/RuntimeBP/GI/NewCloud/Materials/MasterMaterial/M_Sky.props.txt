@@ -1,0 +1,145 @@
+TwoSided = true
+bDisableDepthTest = false
+bIsMasked = false
+ReferencedTextures[2] =
+{
+    ReferencedTextures[0] = Texture2D'/Game/Aki/Render/Common/T_DefaultColorWhite_D.T_DefaultColorWhite_D'
+    ReferencedTextures[1] = Texture2D'/Game/Aki/Render/RuntimeBP/GI/NewCloud/Textures/BasicNoise.BasicNoise'
+}
+Expressions[0] = {}
+CachedExpressionData =
+{
+    Parameters =
+    {
+        Entries[5] =
+        {
+            Entries[0] =
+            {
+                ParameterInfos[6] =
+                {
+                    ParameterInfos[0] = { Name=SunIntensity }
+                    ParameterInfos[1] = { Name=NoiseSpeed }
+                    ParameterInfos[2] = { Name=DayTimeIntensity }
+                    ParameterInfos[3] = { Name=NoiseTilling }
+                    ParameterInfos[4] = { Name=NoiseStrength }
+                    ParameterInfos[5] = { Name=NightIntensity }
+                }
+            }
+            Entries[1] =
+            {
+                ParameterInfos[3] =
+                {
+                    ParameterInfos[0] = { Name=NightTexUV }
+                    ParameterInfos[1] = { Name=SunTexUV }
+                    ParameterInfos[2] = { Name=DayTimeTexUV }
+                }
+            }
+            Entries[2] =
+            {
+                ParameterInfos[4] =
+                {
+                    ParameterInfos[0] = { Name=Noise }
+                    ParameterInfos[1] = { Name=NightTex }
+                    ParameterInfos[2] = { Name=SunTex }
+                    ParameterInfos[3] = { Name=DayTimeTex }
+                }
+            }
+            Entries[3] = { ParameterInfos[0]={} }
+            Entries[4] = { ParameterInfos[0]={} }
+        }
+        ScalarValues[6] = { 1, 1, 1, 1, 1, 1 }
+        VectorValues[3] =
+        {
+            VectorValues[0] = { R=1, G=1, B=0, A=0 }
+            VectorValues[1] = { R=1, G=1, B=0, A=0 }
+            VectorValues[2] = { R=1, G=1, B=0, A=0 }
+        }
+        TextureValues[4] =
+        {
+            TextureValues[0] = Texture2D'/Game/Aki/Render/RuntimeBP/GI/NewCloud/Textures/BasicNoise.BasicNoise'
+            TextureValues[1] = Texture2D'/Game/Aki/Render/Common/T_DefaultColorWhite_D.T_DefaultColorWhite_D'
+            TextureValues[2] = Texture2D'/Game/Aki/Render/Common/T_DefaultColorWhite_D.T_DefaultColorWhite_D'
+            TextureValues[3] = Texture2D'/Game/Aki/Render/Common/T_DefaultColorWhite_D.T_DefaultColorWhite_D'
+        }
+    }
+    ReferencedTextures[2] =
+    {
+        ReferencedTextures[0] = Texture2D'/Game/Aki/Render/Common/T_DefaultColorWhite_D.T_DefaultColorWhite_D'
+        ReferencedTextures[1] = Texture2D'/Game/Aki/Render/RuntimeBP/GI/NewCloud/Textures/BasicNoise.BasicNoise'
+    }
+}
+BlendMode = BLEND_Opaque (0)
+OpacityMaskClipValue = 0.333
+CollectedTextureParameters[4] =
+{
+    CollectedTextureParameters[0] =
+    {
+        Texture = Texture2D'/Game/Aki/Render/RuntimeBP/GI/NewCloud/Textures/BasicNoise.BasicNoise'
+        Name = Noise
+        Group = None
+    }
+    CollectedTextureParameters[1] =
+    {
+        Texture = Texture2D'/Game/Aki/Render/Common/T_DefaultColorWhite_D.T_DefaultColorWhite_D'
+        Name = NightTex
+        Group = None
+    }
+    CollectedTextureParameters[2] =
+    {
+        Texture = Texture2D'/Game/Aki/Render/Common/T_DefaultColorWhite_D.T_DefaultColorWhite_D'
+        Name = SunTex
+        Group = None
+    }
+    CollectedTextureParameters[3] =
+    {
+        Texture = Texture2D'/Game/Aki/Render/Common/T_DefaultColorWhite_D.T_DefaultColorWhite_D'
+        Name = DayTimeTex
+        Group = None
+    }
+}
+CollectedScalarParameters[6] =
+{
+    CollectedScalarParameters[0] = { Value=1, Name=SunIntensity, Group=None }
+    CollectedScalarParameters[1] = { Value=1, Name=NoiseSpeed, Group=None }
+    CollectedScalarParameters[2] = { Value=1, Name=DayTimeIntensity, Group=None }
+    CollectedScalarParameters[3] = { Value=1, Name=NoiseTilling, Group=None }
+    CollectedScalarParameters[4] = { Value=1, Name=NoiseStrength, Group=None }
+    CollectedScalarParameters[5] = { Value=1, Name=NightIntensity, Group=None }
+}
+CollectedVectorParameters[3] =
+{
+    CollectedVectorParameters[0] =
+    {
+        Value = { R=1, G=1, B=0, A=0 }
+        Name = NightTexUV
+        Group = None
+    }
+    CollectedVectorParameters[1] =
+    {
+        Value = { R=1, G=1, B=0, A=0 }
+        Name = SunTexUV
+        Group = None
+    }
+    CollectedVectorParameters[2] =
+    {
+        Value = { R=1, G=1, B=0, A=0 }
+        Name = DayTimeTexUV
+        Group = None
+    }
+}
+FlattenedTexture = None
+MobileBaseTexture = None
+MobileNormalTexture = None
+bUseMobileSpecular = false
+MobileSpecularPower = 16
+MobileSpecularMask = MSM_Constant (0)
+MobileMaskTexture = None
+TextureStreamingData[1] =
+{
+    TextureStreamingData[0] =
+    {
+        SamplingScale = 0.98645
+        UVChannelIndex = 0
+        TextureName = T_DefaultColorWhite_D
+    }
+}

@@ -1,0 +1,184 @@
+TwoSided = true
+bDisableDepthTest = false
+bIsMasked = false
+ReferencedTextures[2] =
+{
+    ReferencedTextures[0] = Texture2D'/Game/Aki/Effect/UI/Textures/Normal/T_UI_Normal_001.T_UI_Normal_001'
+    ReferencedTextures[1] = Texture2D'/Client/Plugins/LGUI/LGUI/Content/Textures/LGUIPreset_WhiteSolid.LGUIPreset_WhiteSolid'
+}
+Expressions[0] = {}
+CachedExpressionData =
+{
+    Parameters =
+    {
+        Entries[5] =
+        {
+            Entries[0] =
+            {
+                ParameterInfos[11] =
+                {
+                    ParameterInfos[0] = { Name=EMaskOffset }
+                    ParameterInfos[1] = { Name=AddInt }
+                    ParameterInfos[2] = { Name=LGUI_IsRenderInGammaSpace }
+                    ParameterInfos[3] = { Name=FlowInt }
+                    ParameterInfos[4] = { Name=NormalInt }
+                    ParameterInfos[5] = { Name=FlowScale }
+                    ParameterInfos[6] = { Name=SNoiseInt }
+                    ParameterInfos[7] = { Name=EMaskInt }
+                    ParameterInfos[8] = { Name=NoiseInt }
+                    ParameterInfos[9] = { Name=MainInt }
+                    ParameterInfos[10] = { Name=FlowRate }
+                }
+            }
+            Entries[1] =
+            {
+                ParameterInfos[6] =
+                {
+                    ParameterInfos[0] = { Name=NoiseUVA }
+                    ParameterInfos[1] = { Name=MainUV }
+                    ParameterInfos[2] = { Name=AddUV }
+                    ParameterInfos[3] = { Name=FlowOffset }
+                    ParameterInfos[4] = { Name=RefineCtrl }
+                    ParameterInfos[5] = { Name=SphereUV }
+                }
+            }
+            Entries[2] =
+            {
+                ParameterInfos[5] =
+                {
+                    ParameterInfos[0] = { Name=SMask }
+                    ParameterInfos[1] = { Name=MainTexture }
+                    ParameterInfos[2] = { Name=AddTex }
+                    ParameterInfos[3] = { Name=NoiseTex }
+                    ParameterInfos[4] = { Name=FlowMap }
+                }
+            }
+            Entries[3] = { ParameterInfos[0]={} }
+            Entries[4] = { ParameterInfos[0]={} }
+        }
+        ScalarValues[11] = { 0, 1, 1, 1, 1, 1, 0, 1, 0, 1, 0.2 }
+        VectorValues[6] =
+        {
+            VectorValues[0] = { R=1, G=1, B=0.2, A=0 }
+            VectorValues[1] = { R=1, G=1, B=0, A=0 }
+            VectorValues[2] = { R=1, G=1, B=0, A=0 }
+            VectorValues[3] = { R=1, G=1, B=0, A=0 }
+            VectorValues[4] = { R=1, G=1, B=2, A=0.5 }
+            VectorValues[5] = { R=1, G=1, B=1, A=1 }
+        }
+        TextureValues[5] =
+        {
+            TextureValues[0] = Texture2D'/Client/Plugins/LGUI/LGUI/Content/Textures/LGUIPreset_WhiteSolid.LGUIPreset_WhiteSolid'
+            TextureValues[1] = Texture2D'/Client/Plugins/LGUI/LGUI/Content/Textures/LGUIPreset_WhiteSolid.LGUIPreset_WhiteSolid'
+            TextureValues[2] = Texture2D'/Client/Plugins/LGUI/LGUI/Content/Textures/LGUIPreset_WhiteSolid.LGUIPreset_WhiteSolid'
+            TextureValues[3] = Texture2D'/Client/Plugins/LGUI/LGUI/Content/Textures/LGUIPreset_WhiteSolid.LGUIPreset_WhiteSolid'
+            TextureValues[4] = Texture2D'/Client/Plugins/LGUI/LGUI/Content/Textures/LGUIPreset_WhiteSolid.LGUIPreset_WhiteSolid'
+        }
+    }
+    ReferencedTextures[3] =
+    {
+        ReferencedTextures[0] = Texture2D'/Client/Plugins/LGUI/LGUI/Content/Textures/LGUIPreset_WhiteSolid.LGUIPreset_WhiteSolid'
+        ReferencedTextures[2] = Texture2D'/Game/Aki/Effect/UI/Textures/Normal/T_UI_Normal_001.T_UI_Normal_001'
+    }
+}
+BlendMode = BLEND_Translucent (2)
+OpacityMaskClipValue = 0.333
+CollectedTextureParameters[5] =
+{
+    CollectedTextureParameters[0] =
+    {
+        Texture = Texture2D'/Client/Plugins/LGUI/LGUI/Content/Textures/LGUIPreset_WhiteSolid.LGUIPreset_WhiteSolid'
+        Name = SMask
+        Group = None
+    }
+    CollectedTextureParameters[1] =
+    {
+        Texture = Texture2D'/Client/Plugins/LGUI/LGUI/Content/Textures/LGUIPreset_WhiteSolid.LGUIPreset_WhiteSolid'
+        Name = MainTexture
+        Group = None
+    }
+    CollectedTextureParameters[2] =
+    {
+        Texture = Texture2D'/Client/Plugins/LGUI/LGUI/Content/Textures/LGUIPreset_WhiteSolid.LGUIPreset_WhiteSolid'
+        Name = AddTex
+        Group = None
+    }
+    CollectedTextureParameters[3] =
+    {
+        Texture = Texture2D'/Client/Plugins/LGUI/LGUI/Content/Textures/LGUIPreset_WhiteSolid.LGUIPreset_WhiteSolid'
+        Name = NoiseTex
+        Group = None
+    }
+    CollectedTextureParameters[4] =
+    {
+        Texture = Texture2D'/Client/Plugins/LGUI/LGUI/Content/Textures/LGUIPreset_WhiteSolid.LGUIPreset_WhiteSolid'
+        Name = FlowMap
+        Group = None
+    }
+}
+CollectedScalarParameters[11] =
+{
+    CollectedScalarParameters[0] = { Value=0, Name=EMaskOffset, Group=None }
+    CollectedScalarParameters[1] = { Value=1, Name=AddInt, Group=None }
+    CollectedScalarParameters[2] =
+    {
+        Value = 1
+        Name = LGUI_IsRenderInGammaSpace
+        Group = None
+    }
+    CollectedScalarParameters[3] = { Value=1, Name=FlowInt, Group=None }
+    CollectedScalarParameters[4] = { Value=1, Name=NormalInt, Group=None }
+    CollectedScalarParameters[5] = { Value=1, Name=FlowScale, Group=None }
+    CollectedScalarParameters[6] = { Value=0, Name=SNoiseInt, Group=None }
+    CollectedScalarParameters[7] = { Value=1, Name=EMaskInt, Group=None }
+    CollectedScalarParameters[8] = { Value=0, Name=NoiseInt, Group=None }
+    CollectedScalarParameters[9] = { Value=1, Name=MainInt, Group=None }
+    CollectedScalarParameters[10] = { Value=0.2, Name=FlowRate, Group=None }
+}
+CollectedVectorParameters[6] =
+{
+    CollectedVectorParameters[0] =
+    {
+        Value = { R=1, G=1, B=0.2, A=0 }
+        Name = NoiseUVA
+        Group = None
+    }
+    CollectedVectorParameters[1] =
+    {
+        Value = { R=1, G=1, B=0, A=0 }
+        Name = MainUV
+        Group = None
+    }
+    CollectedVectorParameters[2] =
+    {
+        Value = { R=1, G=1, B=0, A=0 }
+        Name = AddUV
+        Group = None
+    }
+    CollectedVectorParameters[3] =
+    {
+        Value = { R=1, G=1, B=0, A=0 }
+        Name = FlowOffset
+        Group = None
+    }
+    CollectedVectorParameters[4] =
+    {
+        Value = { R=1, G=1, B=2, A=0.5 }
+        Name = RefineCtrl
+        Group = None
+    }
+    CollectedVectorParameters[5] =
+    {
+        Value = { R=1, G=1, B=1, A=1 }
+        Name = SphereUV
+        Group = None
+    }
+}
+FlattenedTexture = None
+MobileBaseTexture = None
+MobileNormalTexture = None
+bUseMobileSpecular = false
+MobileSpecularPower = 16
+MobileSpecularMask = MSM_Constant (0)
+MobileMaskTexture = None
+TextureStreamingData[0] = {}

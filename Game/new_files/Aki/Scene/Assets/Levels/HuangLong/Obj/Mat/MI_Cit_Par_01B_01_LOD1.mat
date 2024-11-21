@@ -1,0 +1,12 @@
+Diffuse=T_Cit_Par_01A_D
+Normal=T_Cit_Par_01A_N
+Other[0]=T_Cit_Par_01A_M
+Other[1]=T4_Rid_Sno_01A_M
+Other[2]=T_Cit_Par_01A_H
+Other[3]=Good64x64TilingNoiseHighFreq
+Other[4]=T_Default_SceneMask_M
+Other[5]=T_DefaultColorWhite_D
+Other[6]=T_DefaultNormal_N
+Other[7]=T_Noise_Flakes
+Other[8]=T_Noise_Flakes_N
+Other[9]=T_WaterNormal_Rain

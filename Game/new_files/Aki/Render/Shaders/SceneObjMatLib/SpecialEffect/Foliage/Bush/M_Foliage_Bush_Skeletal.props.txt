@@ -1,0 +1,325 @@
+TwoSided = true
+bDisableDepthTest = false
+bIsMasked = false
+ReferencedTextures[7] =
+{
+    ReferencedTextures[0] = Texture2D'/Engine/EngineMaterials/DefaultDiffuse.DefaultDiffuse'
+    ReferencedTextures[1] = Texture2D'/Engine/Functions/Engine_MaterialFunctions02/ExampleContent/DebugNumberStrip.DebugNumberStrip'
+    ReferencedTextures[2] = Texture2D'/Engine/Functions/Engine_MaterialFunctions02/ExampleContent/Textures/DebugNumberPeriod.DebugNumberPeriod'
+    ReferencedTextures[3] = Texture2D'/Game/Aki/Render/Common/T_DefaultMaskGreen_M.T_DefaultMaskGreen_M'
+    ReferencedTextures[4] = Texture2D'/Game/Aki/Render/Common/T_Foliage_Noise02_M.T_Foliage_Noise02_M'
+    ReferencedTextures[5] = Texture2D'/Game/Aki/Render/Common/T_Foliage_Noise_M.T_Foliage_Noise_M'
+    ReferencedTextures[6] = Texture2D'/Game/Aki/Scene/Assets/Common/Foliage/Tex/T4_Com_Lea_01A_D.T4_Com_Lea_01A_D'
+}
+Expressions[0] = {}
+CachedExpressionData =
+{
+    Parameters =
+    {
+        Entries[5] =
+        {
+            Entries[0] =
+            {
+                ParameterInfos[41] =
+                {
+                    ParameterInfos[0] = { Name=RampColorScope }
+                    ParameterInfos[1] = { Name=Cusp Intensity Attenuation }
+                    ParameterInfos[2] = { Name=AOMinColor }
+                    ParameterInfos[3] = { Name=AO_Radial }
+                    ParameterInfos[4] = { Name=Use Alpha Control }
+                    ParameterInfos[5] = { Name=PixeDepthDistance }
+                    ParameterInfos[6] = { Name=SSS_Intenisty }
+                    ParameterInfos[7] = { Name=ShadowSoftness }
+                    ParameterInfos[8] = { Name=AquaticWaveScale }
+                    ParameterInfos[9] = { Name=TreeDitherRadius }
+                    ParameterInfos[10] = { Name=EdgeBias }
+                    ParameterInfos[11] = { Name=WindTimeBias }
+                    ParameterInfos[12] = { Name=TextureArraySize }
+                    ParameterInfos[13] = { Name=ColorBias }
+                    ParameterInfos[14] = { Name=Subsurface Edge Weight }
+                    ParameterInfos[15] = { Name=WindIntensity }
+                    ParameterInfos[16] = { Name=LeafHiddenSmooth }
+                    ParameterInfos[17] = { Name=Leaf Wind Intensce }
+                    ParameterInfos[18] = { Name=InterctorHeight }
+                    ParameterInfos[19] = { Name=LeafHiddenMax }
+                    ParameterInfos[20] = { Name=AquaticWiggleAmount }
+                    ParameterInfos[21] = { Name=ShakeFrequency }
+                    ParameterInfos[22] = { Name=Emissive Night }
+                    ParameterInfos[23] = { Name=ShadowMeshHideStrength }
+                    ParameterInfos[24] = { Name=Odd WindIntensity }
+                    ParameterInfos[25] = { Name=LeafHiddenStrengthShadow }
+                    ParameterInfos[26] = { Name=WindSpeed }
+                    ParameterInfos[27] = { Name=AquaticSpeed }
+                    ParameterInfos[28] = { Name=3S_Intensity }
+                    ParameterInfos[29] = { Name=AO_PerLeaf }
+                    ParameterInfos[30] = { Name=PBR_Roughness }
+                    ParameterInfos[31] = { Name=InteractorWeight }
+                    ParameterInfos[32] = { Name=leafScale }
+                    ParameterInfos[33] = { Name=InteractorRadius }
+                    ParameterInfos[34] = { Name=Close Emissive Day }
+                    ParameterInfos[35] = { Name=AO_Radial_Pow }
+                    ParameterInfos[36] = { Name=Mipmapbias }
+                    ParameterInfos[37] = { Name=LeafHiddenStrength }
+                    ParameterInfos[38] = { Name=RampAmount }
+                    ParameterInfos[39] = { Name=Wind Weight }
+                    ParameterInfos[40] = { Name=SelfShadow }
+                }
+            }
+            Entries[1] =
+            {
+                ParameterInfos[9] =
+                {
+                    ParameterInfos[0] = { Name=TopColor }
+                    ParameterInfos[1] = { Name=BakeWorldData }
+                    ParameterInfos[2] = { Name=CD_SphereCenter }
+                    ParameterInfos[3] = { Name=Param }
+                    ParameterInfos[4] = { Name=ColorTint }
+                    ParameterInfos[5] = { Name=CD_RampColor }
+                    ParameterInfos[6] = { Name=Color }
+                    ParameterInfos[7] = { Name=Emissive Color }
+                    ParameterInfos[8] = { Name=AOColorTint }
+                }
+            }
+            Entries[2] =
+            {
+                ParameterInfos[5] =
+                {
+                    ParameterInfos[0] = { Name=Base Color Map }
+                    ParameterInfos[1] = { Name=Wind Field Tex }
+                    ParameterInfos[2] = { Name=Emissive mask }
+                    ParameterInfos[3] = { Name=Base Color Map Array }
+                    ParameterInfos[4] = { Name=WindFieldTex }
+                }
+            }
+            Entries[3] = { ParameterInfos[0]={} }
+            Entries[4] = { ParameterInfos[0]={} }
+        }
+        ScalarValues[41] =
+        {
+            ScalarValues[0] = 1
+            ScalarValues[1] = 1
+            ScalarValues[2] = 0.5
+            ScalarValues[3] = 0
+            ScalarValues[4] = 0
+            ScalarValues[5] = 20
+            ScalarValues[6] = 1
+            ScalarValues[7] = 0.2
+            ScalarValues[8] = 12
+            ScalarValues[9] = 33000
+            ScalarValues[10] = 0
+            ScalarValues[11] = 0
+            ScalarValues[12] = 0
+            ScalarValues[13] = 1
+            ScalarValues[14] = 0
+            ScalarValues[15] = 1
+            ScalarValues[16] = 0.1
+            ScalarValues[17] = 0.2
+            ScalarValues[18] = 60
+            ScalarValues[19] = 0.5
+            ScalarValues[20] = 0.01
+            ScalarValues[21] = 5
+            ScalarValues[22] = 1
+            ScalarValues[23] = 1
+            ScalarValues[24] = 1
+            ScalarValues[25] = 0.5
+            ScalarValues[26] = 1
+            ScalarValues[27] = 0.6
+            ScalarValues[28] = 1.5
+            ScalarValues[29] = 0
+            ScalarValues[30] = 0.85
+            ScalarValues[31] = 1
+            ScalarValues[32] = 100
+            ScalarValues[33] = 50
+            ScalarValues[34] = 1
+            ScalarValues[35] = 1
+            ScalarValues[36] = -0.75
+            ScalarValues[37] = 0.3
+            ScalarValues[38] = 1
+            ScalarValues[39] = 0.04
+            ScalarValues[40] = 0.38
+        }
+        VectorValues[9] =
+        {
+            VectorValues[0] = { R=1, G=1, B=1, A=0 }
+            VectorValues[1] = { R=0.23074, G=0.346704, B=0.068478, A=0 }
+            VectorValues[2] = { R=0, G=0, B=0, A=0 }
+            VectorValues[3] = { R=0, G=0, B=0, A=0 }
+            VectorValues[4] = { R=1, G=1, B=1, A=1 }
+            VectorValues[5] = { R=0, G=0, B=0, A=0 }
+            VectorValues[6] = { R=0.5, G=0.5, B=0.5, A=0 }
+            VectorValues[7] = { R=1, G=1, B=1, A=1 }
+            VectorValues[8] = { R=1, G=1, B=1, A=1 }
+        }
+        TextureValues[5] =
+        {
+            TextureValues[0] = Texture2D'/Game/Aki/Scene/Assets/Common/Foliage/Tex/T4_Com_Lea_01A_D.T4_Com_Lea_01A_D'
+            TextureValues[1] = Texture2D'/Game/Aki/Render/Common/T_Foliage_Noise02_M.T_Foliage_Noise02_M'
+            TextureValues[2] = Texture2D'/Game/Aki/Render/Common/T_DefaultMaskGreen_M.T_DefaultMaskGreen_M'
+            TextureValues[4] = Texture2D'/Game/Aki/Render/Common/T_Foliage_Noise_M.T_Foliage_Noise_M'
+        }
+    }
+    ReferencedTextures[9] =
+    {
+        ReferencedTextures[1] = Texture2D'/Game/Aki/Scene/Assets/Common/Foliage/Tex/T4_Com_Lea_01A_D.T4_Com_Lea_01A_D'
+        ReferencedTextures[2] = Texture2D'/Game/Aki/Render/Common/T_DefaultMaskGreen_M.T_DefaultMaskGreen_M'
+        ReferencedTextures[3] = Texture2D'/Game/Aki/Render/Common/T_Foliage_Noise02_M.T_Foliage_Noise02_M'
+        ReferencedTextures[5] = Texture2D'/Engine/EngineMaterials/DefaultDiffuse.DefaultDiffuse'
+        ReferencedTextures[6] = Texture2D'/Engine/Functions/Engine_MaterialFunctions02/ExampleContent/DebugNumberStrip.DebugNumberStrip'
+        ReferencedTextures[7] = Texture2D'/Engine/Functions/Engine_MaterialFunctions02/ExampleContent/Textures/DebugNumberPeriod.DebugNumberPeriod'
+        ReferencedTextures[8] = Texture2D'/Game/Aki/Render/Common/T_Foliage_Noise_M.T_Foliage_Noise_M'
+    }
+}
+BlendMode = BLEND_Masked (1)
+OpacityMaskClipValue = 0.333
+CollectedTextureParameters[5] =
+{
+    CollectedTextureParameters[0] =
+    {
+        Texture = Texture2D'/Game/Aki/Scene/Assets/Common/Foliage/Tex/T4_Com_Lea_01A_D.T4_Com_Lea_01A_D'
+        Name = Base Color Map
+        Group = None
+    }
+    CollectedTextureParameters[1] =
+    {
+        Texture = Texture2D'/Game/Aki/Render/Common/T_Foliage_Noise02_M.T_Foliage_Noise02_M'
+        Name = Wind Field Tex
+        Group = None
+    }
+    CollectedTextureParameters[2] =
+    {
+        Texture = Texture2D'/Game/Aki/Render/Common/T_DefaultMaskGreen_M.T_DefaultMaskGreen_M'
+        Name = Emissive mask
+        Group = None
+    }
+    CollectedTextureParameters[3] =
+    {
+        Texture = None
+        Name = Base Color Map Array
+        Group = None
+    }
+    CollectedTextureParameters[4] =
+    {
+        Texture = Texture2D'/Game/Aki/Render/Common/T_Foliage_Noise_M.T_Foliage_Noise_M'
+        Name = WindFieldTex
+        Group = None
+    }
+}
+CollectedScalarParameters[41] =
+{
+    CollectedScalarParameters[0] = { Value=1, Name=RampColorScope, Group=None }
+    CollectedScalarParameters[1] =
+    {
+        Value = 1
+        Name = Cusp Intensity Attenuation
+        Group = None
+    }
+    CollectedScalarParameters[2] = { Value=0.5, Name=AOMinColor, Group=None }
+    CollectedScalarParameters[3] = { Value=0, Name=AO_Radial, Group=None }
+    CollectedScalarParameters[4] = { Value=0, Name=Use Alpha Control, Group=None }
+    CollectedScalarParameters[5] = { Value=20, Name=PixeDepthDistance, Group=None }
+    CollectedScalarParameters[6] = { Value=1, Name=SSS_Intenisty, Group=None }
+    CollectedScalarParameters[7] = { Value=0.2, Name=ShadowSoftness, Group=None }
+    CollectedScalarParameters[8] = { Value=12, Name=AquaticWaveScale, Group=None }
+    CollectedScalarParameters[9] = { Value=33000, Name=TreeDitherRadius, Group=None }
+    CollectedScalarParameters[10] = { Value=0, Name=EdgeBias, Group=None }
+    CollectedScalarParameters[11] = { Value=0, Name=WindTimeBias, Group=None }
+    CollectedScalarParameters[12] = { Value=0, Name=TextureArraySize, Group=None }
+    CollectedScalarParameters[13] = { Value=1, Name=ColorBias, Group=None }
+    CollectedScalarParameters[14] = { Value=0, Name=Subsurface Edge Weight, Group=None }
+    CollectedScalarParameters[15] = { Value=1, Name=WindIntensity, Group=None }
+    CollectedScalarParameters[16] = { Value=0.1, Name=LeafHiddenSmooth, Group=None }
+    CollectedScalarParameters[17] = { Value=0.2, Name=Leaf Wind Intensce, Group=None }
+    CollectedScalarParameters[18] = { Value=60, Name=InterctorHeight, Group=None }
+    CollectedScalarParameters[19] = { Value=0.5, Name=LeafHiddenMax, Group=None }
+    CollectedScalarParameters[20] = { Value=0.01, Name=AquaticWiggleAmount, Group=None }
+    CollectedScalarParameters[21] = { Value=5, Name=ShakeFrequency, Group=None }
+    CollectedScalarParameters[22] = { Value=1, Name=Emissive Night, Group=None }
+    CollectedScalarParameters[23] = { Value=1, Name=ShadowMeshHideStrength, Group=None }
+    CollectedScalarParameters[24] = { Value=1, Name=Odd WindIntensity, Group=None }
+    CollectedScalarParameters[25] =
+    {
+        Value = 0.5
+        Name = LeafHiddenStrengthShadow
+        Group = None
+    }
+    CollectedScalarParameters[26] = { Value=1, Name=WindSpeed, Group=None }
+    CollectedScalarParameters[27] = { Value=0.6, Name=AquaticSpeed, Group=None }
+    CollectedScalarParameters[28] = { Value=1.5, Name=3S_Intensity, Group=None }
+    CollectedScalarParameters[29] = { Value=0, Name=AO_PerLeaf, Group=None }
+    CollectedScalarParameters[30] = { Value=0.85, Name=PBR_Roughness, Group=None }
+    CollectedScalarParameters[31] = { Value=1, Name=InteractorWeight, Group=None }
+    CollectedScalarParameters[32] = { Value=100, Name=leafScale, Group=None }
+    CollectedScalarParameters[33] = { Value=50, Name=InteractorRadius, Group=None }
+    CollectedScalarParameters[34] = { Value=1, Name=Close Emissive Day, Group=None }
+    CollectedScalarParameters[35] = { Value=1, Name=AO_Radial_Pow, Group=None }
+    CollectedScalarParameters[36] = { Value=-0.75, Name=Mipmapbias, Group=None }
+    CollectedScalarParameters[37] = { Value=0.3, Name=LeafHiddenStrength, Group=None }
+    CollectedScalarParameters[38] = { Value=1, Name=RampAmount, Group=None }
+    CollectedScalarParameters[39] = { Value=0.04, Name=Wind Weight, Group=None }
+    CollectedScalarParameters[40] = { Value=0.38, Name=SelfShadow, Group=None }
+}
+CollectedVectorParameters[9] =
+{
+    CollectedVectorParameters[0] =
+    {
+        Value = { R=1, G=1, B=1, A=0 }
+        Name = TopColor
+        Group = None
+    }
+    CollectedVectorParameters[1] =
+    {
+        Value = { R=0.23074, G=0.346704, B=0.068478, A=0 }
+        Name = BakeWorldData
+        Group = None
+    }
+    CollectedVectorParameters[2] =
+    {
+        Value = { R=0, G=0, B=0, A=0 }
+        Name = CD_SphereCenter
+        Group = None
+    }
+    CollectedVectorParameters[3] =
+    {
+        Value = { R=0, G=0, B=0, A=0 }
+        Name = Param
+        Group = None
+    }
+    CollectedVectorParameters[4] =
+    {
+        Value = { R=1, G=1, B=1, A=1 }
+        Name = ColorTint
+        Group = None
+    }
+    CollectedVectorParameters[5] =
+    {
+        Value = { R=0, G=0, B=0, A=0 }
+        Name = CD_RampColor
+        Group = None
+    }
+    CollectedVectorParameters[6] =
+    {
+        Value = { R=0.5, G=0.5, B=0.5, A=0 }
+        Name = Color
+        Group = None
+    }
+    CollectedVectorParameters[7] =
+    {
+        Value = { R=1, G=1, B=1, A=1 }
+        Name = Emissive Color
+        Group = None
+    }
+    CollectedVectorParameters[8] =
+    {
+        Value = { R=1, G=1, B=1, A=1 }
+        Name = AOColorTint
+        Group = None
+    }
+}
+FlattenedTexture = None
+MobileBaseTexture = None
+MobileNormalTexture = None
+bUseMobileSpecular = false
+MobileSpecularPower = 16
+MobileSpecularMask = MSM_Constant (0)
+MobileMaskTexture = None
+TextureStreamingData[0] = {}

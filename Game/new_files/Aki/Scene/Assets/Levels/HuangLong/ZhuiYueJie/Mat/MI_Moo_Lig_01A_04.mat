@@ -1,0 +1,9 @@
+Diffuse=T_Moo_Lig_01A_D
+Normal=T_Moo_Lig_01A_N
+Other[0]=T_Moo_Lig_01A_M
+Other[1]=T_DefaultColorWhite_D
+Other[2]=T_DefaultNormal_N
+Other[3]=T_Default_SceneMask_M
+Other[4]=T_Foliage_Noise_M
+Other[5]=T_VA_Crosswind_VT
+Other[6]=T_VA_Tailwind_VT

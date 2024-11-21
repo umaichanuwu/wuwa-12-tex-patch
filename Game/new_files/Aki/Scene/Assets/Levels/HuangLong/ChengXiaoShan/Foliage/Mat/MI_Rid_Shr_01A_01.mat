@@ -1,0 +1,10 @@
+Diffuse=T_Rid_Veg_01A_D
+Other[0]=T4_Com_Lea_01A_D
+Other[1]=T_PerlinNoiseBig
+Other[2]=DefaultDiffuse
+Other[3]=DebugNumberStrip
+Other[4]=DebugNumberPeriod
+Other[5]=T_DefaultMaskGreen_M
+Other[6]=T_FlareNoise_M
+Other[7]=T_Foliage_Noise02_M
+Other[8]=T_PerlinNoise

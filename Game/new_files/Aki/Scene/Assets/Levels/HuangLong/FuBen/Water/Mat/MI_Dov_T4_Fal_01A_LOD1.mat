@@ -1,0 +1,8 @@
+Diffuse=DefaultDiffuse
+Normal=T_WaterTIlling_Default_M
+Cube=T_NoonSky_CUBE
+Other[0]=T_WaterFall_Foam
+Other[1]=DebugNumberStrip
+Other[2]=DebugNumberPeriod
+Other[3]=T_Water_Normal1
+Other[4]=TC_DefaultWaterCube

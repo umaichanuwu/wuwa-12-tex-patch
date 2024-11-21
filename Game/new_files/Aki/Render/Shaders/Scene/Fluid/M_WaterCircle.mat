@@ -1,0 +1,8 @@
+Diffuse=T_DefaultColorWhite_D
+Normal=T_WaterNormal_Rain
+Other[0]=T_FlareNoise_M
+Other[1]=T_PerlinNoiseMid
+Other[2]=T_flowDetail_M
+Other[3]=T_Rid_Wat_03A_D
+Other[4]=DefaultTextureCube
+Other[5]=T_ZbyStudio_0028_CUBE

@@ -1,0 +1,16 @@
+Diffuse=T4_Rid_Roc_02A_DB
+Normal=T_Rid_Roc_06B_N
+Other[0]=T4_Rid_Roc_02A_NB
+Other[1]=T_Rid_Roc_06B_M
+Other[2]=T4_Com_Con_04A_D
+Other[3]=T4_Rid_Sno_01A_M
+Other[4]=T_Rid_Roc_06B_H
+Other[5]=T_DefaultColorWhite_D
+Other[6]=T_DefaultColorWhite_Linear_D
+Other[7]=T_DefaultColorBlack_D1
+Other[8]=Good64x64TilingNoiseHighFreq
+Other[9]=T_EV_BlankWhite_01
+Other[10]=T_DefaultMaskBlack_M
+Other[11]=T_DefaultNormal_N
+Other[12]=T_Noise_Flakes
+Other[13]=T_Noise_Flakes_N

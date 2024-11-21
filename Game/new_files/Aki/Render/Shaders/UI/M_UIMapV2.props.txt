@@ -1,0 +1,288 @@
+TwoSided = true
+bDisableDepthTest = false
+bIsMasked = false
+ReferencedTextures[5] =
+{
+    ReferencedTextures[0] = Texture2D'/Engine/EngineMaterials/Good64x64TilingNoiseHighFreq_Low.Good64x64TilingNoiseHighFreq_Low'
+    ReferencedTextures[1] = Texture2D'/Game/Aki/Render/Common/T_FlareNoise_M.T_FlareNoise_M'
+    ReferencedTextures[2] = Texture2D'/Game/Aki/Render/Common/T_PerlinNoiseBig.T_PerlinNoiseBig'
+    ReferencedTextures[3] = Texture2D'/Game/Aki/Render/RuntimeBP/GI/NewCloud/Textures/BasicNoiseNoMip.BasicNoiseNoMip'
+    ReferencedTextures[4] = Texture2D'/Client/Plugins/LGUI/LGUI/Content/Textures/LGUIPreset_WhiteSolid.LGUIPreset_WhiteSolid'
+}
+Expressions[0] = {}
+CachedExpressionData =
+{
+    Parameters =
+    {
+        Entries[5] =
+        {
+            Entries[0] =
+            {
+                ParameterInfos[22] =
+                {
+                    ParameterInfos[0] = { Name=cloud scale }
+                    ParameterInfos[1] = { Name=HDCurrentScale }
+                    ParameterInfos[2] = { Name=$$$$$$ }
+                    ParameterInfos[3] = { Name=CloudIntensity }
+                    ParameterInfos[4] = { Name=LGUI_IsRenderInGammaSpace }
+                    ParameterInfos[5] = { Name=starsppeed }
+                    ParameterInfos[6] = { Name=edge wave scale }
+                    ParameterInfos[7] = { Name=$$$$ }
+                    ParameterInfos[8] = { Name=LGUI_ClipTextureAlpha }
+                    ParameterInfos[9] = { Name=$$$$$$$ }
+                    ParameterInfos[10] = { Name=$$$$$$ }
+                    ParameterInfos[11] = { Name=star strange }
+                    ParameterInfos[12] = { Name=$$$$ }
+                    ParameterInfos[13] = { Name=wave tex scale }
+                    ParameterInfos[14] = { Name=HDCurrentOffsetY }
+                    ParameterInfos[15] = { Name=$$$$$$ }
+                    ParameterInfos[16] = { Name=$$$$$$ }
+                    ParameterInfos[17] = { Name=HDCurrentOffsetX }
+                    ParameterInfos[18] = { Name=$$$$$$ }
+                    ParameterInfos[19] = { Name=UseHDPicture }
+                    ParameterInfos[20] = { Name=$$$$$$ }
+                    ParameterInfos[21] = { Name=$$$$$$ }
+                }
+            }
+            Entries[1] =
+            {
+                ParameterInfos[6] =
+                {
+                    ParameterInfos[0] = { Name=LGUI_TextureClipOffsetAndSize }
+                    ParameterInfos[1] = { Name=UVCorrect }
+                    ParameterInfos[2] = { Name=star color }
+                    ParameterInfos[3] = { Name=VertexTestParameter }
+                    ParameterInfos[4] = { Name=$$$$ }
+                    ParameterInfos[5] = { Name=background color }
+                }
+            }
+            Entries[2] =
+            {
+                ParameterInfos[9] =
+                {
+                    ParameterInfos[0] = { Name=$$$$ }
+                    ParameterInfos[1] = { Name=$$$$$$2 }
+                    ParameterInfos[2] = { Name=$$$$$$ }
+                    ParameterInfos[3] = { Name=HDTexture }
+                    ParameterInfos[4] = { Name=MainTexture }
+                    ParameterInfos[5] = { Name=$$$$$$ }
+                    ParameterInfos[6] = { Name=LGUI_ClipTexture }
+                    ParameterInfos[7] = { Name=FogTexture }
+                    ParameterInfos[8] = { Name=$$$$2 }
+                }
+            }
+            Entries[3] = { ParameterInfos[0]={} }
+            Entries[4] = { ParameterInfos[0]={} }
+        }
+        ScalarValues[22] =
+        {
+            ScalarValues[0] = 1
+            ScalarValues[1] = 1
+            ScalarValues[2] = 1
+            ScalarValues[3] = 0.01
+            ScalarValues[4] = 1
+            ScalarValues[5] = 0.1
+            ScalarValues[6] = 3
+            ScalarValues[7] = 0.03
+            ScalarValues[8] = 1
+            ScalarValues[9] = 0.01
+            ScalarValues[10] = 4
+            ScalarValues[11] = 0.1
+            ScalarValues[12] = 0.94
+            ScalarValues[13] = 1
+            ScalarValues[14] = 0
+            ScalarValues[15] = 0.2
+            ScalarValues[16] = 1
+            ScalarValues[17] = 0
+            ScalarValues[18] = 0.02
+            ScalarValues[19] = 0
+            ScalarValues[20] = 0.01
+            ScalarValues[21] = 0.04
+        }
+        VectorValues[6] =
+        {
+            VectorValues[0] = { R=0, G=0, B=50, A=50 }
+            VectorValues[1] = { R=1, G=1, B=0, A=0 }
+            VectorValues[2] = { R=1, G=0.833193, B=0.169522, A=0.1 }
+            VectorValues[3] = { R=0.047059, G=0, B=0.3, A=0 }
+            VectorValues[4] = { R=0.2375, G=0.2375, B=0.2375, A=1 }
+            VectorValues[5] = { R=0, G=0.003922, B=0.007843, A=1 }
+        }
+        TextureValues[9] =
+        {
+            TextureValues[0] = Texture2D'/Game/Aki/Render/RuntimeBP/GI/NewCloud/Textures/BasicNoiseNoMip.BasicNoiseNoMip'
+            TextureValues[1] = Texture2D'/Game/Aki/Render/RuntimeBP/GI/NewCloud/Textures/BasicNoiseNoMip.BasicNoiseNoMip'
+            TextureValues[2] = Texture2D'/Engine/EngineMaterials/Good64x64TilingNoiseHighFreq_Low.Good64x64TilingNoiseHighFreq_Low'
+            TextureValues[3] = Texture2D'/Client/Plugins/LGUI/LGUI/Content/Textures/LGUIPreset_WhiteSolid.LGUIPreset_WhiteSolid'
+            TextureValues[4] = Texture2D'/Client/Plugins/LGUI/LGUI/Content/Textures/LGUIPreset_WhiteSolid.LGUIPreset_WhiteSolid'
+            TextureValues[5] = Texture2D'/Game/Aki/Render/Common/T_PerlinNoiseBig.T_PerlinNoiseBig'
+            TextureValues[6] = Texture2D'/Client/Plugins/LGUI/LGUI/Content/Textures/LGUIPreset_WhiteSolid.LGUIPreset_WhiteSolid'
+            TextureValues[7] = Texture2D'/Client/Plugins/LGUI/LGUI/Content/Textures/LGUIPreset_WhiteSolid.LGUIPreset_WhiteSolid'
+            TextureValues[8] = Texture2D'/Game/Aki/Render/RuntimeBP/GI/NewCloud/Textures/BasicNoiseNoMip.BasicNoiseNoMip'
+        }
+    }
+    ReferencedTextures[6] =
+    {
+        ReferencedTextures[1] = Texture2D'/Client/Plugins/LGUI/LGUI/Content/Textures/LGUIPreset_WhiteSolid.LGUIPreset_WhiteSolid'
+        ReferencedTextures[2] = Texture2D'/Game/Aki/Render/Common/T_PerlinNoiseBig.T_PerlinNoiseBig'
+        ReferencedTextures[3] = Texture2D'/Game/Aki/Render/RuntimeBP/GI/NewCloud/Textures/BasicNoiseNoMip.BasicNoiseNoMip'
+        ReferencedTextures[4] = Texture2D'/Engine/EngineMaterials/Good64x64TilingNoiseHighFreq_Low.Good64x64TilingNoiseHighFreq_Low'
+        ReferencedTextures[5] = Texture2D'/Game/Aki/Render/Common/T_FlareNoise_M.T_FlareNoise_M'
+    }
+}
+BlendMode = BLEND_Translucent (2)
+OpacityMaskClipValue = 0.333
+CollectedTextureParameters[9] =
+{
+    CollectedTextureParameters[0] =
+    {
+        Texture = Texture2D'/Game/Aki/Render/RuntimeBP/GI/NewCloud/Textures/BasicNoiseNoMip.BasicNoiseNoMip'
+        Name = $$$$
+        Group = None
+    }
+    CollectedTextureParameters[1] =
+    {
+        Texture = Texture2D'/Game/Aki/Render/RuntimeBP/GI/NewCloud/Textures/BasicNoiseNoMip.BasicNoiseNoMip'
+        Name = $$$$$$2
+        Group = None
+    }
+    CollectedTextureParameters[2] =
+    {
+        Texture = Texture2D'/Engine/EngineMaterials/Good64x64TilingNoiseHighFreq_Low.Good64x64TilingNoiseHighFreq_Low'
+        Name = $$$$$$
+        Group = None
+    }
+    CollectedTextureParameters[3] =
+    {
+        Texture = Texture2D'/Client/Plugins/LGUI/LGUI/Content/Textures/LGUIPreset_WhiteSolid.LGUIPreset_WhiteSolid'
+        Name = HDTexture
+        Group = None
+    }
+    CollectedTextureParameters[4] =
+    {
+        Texture = Texture2D'/Client/Plugins/LGUI/LGUI/Content/Textures/LGUIPreset_WhiteSolid.LGUIPreset_WhiteSolid'
+        Name = MainTexture
+        Group = None
+    }
+    CollectedTextureParameters[5] =
+    {
+        Texture = Texture2D'/Game/Aki/Render/Common/T_PerlinNoiseBig.T_PerlinNoiseBig'
+        Name = $$$$$$
+        Group = None
+    }
+    CollectedTextureParameters[6] =
+    {
+        Texture = Texture2D'/Client/Plugins/LGUI/LGUI/Content/Textures/LGUIPreset_WhiteSolid.LGUIPreset_WhiteSolid'
+        Name = LGUI_ClipTexture
+        Group = None
+    }
+    CollectedTextureParameters[7] =
+    {
+        Texture = Texture2D'/Client/Plugins/LGUI/LGUI/Content/Textures/LGUIPreset_WhiteSolid.LGUIPreset_WhiteSolid'
+        Name = FogTexture
+        Group = None
+    }
+    CollectedTextureParameters[8] =
+    {
+        Texture = Texture2D'/Game/Aki/Render/RuntimeBP/GI/NewCloud/Textures/BasicNoiseNoMip.BasicNoiseNoMip'
+        Name = $$$$2
+        Group = None
+    }
+}
+CollectedScalarParameters[22] =
+{
+    CollectedScalarParameters[0] = { Value=1, Name=cloud scale, Group=None }
+    CollectedScalarParameters[1] = { Value=1, Name=HDCurrentScale, Group=None }
+    CollectedScalarParameters[2] = { Value=1, Name=$$$$$$, Group=None }
+    CollectedScalarParameters[3] = { Value=0.01, Name=CloudIntensity, Group=None }
+    CollectedScalarParameters[4] =
+    {
+        Value = 1
+        Name = LGUI_IsRenderInGammaSpace
+        Group = None
+    }
+    CollectedScalarParameters[5] = { Value=0.1, Name=starsppeed, Group=None }
+    CollectedScalarParameters[6] = { Value=3, Name=edge wave scale, Group=None }
+    CollectedScalarParameters[7] = { Value=0.03, Name=$$$$, Group=None }
+    CollectedScalarParameters[8] = { Value=1, Name=LGUI_ClipTextureAlpha, Group=None }
+    CollectedScalarParameters[9] = { Value=0.01, Name=$$$$$$$, Group=None }
+    CollectedScalarParameters[10] = { Value=4, Name=$$$$$$, Group=None }
+    CollectedScalarParameters[11] = { Value=0.1, Name=star strange, Group=None }
+    CollectedScalarParameters[12] = { Value=0.94, Name=$$$$, Group=None }
+    CollectedScalarParameters[13] = { Value=1, Name=wave tex scale, Group=None }
+    CollectedScalarParameters[14] = { Value=0, Name=HDCurrentOffsetY, Group=None }
+    CollectedScalarParameters[15] = { Value=0.2, Name=$$$$$$, Group=None }
+    CollectedScalarParameters[16] = { Value=1, Name=$$$$$$, Group=None }
+    CollectedScalarParameters[17] = { Value=0, Name=HDCurrentOffsetX, Group=None }
+    CollectedScalarParameters[18] = { Value=0.02, Name=$$$$$$, Group=None }
+    CollectedScalarParameters[19] = { Value=0, Name=UseHDPicture, Group=None }
+    CollectedScalarParameters[20] = { Value=0.01, Name=$$$$$$, Group=None }
+    CollectedScalarParameters[21] = { Value=0.04, Name=$$$$$$, Group=None }
+}
+CollectedVectorParameters[6] =
+{
+    CollectedVectorParameters[0] =
+    {
+        Value = { R=0, G=0, B=50, A=50 }
+        Name = LGUI_TextureClipOffsetAndSize
+        Group = None
+    }
+    CollectedVectorParameters[1] =
+    {
+        Value = { R=1, G=1, B=0, A=0 }
+        Name = UVCorrect
+        Group = None
+    }
+    CollectedVectorParameters[2] =
+    {
+        Value = { R=1, G=0.833193, B=0.169522, A=0.1 }
+        Name = star color
+        Group = None
+    }
+    CollectedVectorParameters[3] =
+    {
+        Value = { R=0.047059, G=0, B=0.3, A=0 }
+        Name = VertexTestParameter
+        Group = None
+    }
+    CollectedVectorParameters[4] =
+    {
+        Value = { R=0.2375, G=0.2375, B=0.2375, A=1 }
+        Name = $$$$
+        Group = None
+    }
+    CollectedVectorParameters[5] =
+    {
+        Value = { R=0, G=0.003922, B=0.007843, A=1 }
+        Name = background color
+        Group = None
+    }
+}
+FlattenedTexture = None
+MobileBaseTexture = None
+MobileNormalTexture = None
+bUseMobileSpecular = false
+MobileSpecularPower = 16
+MobileSpecularMask = MSM_Constant (0)
+MobileMaskTexture = None
+TextureStreamingData[3] =
+{
+    TextureStreamingData[0] =
+    {
+        SamplingScale = 1
+        UVChannelIndex = 0
+        TextureName = BasicNoiseNoMip
+    }
+    TextureStreamingData[1] =
+    {
+        SamplingScale = 1
+        UVChannelIndex = 0
+        TextureName = T_FlareNoise_M
+    }
+    TextureStreamingData[2] =
+    {
+        SamplingScale = 3
+        UVChannelIndex = 0
+        TextureName = T_PerlinNoiseBig
+    }
+}

@@ -1,0 +1,14 @@
+Diffuse=T_Rid_Flo_03B_D
+Normal=T_Rid_Flo_03B_N
+Emissive=T_Tile_046
+Other[0]=T_Rid_Flo_03B_M
+Other[1]=Good64x64TilingNoiseHighFreq
+Other[2]=DefaultTexture
+Other[3]=T_Cloud_50005
+Other[4]=CommonBtnBg2
+Other[5]=T_Default_SceneMask_M
+Other[6]=T_DefaultColorWhite_D
+Other[7]=T_DefaultNormal_N
+Other[8]=T_Noise_Flakes
+Other[9]=T_Noise_Flakes_N
+Other[10]=T_WaterNormal_Rain

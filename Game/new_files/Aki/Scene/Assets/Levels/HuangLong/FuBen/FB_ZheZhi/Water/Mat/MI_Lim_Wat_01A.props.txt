@@ -1,0 +1,304 @@
+Parent = MaterialInstanceConstant'/Game/Aki/Render/MaterialInstance/SingleLayerWater/MI_SingleLayerWater_Lake.MI_SingleLayerWater_Lake'
+ScalarParameterValues[32] =
+{
+    ScalarParameterValues[0] =
+    {
+        ParameterInfo = { Name=BF_Intensity }
+        ParameterValue = 0.2
+        ParameterName = None
+    }
+    ScalarParameterValues[1] =
+    {
+        ParameterInfo = { Name=BF_FlowSpeed }
+        ParameterValue = 0.3
+        ParameterName = None
+    }
+    ScalarParameterValues[2] =
+    {
+        ParameterInfo = { Name=BF_Reducer }
+        ParameterValue = 0.45
+        ParameterName = None
+    }
+    ScalarParameterValues[3] =
+    {
+        ParameterInfo = { Name=BF_Scale }
+        ParameterValue = 5
+        ParameterName = None
+    }
+    ScalarParameterValues[4] =
+    {
+        ParameterInfo = { Name=BF_Width }
+        ParameterValue = 0.5
+        ParameterName = None
+    }
+    ScalarParameterValues[5] =
+    {
+        ParameterInfo = { Name=CubemapColorIntensity }
+        ParameterValue = 1
+        ParameterName = None
+    }
+    ScalarParameterValues[6] =
+    {
+        ParameterInfo = { Name=Water ScaleX }
+        ParameterValue = 2048
+        ParameterName = None
+    }
+    ScalarParameterValues[7] =
+    {
+        ParameterInfo = { Name=Water ScaleY }
+        ParameterValue = 4096
+        ParameterName = None
+    }
+    ScalarParameterValues[8] =
+    {
+        ParameterInfo = { Name=Default Disant Water Speed }
+        ParameterValue = 0.3
+        ParameterName = None
+    }
+    ScalarParameterValues[9] =
+    {
+        ParameterInfo = { Name=EdgeFoamSpeed }
+        ParameterValue = 0.3
+        ParameterName = None
+    }
+    ScalarParameterValues[10] =
+    {
+        ParameterInfo = { Name=Foam_Width }
+        ParameterValue = 0.5
+        ParameterName = None
+    }
+    ScalarParameterValues[11] =
+    {
+        ParameterInfo = { Name=FoamDepth }
+        ParameterValue = 50
+        ParameterName = None
+    }
+    ScalarParameterValues[12] =
+    {
+        ParameterInfo = { Name=FoamNum }
+        ParameterValue = 2
+        ParameterName = None
+    }
+    ScalarParameterValues[13] =
+    {
+        ParameterInfo = { Name=MaskNoise_Speed_X }
+        ParameterValue = -0.02
+        ParameterName = None
+    }
+    ScalarParameterValues[14] =
+    {
+        ParameterInfo = { Name=MaskNoise_Speed_Y }
+        ParameterValue = 0.02
+        ParameterName = None
+    }
+    ScalarParameterValues[15] =
+    {
+        ParameterInfo = { Name=MaskNoise_Tile }
+        ParameterValue = 0.002
+        ParameterName = None
+    }
+    ScalarParameterValues[16] =
+    {
+        ParameterInfo = { Name=OffsetNoise_Intersity }
+        ParameterValue = 100
+        ParameterName = None
+    }
+    ScalarParameterValues[17] =
+    {
+        ParameterInfo = { Name=OffsetNoise_Tile }
+        ParameterValue = 9e-05
+        ParameterName = None
+    }
+    ScalarParameterValues[18] =
+    {
+        ParameterInfo = { Name=WarpNoise_Intersity }
+        ParameterValue = 0.3
+        ParameterName = None
+    }
+    ScalarParameterValues[19] =
+    {
+        ParameterInfo = { Name=KuroWaterFresnelPower }
+        ParameterValue = 1.94813
+        ParameterName = None
+    }
+    ScalarParameterValues[20] =
+    {
+        ParameterInfo = { Name=SpecNormalNearStrength }
+        ParameterValue = 1.39375
+        ParameterName = None
+    }
+    ScalarParameterValues[21] =
+    {
+        ParameterInfo = { Name=SpecNormalFarStrength }
+        ParameterValue = 11.3697
+        ParameterName = None
+    }
+    ScalarParameterValues[22] =
+    {
+        ParameterInfo = { Name=SpecRoughnessNear }
+        ParameterValue = 0.02
+        ParameterName = None
+    }
+    ScalarParameterValues[23] =
+    {
+        ParameterInfo = { Name=SpecRoughnessFar }
+        ParameterValue = 17.0218
+        ParameterName = None
+    }
+    ScalarParameterValues[24] =
+    {
+        ParameterInfo = { Name=LightDirVerticalScalar }
+        ParameterValue = -0.429531
+        ParameterName = None
+    }
+    ScalarParameterValues[25] =
+    {
+        ParameterInfo = { Name=SpecularNormalScalar }
+        ParameterValue = 1.53833
+        ParameterName = None
+    }
+    ScalarParameterValues[26] =
+    {
+        ParameterInfo = { Name=SpecularStrength }
+        ParameterValue = 0.3
+        ParameterName = None
+    }
+    ScalarParameterValues[27] =
+    {
+        ParameterInfo = { Name=ScatteringFactor }
+        ParameterValue = 5
+        ParameterName = None
+    }
+    ScalarParameterValues[28] =
+    {
+        ParameterInfo = { Name=AbsorptionFactor }
+        ParameterValue = 20
+        ParameterName = None
+    }
+    ScalarParameterValues[29] =
+    {
+        ParameterInfo = { Name=Anisotropy }
+        ParameterValue = 0.5
+        ParameterName = None
+    }
+    ScalarParameterValues[30] =
+    {
+        ParameterInfo = { Name=ColorScaleBehindWaterIntensity }
+        ParameterValue = 2
+        ParameterName = None
+    }
+    ScalarParameterValues[31] =
+    {
+        ParameterInfo = { Name=RefractionDepthBias }
+        ParameterValue = 0
+        ParameterName = None
+    }
+}
+TextureParameterValues[2] =
+{
+    TextureParameterValues[0] =
+    {
+        ParameterInfo = { Name=Cubemap }
+        ParameterValue = TextureCube4'/Game/Aki/Render/Common/Skybox/T_SkyMap/T_kloofendal_cloudy_2k_CUBE.T_kloofendal_cloudy_2k_CUBE'
+        ParameterName = None
+    }
+    TextureParameterValues[1] =
+    {
+        ParameterInfo = { Name=WaterWaveTexture }
+        ParameterValue = Texture2D'/Game/Aki/Render/Common/SingleLayerWater/T_WaterNoise_02_M.T_WaterNoise_02_M'
+        ParameterName = None
+    }
+}
+VectorParameterValues[6] =
+{
+    VectorParameterValues[0] =
+    {
+        ParameterInfo = { Name=EdgeFoam }
+        ParameterValue = { R=0.5, G=0.2, B=10, A=0.5 }
+        ParameterName = None
+    }
+    VectorParameterValues[1] =
+    {
+        ParameterInfo = { Name=EdgeFoamColor }
+        ParameterValue = { R=0.994792, G=0.997052, B=1, A=1 }
+        ParameterName = None
+    }
+    VectorParameterValues[2] =
+    {
+        ParameterInfo = { Name=EdgeFoamColor_M }
+        ParameterValue = { R=0.260014, G=0.430798, B=0.653646, A=1 }
+        ParameterName = None
+    }
+    VectorParameterValues[3] =
+    {
+        ParameterInfo = { Name=ScatteringColor }
+        ParameterValue = { R=1.23828, G=1.48937, B=1.5, A=0.5 }
+        ParameterName = None
+    }
+    VectorParameterValues[4] =
+    {
+        ParameterInfo = { Name=AbsorptionColor }
+        ParameterValue = { R=4.375, G=4.81744, B=5, A=8 }
+        ParameterName = None
+    }
+    VectorParameterValues[5] =
+    {
+        ParameterInfo = { Name=ColorScaleBehindWater }
+        ParameterValue = { R=0.729919, G=1, B=0.772784, A=1 }
+        ParameterName = None
+    }
+}
+BasePropertyOverrides =
+{
+    bOverride_BlendMode = false
+    BlendMode = BLEND_Opaque (0)
+    bOverride_TwoSided = false
+    TwoSided = true
+    bOverride_OpacityMaskClipValue = false
+    OpacityMaskClipValue = 0.3333
+}
+StaticParameters =
+{
+    StaticSwitchParameters[1] =
+    {
+        StaticSwitchParameters[0] =
+        {
+            Value = true
+            ParameterInfo = { Name=UseEdgeFoam }
+            bOverride = true
+        }
+    }
+    StaticComponentMaskParameters[0] = {}
+    TerrainLayerWeightParameters[0] = {}
+    MaterialLayersParameters[0] = {}
+}
+RuntimeVirtualTextureParameterValues[0] = {}
+FontParameterValues[0] = {}
+FlattenedTexture = None
+MobileBaseTexture = None
+MobileNormalTexture = None
+bUseMobileSpecular = false
+MobileSpecularPower = 16
+MobileSpecularMask = MSM_Constant (0)
+MobileMaskTexture = None
+TextureStreamingData[3] =
+{
+    TextureStreamingData[0] =
+    {
+        SamplingScale = 0.015625
+        UVChannelIndex = 0
+        TextureName = T_EdgeFoamNoise
+    }
+    TextureStreamingData[1] =
+    {
+        SamplingScale = 0.125
+        UVChannelIndex = 0
+        TextureName = T_RainRipples
+    }
+    TextureStreamingData[2] =
+    {
+        SamplingScale = 0.015625
+        UVChannelIndex = 0
+        TextureName = T_WaterNoise_02_M
+    }
+}

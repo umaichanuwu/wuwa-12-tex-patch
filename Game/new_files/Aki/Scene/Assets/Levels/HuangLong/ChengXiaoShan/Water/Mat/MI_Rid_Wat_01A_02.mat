@@ -1,0 +1,14 @@
+Diffuse=T_Rid_Wat_01A_D
+Normal=T_DefaultNormal_N
+SpecPower=T_SpecularHighlights_M
+Cube=TC_DefaultWaterCube
+Other[0]=T_WaterNoise_02_M
+Other[1]=DefaultTexture
+Other[2]=T_Noise_2
+Other[3]=T_WaterFall_Foam
+Other[4]=T_WaterfallNoise
+Other[5]=T_WaterTIlling_Default_M
+Other[6]=T_DefaultColorWhite_D
+Other[7]=T_SingleLayerWaterNoise
+Other[8]=FoliageLut_1
+Other[9]=T_NoonSky_CUBE

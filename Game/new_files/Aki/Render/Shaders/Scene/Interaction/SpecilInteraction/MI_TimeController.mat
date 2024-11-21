@@ -1,0 +1,11 @@
+Diffuse=T_DefaultColorWhite_D
+Normal=T_DefaultNormal_N
+Emissive=T_Tile_046
+Other[0]=T_Default_SceneMask_M
+Other[1]=T_Cloud_50005
+Other[2]=Good64x64TilingNoiseHighFreq
+Other[3]=DefaultTexture
+Other[4]=CommonBtnBg2
+Other[5]=T_Noise_Flakes
+Other[6]=T_Noise_Flakes_N
+Other[7]=T_WaterNormal_Rain

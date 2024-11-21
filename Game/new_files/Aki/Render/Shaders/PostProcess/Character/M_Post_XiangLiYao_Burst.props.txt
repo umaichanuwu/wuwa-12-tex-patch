@@ -1,0 +1,306 @@
+TwoSided = false
+bDisableDepthTest = false
+bIsMasked = false
+ReferencedTextures[2] =
+{
+    ReferencedTextures[0] = Texture2D'/Game/Aki/Effect/Texture/Tile/T_Tile_20000.T_Tile_20000'
+    ReferencedTextures[1] = Texture2D'/Game/Aki/Render/Common/T_WhiteNoise.T_WhiteNoise'
+}
+Expressions[0] = {}
+CachedExpressionData =
+{
+    Parameters =
+    {
+        Entries[5] =
+        {
+            Entries[0] =
+            {
+                ParameterInfos[49] =
+                {
+                    ParameterInfos[0] = { Name=FlickDistanceSmooth }
+                    ParameterInfos[1] = { Name=MaxNormal }
+                    ParameterInfos[2] = { Name=HeightMask }
+                    ParameterInfos[3] = { Name=DepthEdgeIntensity }
+                    ParameterInfos[4] = { Name=ColorPow }
+                    ParameterInfos[5] = { Name=Bias }
+                    ParameterInfos[6] = { Name=SceneDesaturate }
+                    ParameterInfos[7] = { Name=GridOpacityMin }
+                    ParameterInfos[8] = { Name=HeightMaskSmooth }
+                    ParameterInfos[9] = { Name=Radius }
+                    ParameterInfos[10] = { Name=Tile }
+                    ParameterInfos[11] = { Name=NormalEdgeMin }
+                    ParameterInfos[12] = { Name=SpaceRotate }
+                    ParameterInfos[13] = { Name=NormalCullFrom }
+                    ParameterInfos[14] = { Name=BlockDesaturate }
+                    ParameterInfos[15] = { Name=GridBrightSmooth }
+                    ParameterInfos[16] = { Name=MinNormal }
+                    ParameterInfos[17] = { Name=GridBrightIntensity }
+                    ParameterInfos[18] = { Name=SmoothStepMin }
+                    ParameterInfos[19] = { Name=ShowDistance }
+                    ParameterInfos[20] = { Name=FarEffectIntensity }
+                    ParameterInfos[21] = { Name=GridOpacityMax }
+                    ParameterInfos[22] = { Name=DesaturateSmooth }
+                    ParameterInfos[23] = { Name=EdgeFromDistance }
+                    ParameterInfos[24] = { Name=Light2Intensity }
+                    ParameterInfos[25] = { Name=EdgeToDistance }
+                    ParameterInfos[26] = { Name=ChanceLightMax }
+                    ParameterInfos[27] = { Name=ChanceLight2Max }
+                    ParameterInfos[28] = { Name=FlickDistanceMin }
+                    ParameterInfos[29] = { Name=ShowDistanceRange }
+                    ParameterInfos[30] = { Name=ChanceLightMin }
+                    ParameterInfos[31] = { Name=NormalEdgeMax }
+                    ParameterInfos[32] = { Name=TimeBiasFactor }
+                    ParameterInfos[33] = { Name=GridEraseDistance }
+                    ParameterInfos[34] = { Name=NormalEdgeIntensity }
+                    ParameterInfos[35] = { Name=TimePow }
+                    ParameterInfos[36] = { Name=FlickDistanceMax }
+                    ParameterInfos[37] = { Name=ChanceLight2Min }
+                    ParameterInfos[38] = { Name=SmoothStepMax }
+                    ParameterInfos[39] = { Name=TimeFactor }
+                    ParameterInfos[40] = { Name=NormalCullTo }
+                    ParameterInfos[41] = { Name=EdgeDistanceSmooth }
+                    ParameterInfos[42] = { Name=GridNum }
+                    ParameterInfos[43] = { Name=GridBrightDistance }
+                    ParameterInfos[44] = { Name=FlickSpeed }
+                    ParameterInfos[45] = { Name=GridEraseSmooth }
+                    ParameterInfos[46] = { Name=DesaturateMin }
+                    ParameterInfos[47] = { Name=DepthEdgeMax }
+                    ParameterInfos[48] = { Name=DepthEdgeMin }
+                }
+            }
+            Entries[1] =
+            {
+                ParameterInfos[10] =
+                {
+                    ParameterInfos[0] = { Name=Center }
+                    ParameterInfos[1] = { Name=GridNormalMask }
+                    ParameterInfos[2] = { Name=ColorGrid }
+                    ParameterInfos[3] = { Name=MaskUVScaleSpeed }
+                    ParameterInfos[4] = { Name=EdgeColorTint }
+                    ParameterInfos[5] = { Name=BlockColorTint }
+                    ParameterInfos[6] = { Name=CameraForwardRight }
+                    ParameterInfos[7] = { Name=LightColor }
+                    ParameterInfos[8] = { Name=SceneColorTint }
+                    ParameterInfos[9] = { Name=EffectActorLocation }
+                }
+            }
+            Entries[2] =
+            {
+                ParameterInfos[1] =
+                {
+                    ParameterInfos[0] = { Name=Mask }
+                }
+            }
+            Entries[3] = { ParameterInfos[0]={} }
+            Entries[4] = { ParameterInfos[0]={} }
+        }
+        ScalarValues[49] =
+        {
+            ScalarValues[0] = 100
+            ScalarValues[1] = 0.6
+            ScalarValues[2] = 500
+            ScalarValues[3] = 1
+            ScalarValues[4] = 1
+            ScalarValues[5] = 0
+            ScalarValues[6] = 0
+            ScalarValues[7] = 0
+            ScalarValues[8] = 3500
+            ScalarValues[9] = 1
+            ScalarValues[10] = 0.01
+            ScalarValues[11] = 0
+            ScalarValues[12] = 0
+            ScalarValues[13] = -0.5
+            ScalarValues[14] = 0
+            ScalarValues[15] = 1
+            ScalarValues[16] = 0.5
+            ScalarValues[17] = 0
+            ScalarValues[18] = 0.9
+            ScalarValues[19] = 0
+            ScalarValues[20] = 0
+            ScalarValues[21] = 0
+            ScalarValues[22] = 1
+            ScalarValues[23] = 0
+            ScalarValues[24] = 0
+            ScalarValues[25] = 0
+            ScalarValues[26] = 1
+            ScalarValues[27] = 1
+            ScalarValues[28] = 100
+            ScalarValues[29] = 0
+            ScalarValues[30] = 0.9
+            ScalarValues[31] = 1
+            ScalarValues[32] = 0
+            ScalarValues[33] = 0
+            ScalarValues[34] = 1
+            ScalarValues[35] = 1
+            ScalarValues[36] = 100
+            ScalarValues[37] = 0.9
+            ScalarValues[38] = 1
+            ScalarValues[39] = 0
+            ScalarValues[40] = 0
+            ScalarValues[41] = 0
+            ScalarValues[42] = 5
+            ScalarValues[43] = 0
+            ScalarValues[44] = 0
+            ScalarValues[45] = 1
+            ScalarValues[46] = 0
+            ScalarValues[47] = 0
+            ScalarValues[48] = 0
+        }
+        VectorValues[10] =
+        {
+            VectorValues[0] = { R=0, G=0, B=0, A=1 }
+            VectorValues[1] = { R=0, G=0, B=0, A=0 }
+            VectorValues[2] = { R=1, G=1, B=1, A=1 }
+            VectorValues[3] = { R=0, G=0, B=0, A=1 }
+            VectorValues[4] = { R=0, G=0, B=0, A=1 }
+            VectorValues[5] = { R=0.660314, G=0.763589, B=0.895833, A=1 }
+            VectorValues[6] = { R=1, G=0, B=0, A=1 }
+            VectorValues[7] = { R=0.583333, G=0.583333, B=0.583333, A=1 }
+            VectorValues[8] = { R=1, G=1, B=1, A=1 }
+            VectorValues[9] = { R=0, G=0, B=0, A=1 }
+        }
+        TextureValues[1] =
+        {
+            TextureValues[0] = Texture2D'/Game/Aki/Effect/Texture/Tile/T_Tile_20000.T_Tile_20000'
+        }
+    }
+    ReferencedTextures[2] =
+    {
+        ReferencedTextures[0] = Texture2D'/Game/Aki/Effect/Texture/Tile/T_Tile_20000.T_Tile_20000'
+        ReferencedTextures[1] = Texture2D'/Game/Aki/Render/Common/T_WhiteNoise.T_WhiteNoise'
+    }
+}
+BlendMode = BLEND_Opaque (0)
+OpacityMaskClipValue = 0.333
+CollectedTextureParameters[1] =
+{
+    CollectedTextureParameters[0] =
+    {
+        Texture = Texture2D'/Game/Aki/Effect/Texture/Tile/T_Tile_20000.T_Tile_20000'
+        Name = Mask
+        Group = None
+    }
+}
+CollectedScalarParameters[49] =
+{
+    CollectedScalarParameters[0] = { Value=100, Name=FlickDistanceSmooth, Group=None }
+    CollectedScalarParameters[1] = { Value=0.6, Name=MaxNormal, Group=None }
+    CollectedScalarParameters[2] = { Value=500, Name=HeightMask, Group=None }
+    CollectedScalarParameters[3] = { Value=1, Name=DepthEdgeIntensity, Group=None }
+    CollectedScalarParameters[4] = { Value=1, Name=ColorPow, Group=None }
+    CollectedScalarParameters[5] = { Value=0, Name=Bias, Group=None }
+    CollectedScalarParameters[6] = { Value=0, Name=SceneDesaturate, Group=None }
+    CollectedScalarParameters[7] = { Value=0, Name=GridOpacityMin, Group=None }
+    CollectedScalarParameters[8] = { Value=3500, Name=HeightMaskSmooth, Group=None }
+    CollectedScalarParameters[9] = { Value=1, Name=Radius, Group=None }
+    CollectedScalarParameters[10] = { Value=0.01, Name=Tile, Group=None }
+    CollectedScalarParameters[11] = { Value=0, Name=NormalEdgeMin, Group=None }
+    CollectedScalarParameters[12] = { Value=0, Name=SpaceRotate, Group=None }
+    CollectedScalarParameters[13] = { Value=-0.5, Name=NormalCullFrom, Group=None }
+    CollectedScalarParameters[14] = { Value=0, Name=BlockDesaturate, Group=None }
+    CollectedScalarParameters[15] = { Value=1, Name=GridBrightSmooth, Group=None }
+    CollectedScalarParameters[16] = { Value=0.5, Name=MinNormal, Group=None }
+    CollectedScalarParameters[17] = { Value=0, Name=GridBrightIntensity, Group=None }
+    CollectedScalarParameters[18] = { Value=0.9, Name=SmoothStepMin, Group=None }
+    CollectedScalarParameters[19] = { Value=0, Name=ShowDistance, Group=None }
+    CollectedScalarParameters[20] = { Value=0, Name=FarEffectIntensity, Group=None }
+    CollectedScalarParameters[21] = { Value=0, Name=GridOpacityMax, Group=None }
+    CollectedScalarParameters[22] = { Value=1, Name=DesaturateSmooth, Group=None }
+    CollectedScalarParameters[23] = { Value=0, Name=EdgeFromDistance, Group=None }
+    CollectedScalarParameters[24] = { Value=0, Name=Light2Intensity, Group=None }
+    CollectedScalarParameters[25] = { Value=0, Name=EdgeToDistance, Group=None }
+    CollectedScalarParameters[26] = { Value=1, Name=ChanceLightMax, Group=None }
+    CollectedScalarParameters[27] = { Value=1, Name=ChanceLight2Max, Group=None }
+    CollectedScalarParameters[28] = { Value=100, Name=FlickDistanceMin, Group=None }
+    CollectedScalarParameters[29] = { Value=0, Name=ShowDistanceRange, Group=None }
+    CollectedScalarParameters[30] = { Value=0.9, Name=ChanceLightMin, Group=None }
+    CollectedScalarParameters[31] = { Value=1, Name=NormalEdgeMax, Group=None }
+    CollectedScalarParameters[32] = { Value=0, Name=TimeBiasFactor, Group=None }
+    CollectedScalarParameters[33] = { Value=0, Name=GridEraseDistance, Group=None }
+    CollectedScalarParameters[34] = { Value=1, Name=NormalEdgeIntensity, Group=None }
+    CollectedScalarParameters[35] = { Value=1, Name=TimePow, Group=None }
+    CollectedScalarParameters[36] = { Value=100, Name=FlickDistanceMax, Group=None }
+    CollectedScalarParameters[37] = { Value=0.9, Name=ChanceLight2Min, Group=None }
+    CollectedScalarParameters[38] = { Value=1, Name=SmoothStepMax, Group=None }
+    CollectedScalarParameters[39] = { Value=0, Name=TimeFactor, Group=None }
+    CollectedScalarParameters[40] = { Value=0, Name=NormalCullTo, Group=None }
+    CollectedScalarParameters[41] = { Value=0, Name=EdgeDistanceSmooth, Group=None }
+    CollectedScalarParameters[42] = { Value=5, Name=GridNum, Group=None }
+    CollectedScalarParameters[43] = { Value=0, Name=GridBrightDistance, Group=None }
+    CollectedScalarParameters[44] = { Value=0, Name=FlickSpeed, Group=None }
+    CollectedScalarParameters[45] = { Value=1, Name=GridEraseSmooth, Group=None }
+    CollectedScalarParameters[46] = { Value=0, Name=DesaturateMin, Group=None }
+    CollectedScalarParameters[47] = { Value=0, Name=DepthEdgeMax, Group=None }
+    CollectedScalarParameters[48] = { Value=0, Name=DepthEdgeMin, Group=None }
+}
+CollectedVectorParameters[10] =
+{
+    CollectedVectorParameters[0] =
+    {
+        Value = { R=0, G=0, B=0, A=1 }
+        Name = Center
+        Group = None
+    }
+    CollectedVectorParameters[1] =
+    {
+        Value = { R=0, G=0, B=0, A=0 }
+        Name = GridNormalMask
+        Group = None
+    }
+    CollectedVectorParameters[2] =
+    {
+        Value = { R=1, G=1, B=1, A=1 }
+        Name = ColorGrid
+        Group = None
+    }
+    CollectedVectorParameters[3] =
+    {
+        Value = { R=0, G=0, B=0, A=1 }
+        Name = MaskUVScaleSpeed
+        Group = None
+    }
+    CollectedVectorParameters[4] =
+    {
+        Value = { R=0, G=0, B=0, A=1 }
+        Name = EdgeColorTint
+        Group = None
+    }
+    CollectedVectorParameters[5] =
+    {
+        Value = { R=0.660314, G=0.763589, B=0.895833, A=1 }
+        Name = BlockColorTint
+        Group = None
+    }
+    CollectedVectorParameters[6] =
+    {
+        Value = { R=1, G=0, B=0, A=1 }
+        Name = CameraForwardRight
+        Group = None
+    }
+    CollectedVectorParameters[7] =
+    {
+        Value = { R=0.583333, G=0.583333, B=0.583333, A=1 }
+        Name = LightColor
+        Group = None
+    }
+    CollectedVectorParameters[8] =
+    {
+        Value = { R=1, G=1, B=1, A=1 }
+        Name = SceneColorTint
+        Group = None
+    }
+    CollectedVectorParameters[9] =
+    {
+        Value = { R=0, G=0, B=0, A=1 }
+        Name = EffectActorLocation
+        Group = None
+    }
+}
+FlattenedTexture = None
+MobileBaseTexture = None
+MobileNormalTexture = None
+bUseMobileSpecular = false
+MobileSpecularPower = 16
+MobileSpecularMask = MSM_Constant (0)
+MobileMaskTexture = None
+TextureStreamingData[0] = {}

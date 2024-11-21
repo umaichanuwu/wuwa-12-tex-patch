@@ -1,0 +1,16 @@
+Diffuse=T_DefaultColorWhite_D
+Normal=T4_Com_Ice_05A_N
+Other[0]=T_Com_Ice_03A_D
+Other[1]=T_Spots_16
+Other[2]=T_wide_street_02_2k_CUBE
+Other[3]=T4_Com_Ice_05B_N
+Other[4]=T4_Com_Ice_04B_M
+Other[5]=T4_Sno_02A_D
+Other[6]=T4_Com_Ice_04C_M
+Other[7]=Good64x64TilingNoiseHighFreq
+Other[8]=T_DefaultColorWhite_Linear_D
+Other[9]=T_DefaultMaskGreen_M
+Other[10]=T_DefaultNormal_N
+Other[11]=T_Noise_Stormy
+Other[12]=T_soft_smoke
+Other[13]=TC_DefaultWaterCube

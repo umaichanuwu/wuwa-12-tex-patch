@@ -1,0 +1,6 @@
+Diffuse=T_DefaultColorWhite_D
+Normal=T_Dec_Sno_05A_N
+Opacity=T_Dec_Sno_05A_D
+Other[0]=T_Dec_Sno_05A_M
+Other[1]=T_DefaultMaskBlack_M
+Other[2]=T_DefaultNormal_N

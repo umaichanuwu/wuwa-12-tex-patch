@@ -1,0 +1,8 @@
+Diffuse=T_DefaultColorBlack_Linear_D
+Other[0]=T_Tile_wp4042
+Other[1]=T_Tile_230004
+Other[2]=T_Tile_15002
+Other[3]=Good64x64TilingNoiseHighFreq
+Other[4]=Gradient
+Other[5]=Greyscale
+Other[6]=T_DefaultColorWhite_D

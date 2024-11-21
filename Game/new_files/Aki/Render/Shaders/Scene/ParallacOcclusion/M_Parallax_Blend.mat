@@ -1,0 +1,6 @@
+Diffuse=T_DefaultColorWhite_D
+Normal=T_DefaultNormal_N
+Other[0]=T_EV_BlankWhite_01
+Other[1]=T_DefaultMaskBlack_M
+Other[2]=T_DefaultMaskGreen_M
+Other[3]=T_WaterNormal_Rain

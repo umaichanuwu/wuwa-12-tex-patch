@@ -1,0 +1,155 @@
+TwoSided = false
+bDisableDepthTest = false
+bIsMasked = false
+ReferencedTextures[3] =
+{
+    ReferencedTextures[0] = Texture2D'/Engine/Functions/Engine_MaterialFunctions02/ExampleContent/Textures/LowResBlurredNoise.LowResBlurredNoise'
+    ReferencedTextures[1] = Texture2D'/Game/Aki/Render/Common/SingleLayerWater/T_WaterFall_Ripples.T_WaterFall_Ripples'
+    ReferencedTextures[2] = Texture2D'/Game/Aki/Render/Common/SingleLayerWater/T_WaterfallNoise.T_WaterfallNoise'
+}
+Expressions[0] = {}
+CachedExpressionData =
+{
+    Parameters =
+    {
+        Entries[5] =
+        {
+            Entries[0] =
+            {
+                ParameterInfos[10] =
+                {
+                    ParameterInfos[0] = { Name=FoamAlpha }
+                    ParameterInfos[1] = { Name=ClipValue }
+                    ParameterInfos[2] = { Name=FoamEdgeRange }
+                    ParameterInfos[3] = { Name=UVWarpSpeed }
+                    ParameterInfos[4] = { Name=Offset }
+                    ParameterInfos[5] = { Name=meltValue }
+                    ParameterInfos[6] = { Name=Y_Alpha_Start }
+                    ParameterInfos[7] = { Name=Y_Alpha_End }
+                    ParameterInfos[8] = { Name=Mobile_Mul_Color }
+                    ParameterInfos[9] = { Name=UVWarpTile }
+                }
+            }
+            Entries[1] =
+            {
+                ParameterInfos[4] =
+                {
+                    ParameterInfos[0] = { Name=TexUVX,TexUVY,Speed1,Speed2 }
+                    ParameterInfos[1] = { Name=UVMaskTex_NoiseWarp }
+                    ParameterInfos[2] = { Name=MeshEdgeAlpha_R_L_B_F }
+                    ParameterInfos[3] = { Name=Tex_rgb }
+                }
+            }
+            Entries[2] =
+            {
+                ParameterInfos[3] =
+                {
+                    ParameterInfos[0] = { Name=UVNoiseTex }
+                    ParameterInfos[1] = { Name=MaskTex }
+                    ParameterInfos[2] = { Name=RippleTex }
+                }
+            }
+            Entries[3] = { ParameterInfos[0]={} }
+            Entries[4] = { ParameterInfos[0]={} }
+        }
+        ScalarValues[10] = { 1, 0.96, 1, 0.03, 0, 0, 0.5, 0.5, 0.5, 8 }
+        VectorValues[4] =
+        {
+            VectorValues[0] = { R=0.767225, G=1.18596, B=0.2, A=0.15 }
+            VectorValues[1] = { R=2, G=2, B=0.03, A=0.03 }
+            VectorValues[2] = { R=0.7, G=0.3, B=0.7, A=0.3 }
+            VectorValues[3] = { R=0.802083, G=0.802083, B=0.802083, A=0.5 }
+        }
+        TextureValues[3] =
+        {
+            TextureValues[0] = Texture2D'/Game/Aki/Render/Common/SingleLayerWater/T_WaterfallNoise.T_WaterfallNoise'
+            TextureValues[1] = Texture2D'/Game/Aki/Render/Common/SingleLayerWater/T_WaterFall_Ripples.T_WaterFall_Ripples'
+            TextureValues[2] = Texture2D'/Game/Aki/Render/Common/SingleLayerWater/T_WaterFall_Ripples.T_WaterFall_Ripples'
+        }
+    }
+    ReferencedTextures[3] =
+    {
+        ReferencedTextures[0] = Texture2D'/Game/Aki/Render/Common/SingleLayerWater/T_WaterFall_Ripples.T_WaterFall_Ripples'
+        ReferencedTextures[1] = Texture2D'/Game/Aki/Render/Common/SingleLayerWater/T_WaterfallNoise.T_WaterfallNoise'
+        ReferencedTextures[2] = Texture2D'/Engine/Functions/Engine_MaterialFunctions02/ExampleContent/Textures/LowResBlurredNoise.LowResBlurredNoise'
+    }
+}
+BlendMode = BLEND_Translucent (2)
+OpacityMaskClipValue = 0.333
+CollectedTextureParameters[3] =
+{
+    CollectedTextureParameters[0] =
+    {
+        Texture = Texture2D'/Game/Aki/Render/Common/SingleLayerWater/T_WaterfallNoise.T_WaterfallNoise'
+        Name = UVNoiseTex
+        Group = None
+    }
+    CollectedTextureParameters[1] =
+    {
+        Texture = Texture2D'/Game/Aki/Render/Common/SingleLayerWater/T_WaterFall_Ripples.T_WaterFall_Ripples'
+        Name = MaskTex
+        Group = None
+    }
+    CollectedTextureParameters[2] =
+    {
+        Texture = Texture2D'/Game/Aki/Render/Common/SingleLayerWater/T_WaterFall_Ripples.T_WaterFall_Ripples'
+        Name = RippleTex
+        Group = None
+    }
+}
+CollectedScalarParameters[10] =
+{
+    CollectedScalarParameters[0] = { Value=1, Name=FoamAlpha, Group=None }
+    CollectedScalarParameters[1] = { Value=0.96, Name=ClipValue, Group=None }
+    CollectedScalarParameters[2] = { Value=1, Name=FoamEdgeRange, Group=None }
+    CollectedScalarParameters[3] = { Value=0.03, Name=UVWarpSpeed, Group=None }
+    CollectedScalarParameters[4] = { Value=0, Name=Offset, Group=None }
+    CollectedScalarParameters[5] = { Value=0, Name=meltValue, Group=None }
+    CollectedScalarParameters[6] = { Value=0.5, Name=Y_Alpha_Start, Group=None }
+    CollectedScalarParameters[7] = { Value=0.5, Name=Y_Alpha_End, Group=None }
+    CollectedScalarParameters[8] = { Value=0.5, Name=Mobile_Mul_Color, Group=None }
+    CollectedScalarParameters[9] = { Value=8, Name=UVWarpTile, Group=None }
+}
+CollectedVectorParameters[4] =
+{
+    CollectedVectorParameters[0] =
+    {
+        Value = { R=0.767225, G=1.18596, B=0.2, A=0.15 }
+        Name = TexUVX,TexUVY,Speed1,Speed2
+        Group = None
+    }
+    CollectedVectorParameters[1] =
+    {
+        Value = { R=2, G=2, B=0.03, A=0.03 }
+        Name = UVMaskTex_NoiseWarp
+        Group = None
+    }
+    CollectedVectorParameters[2] =
+    {
+        Value = { R=0.7, G=0.3, B=0.7, A=0.3 }
+        Name = MeshEdgeAlpha_R_L_B_F
+        Group = None
+    }
+    CollectedVectorParameters[3] =
+    {
+        Value = { R=0.802083, G=0.802083, B=0.802083, A=0.5 }
+        Name = Tex_rgb
+        Group = None
+    }
+}
+FlattenedTexture = None
+MobileBaseTexture = None
+MobileNormalTexture = None
+bUseMobileSpecular = false
+MobileSpecularPower = 16
+MobileSpecularMask = MSM_Constant (0)
+MobileMaskTexture = None
+TextureStreamingData[1] =
+{
+    TextureStreamingData[0] =
+    {
+        SamplingScale = 2
+        UVChannelIndex = 0
+        TextureName = T_WaterfallNoise
+    }
+}

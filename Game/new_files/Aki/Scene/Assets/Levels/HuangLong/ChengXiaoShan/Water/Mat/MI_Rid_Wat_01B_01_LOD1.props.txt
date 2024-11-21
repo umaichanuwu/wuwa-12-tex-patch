@@ -1,0 +1,90 @@
+Parent = MaterialInstanceConstant'/Game/Aki/Render/MaterialInstance/Water/MI_FFTSingleLayerWater_LOD1.MI_FFTSingleLayerWater_LOD1'
+ScalarParameterValues[4] =
+{
+    ScalarParameterValues[0] =
+    {
+        ParameterInfo = { Name=noise_speed }
+        ParameterValue = 0
+        ParameterName = None
+    }
+    ScalarParameterValues[1] =
+    {
+        ParameterInfo = { Name=ocean_height }
+        ParameterValue = 0
+        ParameterName = None
+    }
+    ScalarParameterValues[2] =
+    {
+        ParameterInfo = { Name=use_fixedframe }
+        ParameterValue = 1
+        ParameterName = None
+    }
+    ScalarParameterValues[3] =
+    {
+        ParameterInfo = { Name=RefractionDepthBias }
+        ParameterValue = 0
+        ParameterName = None
+    }
+}
+TextureParameterValues[2] =
+{
+    TextureParameterValues[0] =
+    {
+        ParameterInfo = { Name=Ocean_Foam }
+        ParameterValue = Texture2D'/Game/Aki/Scene/Assets/Levels/HuangLong/ChengXiaoShan/Water/Tex/Ocean_displace/T_Com_Wat_01A_HD.T_Com_Wat_01A_HD'
+        ParameterName = None
+    }
+    TextureParameterValues[1] =
+    {
+        ParameterInfo = { Name=Ocean_Normal }
+        ParameterValue = Texture2D'/Game/Aki/Scene/Assets/Levels/HuangLong/ChengXiaoShan/Water/Tex/T_Com_Wat_01B_N.T_Com_Wat_01B_N'
+        ParameterName = None
+    }
+}
+VectorParameterValues[0] = {}
+BasePropertyOverrides =
+{
+    bOverride_BlendMode = false
+    BlendMode = BLEND_Opaque (0)
+    bOverride_TwoSided = false
+    TwoSided = true
+    bOverride_OpacityMaskClipValue = false
+    OpacityMaskClipValue = 0.3333
+}
+StaticParameters =
+{
+    StaticSwitchParameters[0] = {}
+    StaticComponentMaskParameters[0] = {}
+    TerrainLayerWeightParameters[0] = {}
+    MaterialLayersParameters[0] = {}
+}
+RuntimeVirtualTextureParameterValues[0] = {}
+FontParameterValues[0] = {}
+FlattenedTexture = None
+MobileBaseTexture = None
+MobileNormalTexture = None
+bUseMobileSpecular = false
+MobileSpecularPower = 16
+MobileSpecularMask = MSM_Constant (0)
+MobileMaskTexture = None
+TextureStreamingData[3] =
+{
+    TextureStreamingData[0] =
+    {
+        SamplingScale = 0.125
+        UVChannelIndex = 0
+        TextureName = T_Com_Wat_01A_HD
+    }
+    TextureStreamingData[1] =
+    {
+        SamplingScale = 0.125
+        UVChannelIndex = 0
+        TextureName = T_Com_Wat_01B_N
+    }
+    TextureStreamingData[2] =
+    {
+        SamplingScale = 0.03125
+        UVChannelIndex = 0
+        TextureName = T_Noise_2
+    }
+}

@@ -1,0 +1,175 @@
+TwoSided = true
+bDisableDepthTest = false
+bIsMasked = false
+ReferencedTextures[1] =
+{
+    ReferencedTextures[0] = Texture2D'/Game/Aki/Render/Common/Rain/T_RainSubTexture.T_RainSubTexture'
+}
+Expressions[0] = {}
+CachedExpressionData =
+{
+    Parameters =
+    {
+        Entries[5] =
+        {
+            Entries[0] =
+            {
+                ParameterInfos[22] =
+                {
+                    ParameterInfos[0] = { Name=DebugShape }
+                    ParameterInfos[1] = { Name=DebugStretch }
+                    ParameterInfos[2] = { Name=RotateSpeed }
+                    ParameterInfos[3] = { Name=DebugOpacity }
+                    ParameterInfos[4] = { Name=DropSize }
+                    ParameterInfos[5] = { Name=LightColorStrength }
+                    ParameterInfos[6] = { Name=OpacityMax }
+                    ParameterInfos[7] = { Name=AttFadeMin }
+                    ParameterInfos[8] = { Name=BaseOpacityStand }
+                    ParameterInfos[9] = { Name=DropSizeStand }
+                    ParameterInfos[10] = { Name=FlickFreqMin }
+                    ParameterInfos[11] = { Name=OpacityMin }
+                    ParameterInfos[12] = { Name=FlickFreqMax }
+                    ParameterInfos[13] = { Name=DebugInstanceRandom }
+                    ParameterInfos[14] = { Name=NearestRange }
+                    ParameterInfos[15] = { Name=Nearest }
+                    ParameterInfos[16] = { Name=BaseOpacity }
+                    ParameterInfos[17] = { Name=Farthest }
+                    ParameterInfos[18] = { Name=FarthestRange }
+                    ParameterInfos[19] = { Name=OpacityPowStand }
+                    ParameterInfos[20] = { Name=AttFadeMax }
+                    ParameterInfos[21] = { Name=OpacityMulti }
+                }
+            }
+            Entries[1] =
+            {
+                ParameterInfos[3] =
+                {
+                    ParameterInfos[0] = { Name=ColorTintStand }
+                    ParameterInfos[1] = { Name=MainColorTint }
+                    ParameterInfos[2] = { Name=DebugVelocity }
+                }
+            }
+            Entries[2] =
+            {
+                ParameterInfos[2] =
+                {
+                    ParameterInfos[0] = { Name=SnowStandTexture }
+                    ParameterInfos[1] = { Name=SnowTexture }
+                }
+            }
+            Entries[3] = { ParameterInfos[0]={} }
+            Entries[4] = { ParameterInfos[0]={} }
+        }
+        ScalarValues[22] =
+        {
+            ScalarValues[0] = 0
+            ScalarValues[1] = 0
+            ScalarValues[2] = 1
+            ScalarValues[3] = 0
+            ScalarValues[4] = 0.1
+            ScalarValues[5] = 1
+            ScalarValues[6] = 0
+            ScalarValues[7] = 0
+            ScalarValues[8] = 1
+            ScalarValues[9] = 0.1
+            ScalarValues[10] = 0
+            ScalarValues[11] = 0
+            ScalarValues[12] = 0
+            ScalarValues[13] = 0
+            ScalarValues[14] = 300
+            ScalarValues[15] = 30
+            ScalarValues[16] = 1
+            ScalarValues[17] = 3000
+            ScalarValues[18] = 3000
+            ScalarValues[19] = 1
+            ScalarValues[20] = 0.1
+            ScalarValues[21] = 1
+        }
+        VectorValues[3] =
+        {
+            VectorValues[0] = { R=1, G=1, B=1, A=1 }
+            VectorValues[1] = { R=1, G=1, B=1, A=1 }
+            VectorValues[2] = { R=0, G=0, B=0, A=1 }
+        }
+        TextureValues[2] =
+        {
+            TextureValues[0] = Texture2D'/Game/Aki/Render/Common/Rain/T_RainSubTexture.T_RainSubTexture'
+            TextureValues[1] = Texture2D'/Game/Aki/Render/Common/Rain/T_RainSubTexture.T_RainSubTexture'
+        }
+    }
+    ReferencedTextures[1] =
+    {
+        ReferencedTextures[0] = Texture2D'/Game/Aki/Render/Common/Rain/T_RainSubTexture.T_RainSubTexture'
+    }
+}
+BlendMode = BLEND_Translucent (2)
+OpacityMaskClipValue = 0.333
+CollectedTextureParameters[2] =
+{
+    CollectedTextureParameters[0] =
+    {
+        Texture = Texture2D'/Game/Aki/Render/Common/Rain/T_RainSubTexture.T_RainSubTexture'
+        Name = SnowStandTexture
+        Group = None
+    }
+    CollectedTextureParameters[1] =
+    {
+        Texture = Texture2D'/Game/Aki/Render/Common/Rain/T_RainSubTexture.T_RainSubTexture'
+        Name = SnowTexture
+        Group = None
+    }
+}
+CollectedScalarParameters[22] =
+{
+    CollectedScalarParameters[0] = { Value=0, Name=DebugShape, Group=None }
+    CollectedScalarParameters[1] = { Value=0, Name=DebugStretch, Group=None }
+    CollectedScalarParameters[2] = { Value=1, Name=RotateSpeed, Group=None }
+    CollectedScalarParameters[3] = { Value=0, Name=DebugOpacity, Group=None }
+    CollectedScalarParameters[4] = { Value=0.1, Name=DropSize, Group=None }
+    CollectedScalarParameters[5] = { Value=1, Name=LightColorStrength, Group=None }
+    CollectedScalarParameters[6] = { Value=0, Name=OpacityMax, Group=None }
+    CollectedScalarParameters[7] = { Value=0, Name=AttFadeMin, Group=None }
+    CollectedScalarParameters[8] = { Value=1, Name=BaseOpacityStand, Group=None }
+    CollectedScalarParameters[9] = { Value=0.1, Name=DropSizeStand, Group=None }
+    CollectedScalarParameters[10] = { Value=0, Name=FlickFreqMin, Group=None }
+    CollectedScalarParameters[11] = { Value=0, Name=OpacityMin, Group=None }
+    CollectedScalarParameters[12] = { Value=0, Name=FlickFreqMax, Group=None }
+    CollectedScalarParameters[13] = { Value=0, Name=DebugInstanceRandom, Group=None }
+    CollectedScalarParameters[14] = { Value=300, Name=NearestRange, Group=None }
+    CollectedScalarParameters[15] = { Value=30, Name=Nearest, Group=None }
+    CollectedScalarParameters[16] = { Value=1, Name=BaseOpacity, Group=None }
+    CollectedScalarParameters[17] = { Value=3000, Name=Farthest, Group=None }
+    CollectedScalarParameters[18] = { Value=3000, Name=FarthestRange, Group=None }
+    CollectedScalarParameters[19] = { Value=1, Name=OpacityPowStand, Group=None }
+    CollectedScalarParameters[20] = { Value=0.1, Name=AttFadeMax, Group=None }
+    CollectedScalarParameters[21] = { Value=1, Name=OpacityMulti, Group=None }
+}
+CollectedVectorParameters[3] =
+{
+    CollectedVectorParameters[0] =
+    {
+        Value = { R=1, G=1, B=1, A=1 }
+        Name = ColorTintStand
+        Group = None
+    }
+    CollectedVectorParameters[1] =
+    {
+        Value = { R=1, G=1, B=1, A=1 }
+        Name = MainColorTint
+        Group = None
+    }
+    CollectedVectorParameters[2] =
+    {
+        Value = { R=0, G=0, B=0, A=1 }
+        Name = DebugVelocity
+        Group = None
+    }
+}
+FlattenedTexture = None
+MobileBaseTexture = None
+MobileNormalTexture = None
+bUseMobileSpecular = false
+MobileSpecularPower = 16
+MobileSpecularMask = MSM_Constant (0)
+MobileMaskTexture = None
+TextureStreamingData[0] = {}

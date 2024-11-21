@@ -1,0 +1,13 @@
+Diffuse=T_LS_DefaultColorWhite_D
+Normal=T_LS_DefaultNormal_N
+Other[0]=BlendFunc_DefBase
+Other[1]=BlendFunc_DefBlend
+Other[2]=Good64x64TilingNoiseHighFreq
+Other[3]=T_Cloud_30006
+Other[4]=T_LS_DefaultColorBlack_D1
+Other[5]=T_LS_DefaultColorWhite_Linear_D
+Other[6]=T_LS_DefaultMaskGreen_M
+Other[7]=T_LS_Noise_Flakes
+Other[8]=T_LS_Noise_Flakes_N
+Other[9]=T_LS_WaterNormal_Rain
+Other[10]=T_Lau_White_LandscapeColorMap_D

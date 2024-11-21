@@ -1,0 +1,133 @@
+TwoSided = true
+bDisableDepthTest = false
+bIsMasked = false
+ReferencedTextures[2] =
+{
+    ReferencedTextures[0] = Texture2D'/Game/Aki/Render/Common/T_DefaultMaskGreen_M.T_DefaultMaskGreen_M'
+    ReferencedTextures[1] = Texture2D'/Game/Aki/Scene/Assets/Common/Foliage/Tex/T4_Com_Lea_01A_D.T4_Com_Lea_01A_D'
+}
+Expressions[0] = {}
+CachedExpressionData =
+{
+    Parameters =
+    {
+        Entries[5] =
+        {
+            Entries[0] =
+            {
+                ParameterInfos[8] =
+                {
+                    ParameterInfos[0] = { Name=Metallic }
+                    ParameterInfos[1] = { Name=Specular }
+                    ParameterInfos[2] = { Name=Subsurface Edge Weight }
+                    ParameterInfos[3] = { Name=Emissive Night }
+                    ParameterInfos[4] = { Name=3S_Intensity }
+                    ParameterInfos[5] = { Name=ShadowStrength }
+                    ParameterInfos[6] = { Name=Close Emissive Day }
+                    ParameterInfos[7] = { Name=Mipmapbias }
+                }
+            }
+            Entries[1] =
+            {
+                ParameterInfos[3] =
+                {
+                    ParameterInfos[0] = { Name=ColorTint }
+                    ParameterInfos[1] = { Name=Emissive Color }
+                    ParameterInfos[2] = { Name=AOColorTint }
+                }
+            }
+            Entries[2] =
+            {
+                ParameterInfos[2] =
+                {
+                    ParameterInfos[0] = { Name=Base Color Map }
+                    ParameterInfos[1] = { Name=Emissive mask }
+                }
+            }
+            Entries[3] = { ParameterInfos[0]={} }
+            Entries[4] = { ParameterInfos[0]={} }
+        }
+        ScalarValues[8] = { 0, 0, 0, 1, 1.5, 0.2, 1, -0.75 }
+        VectorValues[3] =
+        {
+            VectorValues[0] = { R=1, G=1, B=1, A=1 }
+            VectorValues[1] = { R=1, G=1, B=1, A=1 }
+            VectorValues[2] = { R=1, G=1, B=1, A=1 }
+        }
+        TextureValues[2] =
+        {
+            TextureValues[0] = Texture2D'/Game/Aki/Scene/Assets/Common/Foliage/Tex/T4_Com_Lea_01A_D.T4_Com_Lea_01A_D'
+            TextureValues[1] = Texture2D'/Game/Aki/Render/Common/T_DefaultMaskGreen_M.T_DefaultMaskGreen_M'
+        }
+    }
+    ReferencedTextures[2] =
+    {
+        ReferencedTextures[0] = Texture2D'/Game/Aki/Render/Common/T_DefaultMaskGreen_M.T_DefaultMaskGreen_M'
+        ReferencedTextures[1] = Texture2D'/Game/Aki/Scene/Assets/Common/Foliage/Tex/T4_Com_Lea_01A_D.T4_Com_Lea_01A_D'
+    }
+}
+BlendMode = BLEND_Masked (1)
+OpacityMaskClipValue = 0.333
+CollectedTextureParameters[2] =
+{
+    CollectedTextureParameters[0] =
+    {
+        Texture = Texture2D'/Game/Aki/Scene/Assets/Common/Foliage/Tex/T4_Com_Lea_01A_D.T4_Com_Lea_01A_D'
+        Name = Base Color Map
+        Group = None
+    }
+    CollectedTextureParameters[1] =
+    {
+        Texture = Texture2D'/Game/Aki/Render/Common/T_DefaultMaskGreen_M.T_DefaultMaskGreen_M'
+        Name = Emissive mask
+        Group = None
+    }
+}
+CollectedScalarParameters[8] =
+{
+    CollectedScalarParameters[0] = { Value=0, Name=Metallic, Group=None }
+    CollectedScalarParameters[1] = { Value=0, Name=Specular, Group=None }
+    CollectedScalarParameters[2] = { Value=0, Name=Subsurface Edge Weight, Group=None }
+    CollectedScalarParameters[3] = { Value=1, Name=Emissive Night, Group=None }
+    CollectedScalarParameters[4] = { Value=1.5, Name=3S_Intensity, Group=None }
+    CollectedScalarParameters[5] = { Value=0.2, Name=ShadowStrength, Group=None }
+    CollectedScalarParameters[6] = { Value=1, Name=Close Emissive Day, Group=None }
+    CollectedScalarParameters[7] = { Value=-0.75, Name=Mipmapbias, Group=None }
+}
+CollectedVectorParameters[3] =
+{
+    CollectedVectorParameters[0] =
+    {
+        Value = { R=1, G=1, B=1, A=1 }
+        Name = ColorTint
+        Group = None
+    }
+    CollectedVectorParameters[1] =
+    {
+        Value = { R=1, G=1, B=1, A=1 }
+        Name = Emissive Color
+        Group = None
+    }
+    CollectedVectorParameters[2] =
+    {
+        Value = { R=1, G=1, B=1, A=1 }
+        Name = AOColorTint
+        Group = None
+    }
+}
+FlattenedTexture = None
+MobileBaseTexture = None
+MobileNormalTexture = None
+bUseMobileSpecular = false
+MobileSpecularPower = 16
+MobileSpecularMask = MSM_Constant (0)
+MobileMaskTexture = None
+TextureStreamingData[1] =
+{
+    TextureStreamingData[0] =
+    {
+        SamplingScale = 1
+        UVChannelIndex = 0
+        TextureName = T4_Com_Lea_01A_D
+    }
+}

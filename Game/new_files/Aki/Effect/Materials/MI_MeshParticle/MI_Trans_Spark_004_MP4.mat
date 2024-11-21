@@ -1,0 +1,9 @@
+Diffuse=T_DefaultColorWhite_D
+Other[0]=T_Trail_80011
+Other[1]=T_Color_140002
+Other[2]=T_Tile_19_Vec
+Other[3]=T_Mask_30054
+Other[4]=T_Tile_046
+Other[5]=T_Mask_13001
+Other[6]=T_Tile_20000
+Other[7]=Good64x64TilingNoiseHighFreq

@@ -1,0 +1,12 @@
+Diffuse=T_LS_DefaultColorWhite_D
+Normal=T_NoonSky_CUBE
+Other[0]=DefaultTexture
+Other[1]=T_EdgeFoamNoise
+Other[2]=T_FlowArrow
+Other[3]=T_PerlinNoise
+Other[4]=T_RainRipples
+Other[5]=T_SingleLayerWaterNoise
+Other[6]=T_WaterTIlling_Default_M
+Other[7]=T_EdgeFoamNoise
+Other[8]=T_PerlinNoise
+Other[9]=TC_DefaultWaterCube

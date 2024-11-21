@@ -1,0 +1,8 @@
+Diffuse=DefaultDiffuse
+Normal=T_SnowMound_01_N
+Other[0]=T_Wenli_18005
+Other[1]=T_RainDropNoise
+Other[2]=T_Wenli_180105
+Other[3]=DebugNumberStrip
+Other[4]=DebugNumberPeriod
+Other[5]=T_Env

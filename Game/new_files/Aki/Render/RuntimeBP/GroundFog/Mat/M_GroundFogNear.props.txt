@@ -1,0 +1,238 @@
+TwoSided = false
+bDisableDepthTest = false
+bIsMasked = false
+ReferencedTextures[5] =
+{
+    ReferencedTextures[0] = Texture2D'/Engine/EngineMaterials/Good64x64TilingNoiseHighFreq.Good64x64TilingNoiseHighFreq'
+    ReferencedTextures[1] = Texture2D'/Engine/EngineVolumetrics/Fogsheet/Materials/T_EV_BlankWhite_01.T_EV_BlankWhite_01'
+    ReferencedTextures[2] = Texture2D'/Game/Aki/Render/Common/T_PerlinNoiseSmall.T_PerlinNoiseSmall'
+    ReferencedTextures[3] = Texture2D'/Game/Aki/Render/RuntimeBP/GroundFog/Tex/T_Cloud.T_Cloud'
+    ReferencedTextures[4] = Texture2D'/Game/Aki/Render/RuntimeBP/GroundFog/Tex/T_CloudDetail.T_CloudDetail'
+}
+Expressions[0] = {}
+CachedExpressionData =
+{
+    Parameters =
+    {
+        Entries[5] =
+        {
+            Entries[0] =
+            {
+                ParameterInfos[30] =
+                {
+                    ParameterInfos[0] = { Name=PrimaryMapPow }
+                    ParameterInfos[1] = { Name=SecondaryMapScale }
+                    ParameterInfos[2] = { Name=DetailMapBoost }
+                    ParameterInfos[3] = { Name=CameraFadeDistance }
+                    ParameterInfos[4] = { Name=TopFadeWidth }
+                    ParameterInfos[5] = { Name=MaxOpacity }
+                    ParameterInfos[6] = { Name=ColorGreyPow }
+                    ParameterInfos[7] = { Name=OpacityContrast }
+                    ParameterInfos[8] = { Name=Max Expensive Steps Debug Color }
+                    ParameterInfos[9] = { Name=RefPlane }
+                    ParameterInfos[10] = { Name=DitherAmount }
+                    ParameterInfos[11] = { Name=TopFadeStart }
+                    ParameterInfos[12] = { Name=HeightRatio }
+                    ParameterInfos[13] = { Name=RampID }
+                    ParameterInfos[14] = { Name=Param }
+                    ParameterInfos[15] = { Name=SecondaryMapBoost }
+                    ParameterInfos[16] = { Name=SecondaryMapPow }
+                    ParameterInfos[17] = { Name=EmissiveAmount }
+                    ParameterInfos[18] = { Name=DetailMapAmountFar }
+                    ParameterInfos[19] = { Name=DetailMapPow }
+                    ParameterInfos[20] = { Name=PrimaryMapBoost }
+                    ParameterInfos[21] = { Name=ColorGreyBoost }
+                    ParameterInfos[22] = { Name=MainUVScalerX }
+                    ParameterInfos[23] = { Name=MapPosBias }
+                    ParameterInfos[24] = { Name=DetailMapScale }
+                    ParameterInfos[25] = { Name=Speed }
+                    ParameterInfos[26] = { Name=OpacityRange }
+                    ParameterInfos[27] = { Name=MainUVScalerY }
+                    ParameterInfos[28] = { Name=SecondryMapMixAmount }
+                    ParameterInfos[29] = { Name=DetailMapAmountNear }
+                }
+            }
+            Entries[1] =
+            {
+                ParameterInfos[3] =
+                {
+                    ParameterInfos[0] = { Name=Bias }
+                    ParameterInfos[1] = { Name=ShadowColor }
+                    ParameterInfos[2] = { Name=LightColor }
+                }
+            }
+            Entries[2] =
+            {
+                ParameterInfos[3] =
+                {
+                    ParameterInfos[0] = { Name=SecondaryMap }
+                    ParameterInfos[1] = { Name=PrimaryMap }
+                    ParameterInfos[2] = { Name=DetailMap }
+                }
+            }
+            Entries[3] = { ParameterInfos[0]={} }
+            Entries[4] = { ParameterInfos[0]={} }
+        }
+        ScalarValues[30] =
+        {
+            ScalarValues[0] = 0.6
+            ScalarValues[1] = 3
+            ScalarValues[2] = 1
+            ScalarValues[3] = 600
+            ScalarValues[4] = 0.05
+            ScalarValues[5] = 1
+            ScalarValues[6] = 1.43864
+            ScalarValues[7] = 0.3
+            ScalarValues[8] = 32
+            ScalarValues[9] = 0.5
+            ScalarValues[10] = 1
+            ScalarValues[11] = 0
+            ScalarValues[12] = 0.015
+            ScalarValues[13] = 1
+            ScalarValues[14] = 0.08
+            ScalarValues[15] = 1
+            ScalarValues[16] = 0.6
+            ScalarValues[17] = 0.5
+            ScalarValues[18] = 0.295238
+            ScalarValues[19] = 0.6
+            ScalarValues[20] = 1
+            ScalarValues[21] = 1
+            ScalarValues[22] = 1
+            ScalarValues[23] = 0
+            ScalarValues[24] = 15
+            ScalarValues[25] = 1
+            ScalarValues[26] = 70.4192
+            ScalarValues[27] = 1
+            ScalarValues[28] = 0.3
+            ScalarValues[29] = 0.295238
+        }
+        VectorValues[3] =
+        {
+            VectorValues[0] = { R=0, G=0.01, B=0, A=0 }
+            VectorValues[1] = { R=0.044759, G=0.062455, B=0.078125, A=0 }
+            VectorValues[2] = { R=1.09375, G=1.13042, B=1.2, A=0 }
+        }
+        TextureValues[3] =
+        {
+            TextureValues[0] = Texture2D'/Game/Aki/Render/RuntimeBP/GroundFog/Tex/T_Cloud.T_Cloud'
+            TextureValues[1] = Texture2D'/Game/Aki/Render/RuntimeBP/GroundFog/Tex/T_Cloud.T_Cloud'
+            TextureValues[2] = Texture2D'/Game/Aki/Render/RuntimeBP/GroundFog/Tex/T_CloudDetail.T_CloudDetail'
+        }
+    }
+    ReferencedTextures[6] =
+    {
+        ReferencedTextures[1] = Texture2D'/Game/Aki/Render/RuntimeBP/GroundFog/Tex/T_Cloud.T_Cloud'
+        ReferencedTextures[2] = Texture2D'/Engine/EngineMaterials/Good64x64TilingNoiseHighFreq.Good64x64TilingNoiseHighFreq'
+        ReferencedTextures[3] = Texture2D'/Engine/EngineVolumetrics/Fogsheet/Materials/T_EV_BlankWhite_01.T_EV_BlankWhite_01'
+        ReferencedTextures[4] = Texture2D'/Game/Aki/Render/Common/T_PerlinNoiseSmall.T_PerlinNoiseSmall'
+        ReferencedTextures[5] = Texture2D'/Game/Aki/Render/RuntimeBP/GroundFog/Tex/T_CloudDetail.T_CloudDetail'
+    }
+}
+BlendMode = BLEND_Translucent (2)
+OpacityMaskClipValue = 0.333
+CollectedTextureParameters[3] =
+{
+    CollectedTextureParameters[0] =
+    {
+        Texture = Texture2D'/Game/Aki/Render/RuntimeBP/GroundFog/Tex/T_Cloud.T_Cloud'
+        Name = SecondaryMap
+        Group = None
+    }
+    CollectedTextureParameters[1] =
+    {
+        Texture = Texture2D'/Game/Aki/Render/RuntimeBP/GroundFog/Tex/T_Cloud.T_Cloud'
+        Name = PrimaryMap
+        Group = None
+    }
+    CollectedTextureParameters[2] =
+    {
+        Texture = Texture2D'/Game/Aki/Render/RuntimeBP/GroundFog/Tex/T_CloudDetail.T_CloudDetail'
+        Name = DetailMap
+        Group = None
+    }
+}
+CollectedScalarParameters[30] =
+{
+    CollectedScalarParameters[0] = { Value=0.6, Name=PrimaryMapPow, Group=None }
+    CollectedScalarParameters[1] = { Value=3, Name=SecondaryMapScale, Group=None }
+    CollectedScalarParameters[2] = { Value=1, Name=DetailMapBoost, Group=None }
+    CollectedScalarParameters[3] = { Value=600, Name=CameraFadeDistance, Group=None }
+    CollectedScalarParameters[4] = { Value=0.05, Name=TopFadeWidth, Group=None }
+    CollectedScalarParameters[5] = { Value=1, Name=MaxOpacity, Group=None }
+    CollectedScalarParameters[6] = { Value=1.43864, Name=ColorGreyPow, Group=None }
+    CollectedScalarParameters[7] = { Value=0.3, Name=OpacityContrast, Group=None }
+    CollectedScalarParameters[8] =
+    {
+        Value = 32
+        Name = Max Expensive Steps Debug Color
+        Group = None
+    }
+    CollectedScalarParameters[9] = { Value=0.5, Name=RefPlane, Group=None }
+    CollectedScalarParameters[10] = { Value=1, Name=DitherAmount, Group=None }
+    CollectedScalarParameters[11] = { Value=0, Name=TopFadeStart, Group=None }
+    CollectedScalarParameters[12] = { Value=0.015, Name=HeightRatio, Group=None }
+    CollectedScalarParameters[13] = { Value=1, Name=RampID, Group=None }
+    CollectedScalarParameters[14] = { Value=0.08, Name=Param, Group=None }
+    CollectedScalarParameters[15] = { Value=1, Name=SecondaryMapBoost, Group=None }
+    CollectedScalarParameters[16] = { Value=0.6, Name=SecondaryMapPow, Group=None }
+    CollectedScalarParameters[17] = { Value=0.5, Name=EmissiveAmount, Group=None }
+    CollectedScalarParameters[18] =
+    {
+        Value = 0.295238
+        Name = DetailMapAmountFar
+        Group = None
+    }
+    CollectedScalarParameters[19] = { Value=0.6, Name=DetailMapPow, Group=None }
+    CollectedScalarParameters[20] = { Value=1, Name=PrimaryMapBoost, Group=None }
+    CollectedScalarParameters[21] = { Value=1, Name=ColorGreyBoost, Group=None }
+    CollectedScalarParameters[22] = { Value=1, Name=MainUVScalerX, Group=None }
+    CollectedScalarParameters[23] = { Value=0, Name=MapPosBias, Group=None }
+    CollectedScalarParameters[24] = { Value=15, Name=DetailMapScale, Group=None }
+    CollectedScalarParameters[25] = { Value=1, Name=Speed, Group=None }
+    CollectedScalarParameters[26] = { Value=70.4192, Name=OpacityRange, Group=None }
+    CollectedScalarParameters[27] = { Value=1, Name=MainUVScalerY, Group=None }
+    CollectedScalarParameters[28] = { Value=0.3, Name=SecondryMapMixAmount, Group=None }
+    CollectedScalarParameters[29] =
+    {
+        Value = 0.295238
+        Name = DetailMapAmountNear
+        Group = None
+    }
+}
+CollectedVectorParameters[3] =
+{
+    CollectedVectorParameters[0] =
+    {
+        Value = { R=0, G=0.01, B=0, A=0 }
+        Name = Bias
+        Group = None
+    }
+    CollectedVectorParameters[1] =
+    {
+        Value = { R=0.044759, G=0.062455, B=0.078125, A=0 }
+        Name = ShadowColor
+        Group = None
+    }
+    CollectedVectorParameters[2] =
+    {
+        Value = { R=1.09375, G=1.13042, B=1.2, A=0 }
+        Name = LightColor
+        Group = None
+    }
+}
+FlattenedTexture = None
+MobileBaseTexture = None
+MobileNormalTexture = None
+bUseMobileSpecular = false
+MobileSpecularPower = 16
+MobileSpecularMask = MSM_Constant (0)
+MobileMaskTexture = None
+TextureStreamingData[1] =
+{
+    TextureStreamingData[0] =
+    {
+        SamplingScale = 15
+        UVChannelIndex = 0
+        TextureName = T_CloudDetail
+    }
+}

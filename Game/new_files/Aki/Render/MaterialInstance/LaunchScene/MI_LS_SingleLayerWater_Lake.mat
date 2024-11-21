@@ -1,0 +1,16 @@
+Diffuse=T_LS_DefaultColorWhite_D
+Normal=T_Pond_SurfacePlants_N
+Cube=TC_DefaultWaterCube
+Other[0]=T_Pond_SurfacePlants
+Other[1]=T_WaterNoise_02_M
+Other[2]=T_SingleLayerWaterNoise
+Other[3]=DefaultTexture
+Other[4]=T_EdgeFoamNoise
+Other[5]=T_FlowArrow
+Other[6]=T_PerlinNoise
+Other[7]=T_RainRipples
+Other[8]=T_SingleLayerWaterNoise
+Other[9]=T_WaterTIlling_Default_M
+Other[10]=T_EdgeFoamNoise
+Other[11]=T_PerlinNoise
+Other[12]=T_NoonSky_CUBE

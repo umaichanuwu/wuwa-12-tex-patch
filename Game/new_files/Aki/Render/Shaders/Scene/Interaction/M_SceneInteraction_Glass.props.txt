@@ -1,0 +1,345 @@
+TwoSided = false
+bDisableDepthTest = false
+bIsMasked = false
+ReferencedTextures[5] =
+{
+    ReferencedTextures[0] = Texture2D'/Game/Aki/Effect/Texture/Mask/T_Mask_Scan_002.T_Mask_Scan_002'
+    ReferencedTextures[1] = Texture2D'/Game/Aki/Effect/Texture/Wenli/T_Cloud_50005.T_Cloud_50005'
+    ReferencedTextures[2] = Texture2D'/Game/Aki/HotPatch/Ui/HotFix/Image/CommonBtnBg2.CommonBtnBg2'
+    ReferencedTextures[3] = Texture2D'/Game/Aki/Render/Common/T_DefaultMaskGreen_M.T_DefaultMaskGreen_M'
+    ReferencedTextures[4] = TextureCube4'/Game/Aki/Scene/ReflectionCubemaps/TianCheng/T_TianCheng_02_RCUBE.T_TianCheng_02_RCUBE'
+}
+Expressions[0] = {}
+CachedExpressionData =
+{
+    Parameters =
+    {
+        Entries[5] =
+        {
+            Entries[0] =
+            {
+                ParameterInfos[25] =
+                {
+                    ParameterInfos[0] = { Name=DirtRoughness }
+                    ParameterInfos[1] = { Name=E_Action_ScanningOutlineStrength }
+                    ParameterInfos[2] = { Name=Roughness }
+                    ParameterInfos[3] = { Name=E_Action_UseRimLight }
+                    ParameterInfos[4] = { Name=E_Action_UseBaseColorScale }
+                    ParameterInfos[5] = { Name=E_Action_ScanningOutlineMixNoiseStrength }
+                    ParameterInfos[6] = { Name=Inter_Bias_Night }
+                    ParameterInfos[7] = { Name=E_Action_UseEmissionChange }
+                    ParameterInfos[8] = { Name=ReflectionBoost (0-1) }
+                    ParameterInfos[9] = { Name=E_Action_UseScanning }
+                    ParameterInfos[10] = { Name=E_Action_DissolveAdjustment }
+                    ParameterInfos[11] = { Name=E_Action_EmissionLightColorChangeProgress }
+                    ParameterInfos[12] = { Name=EmissiveInstensity_Day }
+                    ParameterInfos[13] = { Name=E_Action_UseDissolve }
+                    ParameterInfos[14] = { Name=EmissiveInstensity_Night }
+                    ParameterInfos[15] = { Name=E_Action_DissolveEdageStrength }
+                    ParameterInfos[16] = { Name=Metilc }
+                    ParameterInfos[17] = { Name=E_Action_BaseColorScale }
+                    ParameterInfos[18] = { Name=E_Action_DissolveProgress }
+                    ParameterInfos[19] = { Name=E_Action_RimPower }
+                    ParameterInfos[20] = { Name=DirtMetilc }
+                    ParameterInfos[21] = { Name=Dirt_MaskIntensity }
+                    ParameterInfos[22] = { Name=E_Action_EmissionLightColorChangeStrength }
+                    ParameterInfos[23] = { Name=E_Action_UseEmissionColor }
+                    ParameterInfos[24] = { Name=E_Action_DissolveEdageWidth }
+                }
+            }
+            Entries[1] =
+            {
+                ParameterInfos[12] =
+                {
+                    ParameterInfos[0] = { Name=E_Action_DissolveEdageColor }
+                    ParameterInfos[1] = { Name=DirtColor }
+                    ParameterInfos[2] = { Name=E_Action_EmissionLightColorChangeColor }
+                    ParameterInfos[3] = { Name=E_Action_EmissionColor }
+                    ParameterInfos[4] = { Name=E_Action_RimLightColor }
+                    ParameterInfos[5] = { Name=E_Action_ScanningOutlineColor }
+                    ParameterInfos[6] = { Name=Color2 }
+                    ParameterInfos[7] = { Name=E_Action_ScanningTex_S_O }
+                    ParameterInfos[8] = { Name=E_Action_DissolveTexSpeed }
+                    ParameterInfos[9] = { Name=E_Action_DissolveTex_S_O }
+                    ParameterInfos[10] = { Name=InterEmiissive }
+                    ParameterInfos[11] = { Name=E_Tex_DissolveTexUVSwitch }
+                }
+            }
+            Entries[2] =
+            {
+                ParameterInfos[4] =
+                {
+                    ParameterInfos[0] = { Name=ReflectionBoost_Texture }
+                    ParameterInfos[1] = { Name=ScanningTexParam }
+                    ParameterInfos[2] = { Name=Glass_Noise }
+                    ParameterInfos[3] = { Name=E_Action_DissolveTex }
+                }
+            }
+            Entries[3] = { ParameterInfos[0]={} }
+            Entries[4] = { ParameterInfos[0]={} }
+        }
+        ScalarValues[25] =
+        {
+            ScalarValues[0] = 0.8
+            ScalarValues[1] = 0
+            ScalarValues[2] = 0
+            ScalarValues[3] = 0
+            ScalarValues[4] = 0
+            ScalarValues[5] = 0
+            ScalarValues[6] = 0.7
+            ScalarValues[7] = 0
+            ScalarValues[8] = 0
+            ScalarValues[9] = 0
+            ScalarValues[10] = 0
+            ScalarValues[11] = 0
+            ScalarValues[12] = 1
+            ScalarValues[13] = 0
+            ScalarValues[14] = 1
+            ScalarValues[15] = 1
+            ScalarValues[16] = 1
+            ScalarValues[17] = 1
+            ScalarValues[18] = 0
+            ScalarValues[19] = 1
+            ScalarValues[20] = 0.4
+            ScalarValues[21] = 2
+            ScalarValues[22] = 1
+            ScalarValues[23] = 0
+            ScalarValues[24] = 0
+        }
+        VectorValues[12] =
+        {
+            VectorValues[0] = { R=1, G=0.76752, B=0, A=0 }
+            VectorValues[1] = { R=0.5, G=0.5, B=0.5, A=1 }
+            VectorValues[2] = { R=0, G=0, B=0, A=0 }
+            VectorValues[3] = { R=0, G=0, B=0, A=0 }
+            VectorValues[4] = { R=0, G=0, B=0, A=0 }
+            VectorValues[5] = { R=0, G=0, B=0, A=0 }
+            VectorValues[6] = { R=0.073323, G=0.088542, B=0.077128, A=1 }
+            VectorValues[7] = { R=0, G=0, B=0, A=0 }
+            VectorValues[8] = { R=0, G=0, B=0, A=0 }
+            VectorValues[9] = { R=1, G=1, B=0, A=0 }
+            VectorValues[10] = { R=0, G=0, B=0, A=1 }
+            VectorValues[11] = { R=1, G=0, B=0, A=0 }
+        }
+        TextureValues[4] =
+        {
+            TextureValues[0] = TextureCube4'/Game/Aki/Scene/ReflectionCubemaps/TianCheng/T_TianCheng_02_RCUBE.T_TianCheng_02_RCUBE'
+            TextureValues[1] = Texture2D'/Game/Aki/Effect/Texture/Mask/T_Mask_Scan_002.T_Mask_Scan_002'
+            TextureValues[2] = Texture2D'/Game/Aki/Render/Common/T_DefaultMaskGreen_M.T_DefaultMaskGreen_M'
+            TextureValues[3] = Texture2D'/Game/Aki/Effect/Texture/Wenli/T_Cloud_50005.T_Cloud_50005'
+        }
+    }
+    ReferencedTextures[5] =
+    {
+        ReferencedTextures[0] = Texture2D'/Game/Aki/Effect/Texture/Wenli/T_Cloud_50005.T_Cloud_50005'
+        ReferencedTextures[1] = Texture2D'/Game/Aki/HotPatch/Ui/HotFix/Image/CommonBtnBg2.CommonBtnBg2'
+        ReferencedTextures[2] = Texture2D'/Game/Aki/Effect/Texture/Mask/T_Mask_Scan_002.T_Mask_Scan_002'
+        ReferencedTextures[3] = Texture2D'/Game/Aki/Render/Common/T_DefaultMaskGreen_M.T_DefaultMaskGreen_M'
+        ReferencedTextures[4] = TextureCube4'/Game/Aki/Scene/ReflectionCubemaps/TianCheng/T_TianCheng_02_RCUBE.T_TianCheng_02_RCUBE'
+    }
+}
+BlendMode = BLEND_Opaque (0)
+OpacityMaskClipValue = 0.333
+CollectedTextureParameters[4] =
+{
+    CollectedTextureParameters[0] =
+    {
+        Texture = TextureCube4'/Game/Aki/Scene/ReflectionCubemaps/TianCheng/T_TianCheng_02_RCUBE.T_TianCheng_02_RCUBE'
+        Name = ReflectionBoost_Texture
+        Group = None
+    }
+    CollectedTextureParameters[1] =
+    {
+        Texture = Texture2D'/Game/Aki/Effect/Texture/Mask/T_Mask_Scan_002.T_Mask_Scan_002'
+        Name = ScanningTexParam
+        Group = None
+    }
+    CollectedTextureParameters[2] =
+    {
+        Texture = Texture2D'/Game/Aki/Render/Common/T_DefaultMaskGreen_M.T_DefaultMaskGreen_M'
+        Name = Glass_Noise
+        Group = None
+    }
+    CollectedTextureParameters[3] =
+    {
+        Texture = Texture2D'/Game/Aki/Effect/Texture/Wenli/T_Cloud_50005.T_Cloud_50005'
+        Name = E_Action_DissolveTex
+        Group = None
+    }
+}
+CollectedScalarParameters[25] =
+{
+    CollectedScalarParameters[0] = { Value=0.8, Name=DirtRoughness, Group=None }
+    CollectedScalarParameters[1] =
+    {
+        Value = 0
+        Name = E_Action_ScanningOutlineStrength
+        Group = None
+    }
+    CollectedScalarParameters[2] = { Value=0, Name=Roughness, Group=None }
+    CollectedScalarParameters[3] = { Value=0, Name=E_Action_UseRimLight, Group=None }
+    CollectedScalarParameters[4] =
+    {
+        Value = 0
+        Name = E_Action_UseBaseColorScale
+        Group = None
+    }
+    CollectedScalarParameters[5] =
+    {
+        Value = 0
+        Name = E_Action_ScanningOutlineMixNoiseStrength
+        Group = None
+    }
+    CollectedScalarParameters[6] = { Value=0.7, Name=Inter_Bias_Night, Group=None }
+    CollectedScalarParameters[7] =
+    {
+        Value = 0
+        Name = E_Action_UseEmissionChange
+        Group = None
+    }
+    CollectedScalarParameters[8] = { Value=0, Name=ReflectionBoost (0-1), Group=None }
+    CollectedScalarParameters[9] = { Value=0, Name=E_Action_UseScanning, Group=None }
+    CollectedScalarParameters[10] =
+    {
+        Value = 0
+        Name = E_Action_DissolveAdjustment
+        Group = None
+    }
+    CollectedScalarParameters[11] =
+    {
+        Value = 0
+        Name = E_Action_EmissionLightColorChangeProgress
+        Group = None
+    }
+    CollectedScalarParameters[12] = { Value=1, Name=EmissiveInstensity_Day, Group=None }
+    CollectedScalarParameters[13] = { Value=0, Name=E_Action_UseDissolve, Group=None }
+    CollectedScalarParameters[14] =
+    {
+        Value = 1
+        Name = EmissiveInstensity_Night
+        Group = None
+    }
+    CollectedScalarParameters[15] =
+    {
+        Value = 1
+        Name = E_Action_DissolveEdageStrength
+        Group = None
+    }
+    CollectedScalarParameters[16] = { Value=1, Name=Metilc, Group=None }
+    CollectedScalarParameters[17] =
+    {
+        Value = 1
+        Name = E_Action_BaseColorScale
+        Group = None
+    }
+    CollectedScalarParameters[18] =
+    {
+        Value = 0
+        Name = E_Action_DissolveProgress
+        Group = None
+    }
+    CollectedScalarParameters[19] = { Value=1, Name=E_Action_RimPower, Group=None }
+    CollectedScalarParameters[20] = { Value=0.4, Name=DirtMetilc, Group=None }
+    CollectedScalarParameters[21] = { Value=2, Name=Dirt_MaskIntensity, Group=None }
+    CollectedScalarParameters[22] =
+    {
+        Value = 1
+        Name = E_Action_EmissionLightColorChangeStrength
+        Group = None
+    }
+    CollectedScalarParameters[23] =
+    {
+        Value = 0
+        Name = E_Action_UseEmissionColor
+        Group = None
+    }
+    CollectedScalarParameters[24] =
+    {
+        Value = 0
+        Name = E_Action_DissolveEdageWidth
+        Group = None
+    }
+}
+CollectedVectorParameters[12] =
+{
+    CollectedVectorParameters[0] =
+    {
+        Value = { R=1, G=0.76752, B=0, A=0 }
+        Name = E_Action_DissolveEdageColor
+        Group = None
+    }
+    CollectedVectorParameters[1] =
+    {
+        Value = { R=0.5, G=0.5, B=0.5, A=1 }
+        Name = DirtColor
+        Group = None
+    }
+    CollectedVectorParameters[2] =
+    {
+        Value = { R=0, G=0, B=0, A=0 }
+        Name = E_Action_EmissionLightColorChangeColor
+        Group = None
+    }
+    CollectedVectorParameters[3] =
+    {
+        Value = { R=0, G=0, B=0, A=0 }
+        Name = E_Action_EmissionColor
+        Group = None
+    }
+    CollectedVectorParameters[4] =
+    {
+        Value = { R=0, G=0, B=0, A=0 }
+        Name = E_Action_RimLightColor
+        Group = None
+    }
+    CollectedVectorParameters[5] =
+    {
+        Value = { R=0, G=0, B=0, A=0 }
+        Name = E_Action_ScanningOutlineColor
+        Group = None
+    }
+    CollectedVectorParameters[6] =
+    {
+        Value = { R=0.073323, G=0.088542, B=0.077128, A=1 }
+        Name = Color2
+        Group = None
+    }
+    CollectedVectorParameters[7] =
+    {
+        Value = { R=0, G=0, B=0, A=0 }
+        Name = E_Action_ScanningTex_S_O
+        Group = None
+    }
+    CollectedVectorParameters[8] =
+    {
+        Value = { R=0, G=0, B=0, A=0 }
+        Name = E_Action_DissolveTexSpeed
+        Group = None
+    }
+    CollectedVectorParameters[9] =
+    {
+        Value = { R=1, G=1, B=0, A=0 }
+        Name = E_Action_DissolveTex_S_O
+        Group = None
+    }
+    CollectedVectorParameters[10] =
+    {
+        Value = { R=0, G=0, B=0, A=1 }
+        Name = InterEmiissive
+        Group = None
+    }
+    CollectedVectorParameters[11] =
+    {
+        Value = { R=1, G=0, B=0, A=0 }
+        Name = E_Tex_DissolveTexUVSwitch
+        Group = None
+    }
+}
+FlattenedTexture = None
+MobileBaseTexture = None
+MobileNormalTexture = None
+bUseMobileSpecular = false
+MobileSpecularPower = 16
+MobileSpecularMask = MSM_Constant (0)
+MobileMaskTexture = None
+TextureStreamingData[0] = {}

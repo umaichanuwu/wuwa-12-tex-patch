@@ -1,0 +1,10 @@
+Diffuse=T_DefaultColorWhite_D
+Normal=T_DefaultNormal_N
+Other[0]=T_Default_SceneMask_M
+Other[1]=Good64x64TilingNoiseHighFreq
+Other[2]=Dripping_Pattern_Masks
+Other[3]=ParticleClouds
+Other[4]=T_Noise_Flakes
+Other[5]=T_Noise_Flakes_N
+Other[6]=T_RainRipples
+Other[7]=T_Water_Normal1

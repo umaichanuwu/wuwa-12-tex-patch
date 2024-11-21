@@ -1,0 +1,7 @@
+Diffuse=T_MC_premake_D
+Normal=T_SnowFlake_N
+Other[0]=T_Reflection_MC
+Other[1]=Good64x64TilingNoiseHighFreq
+Other[2]=T_Noise_Stormy_M
+Other[3]=T_SnowFlake_Thickness
+Other[4]=T_Env_03_CUBE

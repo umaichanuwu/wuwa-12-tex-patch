@@ -1,0 +1,159 @@
+TwoSided = false
+bDisableDepthTest = false
+bIsMasked = false
+ReferencedTextures[7] =
+{
+    ReferencedTextures[0] = Texture2D'/Engine/EngineMaterials/DefaultDiffuse.DefaultDiffuse'
+    ReferencedTextures[1] = Texture2D'/Engine/Functions/Engine_MaterialFunctions02/ExampleContent/DebugNumberStrip.DebugNumberStrip'
+    ReferencedTextures[2] = Texture2D'/Engine/Functions/Engine_MaterialFunctions02/ExampleContent/Textures/DebugNumberPeriod.DebugNumberPeriod'
+    ReferencedTextures[3] = Texture2D'/Game/Aki/Render/Common/SingleLayerWater/T_WaterFall_Foam.T_WaterFall_Foam'
+    ReferencedTextures[4] = Texture2D'/Game/Aki/Render/Common/T_Water_Normal1.T_Water_Normal1'
+    ReferencedTextures[5] = TextureCube4'/Game/Aki/Render/Common/TC_DefaultWaterCube.TC_DefaultWaterCube'
+    ReferencedTextures[6] = TextureCube4'/Game/Aki/Scene/Cubemaps/T_NoonSky_CUBE.T_NoonSky_CUBE'
+}
+Expressions[0] = {}
+CachedExpressionData =
+{
+    Parameters =
+    {
+        Entries[5] =
+        {
+            Entries[0] =
+            {
+                ParameterInfos[12] =
+                {
+                    ParameterInfos[0] = { Name=Edge_Ref }
+                    ParameterInfos[1] = { Name=FresnelRange }
+                    ParameterInfos[2] = { Name=Frame_Time }
+                    ParameterInfos[3] = { Name=Ref_Fresnel_Exp }
+                    ParameterInfos[4] = { Name=NormalFlatten }
+                    ParameterInfos[5] = { Name=ControlTime }
+                    ParameterInfos[6] = { Name=FoamUV }
+                    ParameterInfos[7] = { Name=PosOffset }
+                    ParameterInfos[8] = { Name=Opacity }
+                    ParameterInfos[9] = { Name=FoamContrast }
+                    ParameterInfos[10] = { Name=cubemapInter }
+                    ParameterInfos[11] = { Name=Inside_Ref }
+                }
+            }
+            Entries[1] =
+            {
+                ParameterInfos[4] =
+                {
+                    ParameterInfos[0] = { Name=F_uv_X,F_uv_Y,N_speed_X,,N_speed_Y }
+                    ParameterInfos[1] = { Name=EdageColor }
+                    ParameterInfos[2] = { Name=N_uv_X,N_uv_Y,N_speed_X,,N_speed_Y }
+                    ParameterInfos[3] = { Name=BaseColor }
+                }
+            }
+            Entries[2] =
+            {
+                ParameterInfos[3] =
+                {
+                    ParameterInfos[0] = { Name=NormalMap }
+                    ParameterInfos[1] = { Name=FoamMap }
+                    ParameterInfos[2] = { Name=Cubemap }
+                }
+            }
+            Entries[3] = { ParameterInfos[0]={} }
+            Entries[4] = { ParameterInfos[0]={} }
+        }
+        ScalarValues[12] = { 3, 1, 0, 5, 0.5, 0, 1, 10, 0.1, 0, 0.35, 1 }
+        VectorValues[4] =
+        {
+            VectorValues[0] = { R=2, G=2, B=0, A=-0.3 }
+            VectorValues[1] = { R=0.109375, G=0.109375, B=0.109375, A=1 }
+            VectorValues[2] = { R=2, G=2, B=0, A=-0.3 }
+            VectorValues[3] = { R=0.109375, G=0.109375, B=0.109375, A=1 }
+        }
+        TextureValues[3] =
+        {
+            TextureValues[0] = Texture2D'/Game/Aki/Render/Common/T_Water_Normal1.T_Water_Normal1'
+            TextureValues[1] = Texture2D'/Game/Aki/Render/Common/SingleLayerWater/T_WaterFall_Foam.T_WaterFall_Foam'
+            TextureValues[2] = TextureCube4'/Game/Aki/Render/Common/TC_DefaultWaterCube.TC_DefaultWaterCube'
+        }
+    }
+    ReferencedTextures[8] =
+    {
+        ReferencedTextures[1] = Texture2D'/Engine/EngineMaterials/DefaultDiffuse.DefaultDiffuse'
+        ReferencedTextures[2] = Texture2D'/Engine/Functions/Engine_MaterialFunctions02/ExampleContent/DebugNumberStrip.DebugNumberStrip'
+        ReferencedTextures[3] = Texture2D'/Engine/Functions/Engine_MaterialFunctions02/ExampleContent/Textures/DebugNumberPeriod.DebugNumberPeriod'
+        ReferencedTextures[4] = Texture2D'/Game/Aki/Render/Common/T_Water_Normal1.T_Water_Normal1'
+        ReferencedTextures[5] = Texture2D'/Game/Aki/Render/Common/SingleLayerWater/T_WaterFall_Foam.T_WaterFall_Foam'
+        ReferencedTextures[6] = TextureCube4'/Game/Aki/Render/Common/TC_DefaultWaterCube.TC_DefaultWaterCube'
+        ReferencedTextures[7] = TextureCube4'/Game/Aki/Scene/Cubemaps/T_NoonSky_CUBE.T_NoonSky_CUBE'
+    }
+}
+BlendMode = BLEND_Translucent (2)
+OpacityMaskClipValue = 0.333
+CollectedTextureParameters[3] =
+{
+    CollectedTextureParameters[0] =
+    {
+        Texture = Texture2D'/Game/Aki/Render/Common/T_Water_Normal1.T_Water_Normal1'
+        Name = NormalMap
+        Group = None
+    }
+    CollectedTextureParameters[1] =
+    {
+        Texture = Texture2D'/Game/Aki/Render/Common/SingleLayerWater/T_WaterFall_Foam.T_WaterFall_Foam'
+        Name = FoamMap
+        Group = None
+    }
+    CollectedTextureParameters[2] =
+    {
+        Texture = TextureCube4'/Game/Aki/Render/Common/TC_DefaultWaterCube.TC_DefaultWaterCube'
+        Name = Cubemap
+        Group = None
+    }
+}
+CollectedScalarParameters[12] =
+{
+    CollectedScalarParameters[0] = { Value=3, Name=Edge_Ref, Group=None }
+    CollectedScalarParameters[1] = { Value=1, Name=FresnelRange, Group=None }
+    CollectedScalarParameters[2] = { Value=0, Name=Frame_Time, Group=None }
+    CollectedScalarParameters[3] = { Value=5, Name=Ref_Fresnel_Exp, Group=None }
+    CollectedScalarParameters[4] = { Value=0.5, Name=NormalFlatten, Group=None }
+    CollectedScalarParameters[5] = { Value=0, Name=ControlTime, Group=None }
+    CollectedScalarParameters[6] = { Value=1, Name=FoamUV, Group=None }
+    CollectedScalarParameters[7] = { Value=10, Name=PosOffset, Group=None }
+    CollectedScalarParameters[8] = { Value=0.1, Name=Opacity, Group=None }
+    CollectedScalarParameters[9] = { Value=0, Name=FoamContrast, Group=None }
+    CollectedScalarParameters[10] = { Value=0.35, Name=cubemapInter, Group=None }
+    CollectedScalarParameters[11] = { Value=1, Name=Inside_Ref, Group=None }
+}
+CollectedVectorParameters[4] =
+{
+    CollectedVectorParameters[0] =
+    {
+        Value = { R=2, G=2, B=0, A=-0.3 }
+        Name = F_uv_X,F_uv_Y,N_speed_X,,N_speed_Y
+        Group = None
+    }
+    CollectedVectorParameters[1] =
+    {
+        Value = { R=0.109375, G=0.109375, B=0.109375, A=1 }
+        Name = EdageColor
+        Group = None
+    }
+    CollectedVectorParameters[2] =
+    {
+        Value = { R=2, G=2, B=0, A=-0.3 }
+        Name = N_uv_X,N_uv_Y,N_speed_X,,N_speed_Y
+        Group = None
+    }
+    CollectedVectorParameters[3] =
+    {
+        Value = { R=0.109375, G=0.109375, B=0.109375, A=1 }
+        Name = BaseColor
+        Group = None
+    }
+}
+FlattenedTexture = None
+MobileBaseTexture = None
+MobileNormalTexture = None
+bUseMobileSpecular = false
+MobileSpecularPower = 16
+MobileSpecularMask = MSM_Constant (0)
+MobileMaskTexture = None
+TextureStreamingData[0] = {}

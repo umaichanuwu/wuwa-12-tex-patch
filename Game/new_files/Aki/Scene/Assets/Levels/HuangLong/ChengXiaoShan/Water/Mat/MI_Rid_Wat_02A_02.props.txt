@@ -1,0 +1,130 @@
+Parent = MaterialInstanceConstant'/Game/Aki/Render/MaterialInstance/Water/MI_Waterfoam_Flow.MI_Waterfoam_Flow'
+ScalarParameterValues[6] =
+{
+    ScalarParameterValues[0] =
+    {
+        ParameterInfo = { Name=FoamAlpha }
+        ParameterValue = 0.330159
+        ParameterName = None
+    }
+    ScalarParameterValues[1] =
+    {
+        ParameterInfo = { Name=ClipValue }
+        ParameterValue = 0.536508
+        ParameterName = None
+    }
+    ScalarParameterValues[2] =
+    {
+        ParameterInfo = { Name=FoamEdgeRange }
+        ParameterValue = 0.857585
+        ParameterName = None
+    }
+    ScalarParameterValues[3] =
+    {
+        ParameterInfo = { Name=meltValue }
+        ParameterValue = 0
+        ParameterName = None
+    }
+    ScalarParameterValues[4] =
+    {
+        ParameterInfo = { Name=UVWarpSpeed }
+        ParameterValue = 0.06
+        ParameterName = None
+    }
+    ScalarParameterValues[5] =
+    {
+        ParameterInfo = { Name=RefractionDepthBias }
+        ParameterValue = 0
+        ParameterName = None
+    }
+}
+TextureParameterValues[2] =
+{
+    TextureParameterValues[0] =
+    {
+        ParameterInfo = { Name=RippleTex }
+        ParameterValue = Texture2D'/Game/Aki/Scene/Assets/Levels/HuangLong/ChengXiaoShan/Water/Tex/Mask/T_Rid_Wat_02A_MA.T_Rid_Wat_02A_MA'
+        ParameterName = None
+    }
+    TextureParameterValues[1] =
+    {
+        ParameterInfo = { Name=UVNoiseTex }
+        ParameterValue = Texture2D'/Game/Aki/Render/Common/T_PerlinNoiseBig.T_PerlinNoiseBig'
+        ParameterName = None
+    }
+}
+VectorParameterValues[4] =
+{
+    VectorParameterValues[0] =
+    {
+        ParameterInfo = { Name=MeshEdgeAlpha_R_L_B_F }
+        ParameterValue = { R=0.9, G=0.347619, B=0.890411, A=0.243915 }
+        ParameterName = None
+    }
+    VectorParameterValues[1] =
+    {
+        ParameterInfo = { Name=TexUVX,TexUVY,Speed1,Speed2 }
+        ParameterValue = { R=1, G=1, B=0.2, A=0.15 }
+        ParameterName = None
+    }
+    VectorParameterValues[2] =
+    {
+        ParameterInfo = { Name=Tex_rgb }
+        ParameterValue = { R=0.802083, G=0.802083, B=0.802083, A=0.5 }
+        ParameterName = None
+    }
+    VectorParameterValues[3] =
+    {
+        ParameterInfo = { Name=UVMaskTex_NoiseWarp }
+        ParameterValue = { R=10, G=2, B=-0.133333, A=-0.012698 }
+        ParameterName = None
+    }
+}
+BasePropertyOverrides =
+{
+    bOverride_BlendMode = false
+    BlendMode = BLEND_Translucent (2)
+    bOverride_TwoSided = false
+    TwoSided = false
+    bOverride_OpacityMaskClipValue = false
+    OpacityMaskClipValue = 0.3333
+}
+StaticParameters =
+{
+    StaticSwitchParameters[1] =
+    {
+        StaticSwitchParameters[0] =
+        {
+            Value = false
+            ParameterInfo = { Name=UseAlphaMask }
+            bOverride = true
+        }
+    }
+    StaticComponentMaskParameters[0] = {}
+    TerrainLayerWeightParameters[0] = {}
+    MaterialLayersParameters[0] = {}
+}
+RuntimeVirtualTextureParameterValues[0] = {}
+FontParameterValues[0] = {}
+FlattenedTexture = None
+MobileBaseTexture = None
+MobileNormalTexture = None
+bUseMobileSpecular = false
+MobileSpecularPower = 16
+MobileSpecularMask = MSM_Constant (0)
+MobileMaskTexture = None
+TextureStreamingData[2] =
+{
+    TextureStreamingData[0] =
+    {
+        SamplingScale = 2
+        UVChannelIndex = 0
+        TextureName = T_PerlinNoiseBig
+    }
+    TextureStreamingData[1] =
+    {
+        SamplingScale = 0.925415
+        UVChannelIndex = 0
+        TextureName = T_Rid_Wat_02A_MA
+    }
+}

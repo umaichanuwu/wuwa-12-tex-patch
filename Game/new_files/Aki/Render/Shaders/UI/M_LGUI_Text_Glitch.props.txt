@@ -1,0 +1,99 @@
+TwoSided = true
+bDisableDepthTest = false
+bIsMasked = false
+ReferencedTextures[3] =
+{
+    ReferencedTextures[0] = Texture2D'/Game/Aki/Render/Common/T_BlueNoise.T_BlueNoise'
+    ReferencedTextures[1] = Texture2D'/Client/Plugins/LGUI/LGUI/Content/Textures/LGUIPreset_Transparent.LGUIPreset_Transparent'
+    ReferencedTextures[2] = Texture2D'/Client/Plugins/LGUI/LGUI/Content/Textures/LGUIPreset_WhiteSolid.LGUIPreset_WhiteSolid'
+}
+Expressions[0] = {}
+CachedExpressionData =
+{
+    Parameters =
+    {
+        Entries[5] =
+        {
+            Entries[0] =
+            {
+                ParameterInfos[4] =
+                {
+                    ParameterInfos[0] = { Name=glitchUVStrengh }
+                    ParameterInfos[1] = { Name=LGUI_IsRenderInGammaSpace }
+                    ParameterInfos[2] = { Name=glitchEffectStepSize }
+                    ParameterInfos[3] = { Name=factor }
+                }
+            }
+            Entries[1] = { ParameterInfos[0]={} }
+            Entries[2] =
+            {
+                ParameterInfos[2] =
+                {
+                    ParameterInfos[0] = { Name=MainTexture }
+                    ParameterInfos[1] = { Name=SecondaryTexture }
+                }
+            }
+            Entries[3] = { ParameterInfos[0]={} }
+            Entries[4] = { ParameterInfos[0]={} }
+        }
+        ScalarValues[4] = { 0.002, 1, 10, 0.2 }
+        VectorValues[0] = {}
+        TextureValues[2] =
+        {
+            TextureValues[0] = Texture2D'/Client/Plugins/LGUI/LGUI/Content/Textures/LGUIPreset_WhiteSolid.LGUIPreset_WhiteSolid'
+            TextureValues[1] = Texture2D'/Client/Plugins/LGUI/LGUI/Content/Textures/LGUIPreset_Transparent.LGUIPreset_Transparent'
+        }
+    }
+    ReferencedTextures[4] =
+    {
+        ReferencedTextures[0] = Texture2D'/Client/Plugins/LGUI/LGUI/Content/Textures/LGUIPreset_Transparent.LGUIPreset_Transparent'
+        ReferencedTextures[1] = Texture2D'/Client/Plugins/LGUI/LGUI/Content/Textures/LGUIPreset_WhiteSolid.LGUIPreset_WhiteSolid'
+        ReferencedTextures[3] = Texture2D'/Game/Aki/Render/Common/T_BlueNoise.T_BlueNoise'
+    }
+}
+BlendMode = BLEND_Translucent (2)
+OpacityMaskClipValue = 0.333
+CollectedTextureParameters[2] =
+{
+    CollectedTextureParameters[0] =
+    {
+        Texture = Texture2D'/Client/Plugins/LGUI/LGUI/Content/Textures/LGUIPreset_WhiteSolid.LGUIPreset_WhiteSolid'
+        Name = MainTexture
+        Group = None
+    }
+    CollectedTextureParameters[1] =
+    {
+        Texture = Texture2D'/Client/Plugins/LGUI/LGUI/Content/Textures/LGUIPreset_Transparent.LGUIPreset_Transparent'
+        Name = SecondaryTexture
+        Group = None
+    }
+}
+CollectedScalarParameters[4] =
+{
+    CollectedScalarParameters[0] = { Value=0.002, Name=glitchUVStrengh, Group=None }
+    CollectedScalarParameters[1] =
+    {
+        Value = 1
+        Name = LGUI_IsRenderInGammaSpace
+        Group = None
+    }
+    CollectedScalarParameters[2] = { Value=10, Name=glitchEffectStepSize, Group=None }
+    CollectedScalarParameters[3] = { Value=0.2, Name=factor, Group=None }
+}
+CollectedVectorParameters[0] = {}
+FlattenedTexture = None
+MobileBaseTexture = None
+MobileNormalTexture = None
+bUseMobileSpecular = false
+MobileSpecularPower = 16
+MobileSpecularMask = MSM_Constant (0)
+MobileMaskTexture = None
+TextureStreamingData[1] =
+{
+    TextureStreamingData[0] =
+    {
+        SamplingScale = 1
+        UVChannelIndex = 1
+        TextureName = LGUIPreset_Transparent
+    }
+}

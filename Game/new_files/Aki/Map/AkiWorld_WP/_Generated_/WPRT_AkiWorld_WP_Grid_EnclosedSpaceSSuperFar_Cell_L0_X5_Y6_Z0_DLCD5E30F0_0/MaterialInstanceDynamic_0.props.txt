@@ -1,0 +1,82 @@
+Parent = MaterialInstanceConstant'/Game/Aki/Scene/Assets/Levels/HuangLong/ChengXiaoShan/Water/Mat/MI_Rid_Wat_03A_01.MI_Rid_Wat_03A_01'
+ScalarParameterValues[4] =
+{
+    ScalarParameterValues[0] =
+    {
+        ParameterInfo = { Name=CbWeight0 }
+        ParameterValue = 0.221728
+        ParameterName = None
+    }
+    ScalarParameterValues[1] =
+    {
+        ParameterInfo = { Name=CbWeight1 }
+        ParameterValue = 0.00656953
+        ParameterName = None
+    }
+    ScalarParameterValues[2] =
+    {
+        ParameterInfo = { Name=CbWeight2 }
+        ParameterValue = 0.637139
+        ParameterName = None
+    }
+    ScalarParameterValues[3] =
+    {
+        ParameterInfo = { Name=CbWeight3 }
+        ParameterValue = 0.134564
+        ParameterName = None
+    }
+}
+TextureParameterValues[4] =
+{
+    TextureParameterValues[0] =
+    {
+        ParameterInfo = { Name=CubemapLerp0 }
+        ParameterValue = TextureCube4'/Game/Aki/Render/RuntimeBP/KuroTetCubemapLerp/Static/KuroTetCubemapST_0.KuroTetCubemapST_0'
+        ParameterName = None
+    }
+    TextureParameterValues[1] =
+    {
+        ParameterInfo = { Name=CubemapLerp1 }
+        ParameterValue = TextureCube4'/Game/Aki/Render/RuntimeBP/KuroTetCubemapLerp/Static/KuroTetCubemapST_15.KuroTetCubemapST_15'
+        ParameterName = None
+    }
+    TextureParameterValues[2] =
+    {
+        ParameterInfo = { Name=CubemapLerp2 }
+        ParameterValue = TextureCube4'/Game/Aki/Render/RuntimeBP/KuroTetCubemapLerp/Static/KuroTetCubemapST_26.KuroTetCubemapST_26'
+        ParameterName = None
+    }
+    TextureParameterValues[3] =
+    {
+        ParameterInfo = { Name=CubemapLerp3 }
+        ParameterValue = TextureCube4'/Game/Aki/Render/RuntimeBP/KuroTetCubemapLerp/Static/KuroTetCubemapST_21.KuroTetCubemapST_21'
+        ParameterName = None
+    }
+}
+VectorParameterValues[0] = {}
+BasePropertyOverrides =
+{
+    bOverride_BlendMode = false
+    BlendMode = BLEND_Opaque (0)
+    bOverride_TwoSided = false
+    TwoSided = false
+    bOverride_OpacityMaskClipValue = false
+    OpacityMaskClipValue = 0.3333
+}
+StaticParameters =
+{
+    StaticSwitchParameters[0] = {}
+    StaticComponentMaskParameters[0] = {}
+    TerrainLayerWeightParameters[0] = {}
+    MaterialLayersParameters[0] = {}
+}
+RuntimeVirtualTextureParameterValues[0] = {}
+FontParameterValues[0] = {}
+FlattenedTexture = None
+MobileBaseTexture = None
+MobileNormalTexture = None
+bUseMobileSpecular = false
+MobileSpecularPower = 16
+MobileSpecularMask = MSM_Constant (0)
+MobileMaskTexture = None
+TextureStreamingData[0] = {}

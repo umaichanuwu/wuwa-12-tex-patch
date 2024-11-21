@@ -1,0 +1,12 @@
+Diffuse=T_DefaultColorWhite_D
+Normal=T_Rid_Bui_14E_N
+Cube=T_ChengXiaoShan_02_RCUBE
+Other[0]=T_Rid_Bui_14E_D
+Other[1]=T_Rid_Bui_14E_M
+Other[2]=T_Rid_Bui_14E_MA
+Other[3]=T_DefaultMaskGreen_M
+Other[4]=T_DefaultNormal_N
+Other[5]=T_YiLou_04_RCUBE
+Other[6]=T_DefaultMaskBlack_M
+Other[7]=DefaultNormal
+Other[8]=T_FlareNoise_M

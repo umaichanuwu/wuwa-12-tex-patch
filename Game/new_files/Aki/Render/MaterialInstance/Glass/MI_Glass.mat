@@ -1,0 +1,7 @@
+Diffuse=T_DefaultColorWhite_D
+Normal=T_DefaultNormal_N
+Cube=T_YiLou_04_RCUBE
+Other[0]=T_DefaultMaskGreen_M
+Other[1]=T_DefaultMaskBlack_M
+Other[2]=DefaultNormal
+Other[3]=T_FlareNoise_M

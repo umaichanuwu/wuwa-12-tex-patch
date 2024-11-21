@@ -1,0 +1,433 @@
+TwoSided = false
+bDisableDepthTest = false
+bIsMasked = false
+ReferencedTextures[8] =
+{
+    ReferencedTextures[0] = Texture2D'/Game/Aki/Render/Common/T_DefaultColorWhite_D.T_DefaultColorWhite_D'
+    ReferencedTextures[1] = Texture2D'/Game/Aki/Render/Common/T_FlareNoise_M.T_FlareNoise_M'
+    ReferencedTextures[2] = Texture2D'/Game/Aki/Render/Common/T_PerlinNoiseMid.T_PerlinNoiseMid'
+    ReferencedTextures[3] = Texture2D'/Game/Aki/Render/Common/T_WaterNormal_Rain.T_WaterNormal_Rain'
+    ReferencedTextures[4] = Texture2D'/Game/Aki/Render/RuntimeBP/KuroTetCubemapLerp/T_flowDetail_M.T_flowDetail_M'
+    ReferencedTextures[5] = Texture2D'/Game/Aki/Scene/Assets/Levels/HuangLong/ChengXiaoShan/Water/Tex/T_Rid_Wat_03A_D.T_Rid_Wat_03A_D'
+    ReferencedTextures[6] = TextureCube4'/Engine/EngineResources/DefaultTextureCube.DefaultTextureCube'
+    ReferencedTextures[7] = TextureCube4'/Game/Aki/Scene/Cubemaps/T_ZbyStudio_0028_CUBE.T_ZbyStudio_0028_CUBE'
+}
+Expressions[0] = {}
+CachedExpressionData =
+{
+    Parameters =
+    {
+        Entries[5] =
+        {
+            Entries[0] =
+            {
+                ParameterInfos[37] =
+                {
+                    ParameterInfos[0] = { Name=FracTarget }
+                    ParameterInfos[1] = { Name=Roughness }
+                    ParameterInfos[2] = { Name=DetailNormalSpeed }
+                    ParameterInfos[3] = { Name=Refraction }
+                    ParameterInfos[4] = { Name=CbWeight1 }
+                    ParameterInfos[5] = { Name=Metallic }
+                    ParameterInfos[6] = { Name=FreP }
+                    ParameterInfos[7] = { Name=Specular }
+                    ParameterInfos[8] = { Name=ColorEdge }
+                    ParameterInfos[9] = { Name=Intensity }
+                    ParameterInfos[10] = { Name=Glass Transparency Fresnel }
+                    ParameterInfos[11] = { Name=NoiseUVStrength }
+                    ParameterInfos[12] = { Name=DetailNormalScale }
+                    ParameterInfos[13] = { Name=LightPower }
+                    ParameterInfos[14] = { Name=FlowScale }
+                    ParameterInfos[15] = { Name=Transparency A [Inner] }
+                    ParameterInfos[16] = { Name=CbWeight2 }
+                    ParameterInfos[17] = { Name=CausticPow }
+                    ParameterInfos[18] = { Name=VSpeed }
+                    ParameterInfos[19] = { Name=CbWeight0 }
+                    ParameterInfos[20] = { Name=FakeSubRange }
+                    ParameterInfos[21] = { Name=HeightRatio }
+                    ParameterInfos[22] = { Name=NoiseStrength }
+                    ParameterInfos[23] = { Name=CbWeight3 }
+                    ParameterInfos[24] = { Name=FrenelPower }
+                    ParameterInfos[25] = { Name=Transparency B [Outter] }
+                    ParameterInfos[26] = { Name=BoxR }
+                    ParameterInfos[27] = { Name=FlowSpeed2 }
+                    ParameterInfos[28] = { Name=USpeed }
+                    ParameterInfos[29] = { Name=Opacity }
+                    ParameterInfos[30] = { Name=UV1UV2 }
+                    ParameterInfos[31] = { Name=BubbleSpeed }
+                    ParameterInfos[32] = { Name=BubbleIntensity }
+                    ParameterInfos[33] = { Name=FlowSpeed }
+                    ParameterInfos[34] = { Name=NoiseUVScale }
+                    ParameterInfos[35] = { Name=NormalFlatness }
+                    ParameterInfos[36] = { Name=FlowScale2 }
+                }
+            }
+            Entries[1] =
+            {
+                ParameterInfos[17] =
+                {
+                    ParameterInfos[0] = { Name=EdgeColor }
+                    ParameterInfos[1] = { Name=DetailColor }
+                    ParameterInfos[2] = { Name=NoiseUV }
+                    ParameterInfos[3] = { Name=BaseUV }
+                    ParameterInfos[4] = { Name=Caustic }
+                    ParameterInfos[5] = { Name=LightDir }
+                    ParameterInfos[6] = { Name=FakeLightPos }
+                    ParameterInfos[7] = { Name=FakeLight }
+                    ParameterInfos[8] = { Name=FakeSpecLight }
+                    ParameterInfos[9] = { Name=cubemapPos }
+                    ParameterInfos[10] = { Name=BubbleColor }
+                    ParameterInfos[11] = { Name=CenterColor }
+                    ParameterInfos[12] = { Name=RefractionColor }
+                    ParameterInfos[13] = { Name=BaseColor }
+                    ParameterInfos[14] = { Name=BubbleUV }
+                    ParameterInfos[15] = { Name=FogColor }
+                    ParameterInfos[16] = { Name=IndiretionColor }
+                }
+            }
+            Entries[2] =
+            {
+                ParameterInfos[11] =
+                {
+                    ParameterInfos[0] = { Name=NoiseUVTex }
+                    ParameterInfos[1] = { Name=Normal }
+                    ParameterInfos[2] = { Name=CubemapLerp0 }
+                    ParameterInfos[3] = { Name=CubemapLerp3 }
+                    ParameterInfos[4] = { Name=BaseMap }
+                    ParameterInfos[5] = { Name=FlowDetailTex }
+                    ParameterInfos[6] = { Name=CubemapLerp1 }
+                    ParameterInfos[7] = { Name=CubeMap }
+                    ParameterInfos[8] = { Name=CubemapLerp2 }
+                    ParameterInfos[9] = { Name=bubbleTex }
+                    ParameterInfos[10] = { Name=MeshDepth }
+                }
+            }
+            Entries[3] = { ParameterInfos[0]={} }
+            Entries[4] = { ParameterInfos[0]={} }
+        }
+        ScalarValues[37] =
+        {
+            ScalarValues[0] = 1.3
+            ScalarValues[1] = 0
+            ScalarValues[2] = -0.05
+            ScalarValues[3] = 1.5
+            ScalarValues[4] = 0
+            ScalarValues[5] = 0.190476
+            ScalarValues[6] = 5
+            ScalarValues[7] = 100
+            ScalarValues[8] = 1
+            ScalarValues[9] = 1
+            ScalarValues[10] = 5
+            ScalarValues[11] = 0.05
+            ScalarValues[12] = 4
+            ScalarValues[13] = 15
+            ScalarValues[14] = 5
+            ScalarValues[15] = 0.025
+            ScalarValues[16] = 0
+            ScalarValues[17] = 11
+            ScalarValues[18] = 0
+            ScalarValues[19] = 0
+            ScalarValues[20] = 0.4
+            ScalarValues[21] = 0.015
+            ScalarValues[22] = 0
+            ScalarValues[23] = 0
+            ScalarValues[24] = 5
+            ScalarValues[25] = 0.5
+            ScalarValues[26] = 2000
+            ScalarValues[27] = -0.01
+            ScalarValues[28] = 0
+            ScalarValues[29] = 1
+            ScalarValues[30] = 0
+            ScalarValues[31] = -0.05
+            ScalarValues[32] = 0
+            ScalarValues[33] = 0.01
+            ScalarValues[34] = 2
+            ScalarValues[35] = 0
+            ScalarValues[36] = 5
+        }
+        VectorValues[17] =
+        {
+            VectorValues[0] = { R=0.1875, G=0.758277, B=1, A=0 }
+            VectorValues[1] = { R=0.458333, G=0.458333, B=0.458333, A=0 }
+            VectorValues[2] = { R=1, G=1, B=0, A=0 }
+            VectorValues[3] = { R=1, G=1, B=0, A=0 }
+            VectorValues[4] = { R=0.719475, G=2, B=1.53102, A=0 }
+            VectorValues[5] = { R=0, G=0, B=1, A=1 }
+            VectorValues[6] = { R=270716, G=296223, B=-8780.65, A=0 }
+            VectorValues[7] = { R=0.220039, G=0.57, B=0.484006, A=0 }
+            VectorValues[8] = { R=1.93017, G=5, B=4.24567, A=0 }
+            VectorValues[9] = { R=0, G=0, B=0, A=0 }
+            VectorValues[10] = { R=0.458333, G=0.458333, B=0.458333, A=0 }
+            VectorValues[11] = { R=0.27681, G=1, B=0.859778, A=0 }
+            VectorValues[12] = { R=1, G=1, B=1, A=0 }
+            VectorValues[13] = { R=0, G=0, B=0, A=0 }
+            VectorValues[14] = { R=1, G=1, B=0, A=0 }
+            VectorValues[15] = { R=0, G=0, B=0, A=0 }
+            VectorValues[16] = { R=0.171875, G=0.171875, B=0.171875, A=0 }
+        }
+        TextureValues[11] =
+        {
+            TextureValues[0] = Texture2D'/Game/Aki/Render/Common/T_PerlinNoiseMid.T_PerlinNoiseMid'
+            TextureValues[1] = Texture2D'/Game/Aki/Render/Common/T_WaterNormal_Rain.T_WaterNormal_Rain'
+            TextureValues[2] = TextureCube4'/Engine/EngineResources/DefaultTextureCube.DefaultTextureCube'
+            TextureValues[3] = TextureCube4'/Engine/EngineResources/DefaultTextureCube.DefaultTextureCube'
+            TextureValues[4] = Texture2D'/Game/Aki/Render/Common/T_DefaultColorWhite_D.T_DefaultColorWhite_D'
+            TextureValues[5] = Texture2D'/Game/Aki/Render/RuntimeBP/KuroTetCubemapLerp/T_flowDetail_M.T_flowDetail_M'
+            TextureValues[6] = TextureCube4'/Engine/EngineResources/DefaultTextureCube.DefaultTextureCube'
+            TextureValues[7] = TextureCube4'/Game/Aki/Scene/Cubemaps/T_ZbyStudio_0028_CUBE.T_ZbyStudio_0028_CUBE'
+            TextureValues[8] = TextureCube4'/Engine/EngineResources/DefaultTextureCube.DefaultTextureCube'
+            TextureValues[9] = Texture2D'/Game/Aki/Render/Common/T_DefaultColorWhite_D.T_DefaultColorWhite_D'
+            TextureValues[10] = Texture2D'/Game/Aki/Scene/Assets/Levels/HuangLong/ChengXiaoShan/Water/Tex/T_Rid_Wat_03A_D.T_Rid_Wat_03A_D'
+        }
+    }
+    ReferencedTextures[8] =
+    {
+        ReferencedTextures[0] = Texture2D'/Game/Aki/Scene/Assets/Levels/HuangLong/ChengXiaoShan/Water/Tex/T_Rid_Wat_03A_D.T_Rid_Wat_03A_D'
+        ReferencedTextures[1] = TextureCube4'/Game/Aki/Scene/Cubemaps/T_ZbyStudio_0028_CUBE.T_ZbyStudio_0028_CUBE'
+        ReferencedTextures[2] = Texture2D'/Game/Aki/Render/Common/T_FlareNoise_M.T_FlareNoise_M'
+        ReferencedTextures[3] = Texture2D'/Game/Aki/Render/Common/T_DefaultColorWhite_D.T_DefaultColorWhite_D'
+        ReferencedTextures[4] = Texture2D'/Game/Aki/Render/Common/T_WaterNormal_Rain.T_WaterNormal_Rain'
+        ReferencedTextures[5] = TextureCube4'/Engine/EngineResources/DefaultTextureCube.DefaultTextureCube'
+        ReferencedTextures[6] = Texture2D'/Game/Aki/Render/RuntimeBP/KuroTetCubemapLerp/T_flowDetail_M.T_flowDetail_M'
+        ReferencedTextures[7] = Texture2D'/Game/Aki/Render/Common/T_PerlinNoiseMid.T_PerlinNoiseMid'
+    }
+}
+BlendMode = BLEND_Opaque (0)
+OpacityMaskClipValue = 0.333
+CollectedTextureParameters[11] =
+{
+    CollectedTextureParameters[0] =
+    {
+        Texture = Texture2D'/Game/Aki/Render/Common/T_PerlinNoiseMid.T_PerlinNoiseMid'
+        Name = NoiseUVTex
+        Group = None
+    }
+    CollectedTextureParameters[1] =
+    {
+        Texture = Texture2D'/Game/Aki/Render/Common/T_WaterNormal_Rain.T_WaterNormal_Rain'
+        Name = Normal
+        Group = None
+    }
+    CollectedTextureParameters[2] =
+    {
+        Texture = TextureCube4'/Engine/EngineResources/DefaultTextureCube.DefaultTextureCube'
+        Name = CubemapLerp0
+        Group = None
+    }
+    CollectedTextureParameters[3] =
+    {
+        Texture = TextureCube4'/Engine/EngineResources/DefaultTextureCube.DefaultTextureCube'
+        Name = CubemapLerp3
+        Group = None
+    }
+    CollectedTextureParameters[4] =
+    {
+        Texture = Texture2D'/Game/Aki/Render/Common/T_DefaultColorWhite_D.T_DefaultColorWhite_D'
+        Name = BaseMap
+        Group = None
+    }
+    CollectedTextureParameters[5] =
+    {
+        Texture = Texture2D'/Game/Aki/Render/RuntimeBP/KuroTetCubemapLerp/T_flowDetail_M.T_flowDetail_M'
+        Name = FlowDetailTex
+        Group = None
+    }
+    CollectedTextureParameters[6] =
+    {
+        Texture = TextureCube4'/Engine/EngineResources/DefaultTextureCube.DefaultTextureCube'
+        Name = CubemapLerp1
+        Group = None
+    }
+    CollectedTextureParameters[7] =
+    {
+        Texture = TextureCube4'/Game/Aki/Scene/Cubemaps/T_ZbyStudio_0028_CUBE.T_ZbyStudio_0028_CUBE'
+        Name = CubeMap
+        Group = None
+    }
+    CollectedTextureParameters[8] =
+    {
+        Texture = TextureCube4'/Engine/EngineResources/DefaultTextureCube.DefaultTextureCube'
+        Name = CubemapLerp2
+        Group = None
+    }
+    CollectedTextureParameters[9] =
+    {
+        Texture = Texture2D'/Game/Aki/Render/Common/T_DefaultColorWhite_D.T_DefaultColorWhite_D'
+        Name = bubbleTex
+        Group = None
+    }
+    CollectedTextureParameters[10] =
+    {
+        Texture = Texture2D'/Game/Aki/Scene/Assets/Levels/HuangLong/ChengXiaoShan/Water/Tex/T_Rid_Wat_03A_D.T_Rid_Wat_03A_D'
+        Name = MeshDepth
+        Group = None
+    }
+}
+CollectedScalarParameters[37] =
+{
+    CollectedScalarParameters[0] = { Value=1.3, Name=FracTarget, Group=None }
+    CollectedScalarParameters[1] = { Value=0, Name=Roughness, Group=None }
+    CollectedScalarParameters[2] = { Value=-0.05, Name=DetailNormalSpeed, Group=None }
+    CollectedScalarParameters[3] = { Value=1.5, Name=Refraction, Group=None }
+    CollectedScalarParameters[4] = { Value=0, Name=CbWeight1, Group=None }
+    CollectedScalarParameters[5] = { Value=0.190476, Name=Metallic, Group=None }
+    CollectedScalarParameters[6] = { Value=5, Name=FreP, Group=None }
+    CollectedScalarParameters[7] = { Value=100, Name=Specular, Group=None }
+    CollectedScalarParameters[8] = { Value=1, Name=ColorEdge, Group=None }
+    CollectedScalarParameters[9] = { Value=1, Name=Intensity, Group=None }
+    CollectedScalarParameters[10] =
+    {
+        Value = 5
+        Name = Glass Transparency Fresnel
+        Group = None
+    }
+    CollectedScalarParameters[11] = { Value=0.05, Name=NoiseUVStrength, Group=None }
+    CollectedScalarParameters[12] = { Value=4, Name=DetailNormalScale, Group=None }
+    CollectedScalarParameters[13] = { Value=15, Name=LightPower, Group=None }
+    CollectedScalarParameters[14] = { Value=5, Name=FlowScale, Group=None }
+    CollectedScalarParameters[15] =
+    {
+        Value = 0.025
+        Name = Transparency A [Inner]
+        Group = None
+    }
+    CollectedScalarParameters[16] = { Value=0, Name=CbWeight2, Group=None }
+    CollectedScalarParameters[17] = { Value=11, Name=CausticPow, Group=None }
+    CollectedScalarParameters[18] = { Value=0, Name=VSpeed, Group=None }
+    CollectedScalarParameters[19] = { Value=0, Name=CbWeight0, Group=None }
+    CollectedScalarParameters[20] = { Value=0.4, Name=FakeSubRange, Group=None }
+    CollectedScalarParameters[21] = { Value=0.015, Name=HeightRatio, Group=None }
+    CollectedScalarParameters[22] = { Value=0, Name=NoiseStrength, Group=None }
+    CollectedScalarParameters[23] = { Value=0, Name=CbWeight3, Group=None }
+    CollectedScalarParameters[24] = { Value=5, Name=FrenelPower, Group=None }
+    CollectedScalarParameters[25] =
+    {
+        Value = 0.5
+        Name = Transparency B [Outter]
+        Group = None
+    }
+    CollectedScalarParameters[26] = { Value=2000, Name=BoxR, Group=None }
+    CollectedScalarParameters[27] = { Value=-0.01, Name=FlowSpeed2, Group=None }
+    CollectedScalarParameters[28] = { Value=0, Name=USpeed, Group=None }
+    CollectedScalarParameters[29] = { Value=1, Name=Opacity, Group=None }
+    CollectedScalarParameters[30] = { Value=0, Name=UV1UV2, Group=None }
+    CollectedScalarParameters[31] = { Value=-0.05, Name=BubbleSpeed, Group=None }
+    CollectedScalarParameters[32] = { Value=0, Name=BubbleIntensity, Group=None }
+    CollectedScalarParameters[33] = { Value=0.01, Name=FlowSpeed, Group=None }
+    CollectedScalarParameters[34] = { Value=2, Name=NoiseUVScale, Group=None }
+    CollectedScalarParameters[35] = { Value=0, Name=NormalFlatness, Group=None }
+    CollectedScalarParameters[36] = { Value=5, Name=FlowScale2, Group=None }
+}
+CollectedVectorParameters[17] =
+{
+    CollectedVectorParameters[0] =
+    {
+        Value = { R=0.1875, G=0.758277, B=1, A=0 }
+        Name = EdgeColor
+        Group = None
+    }
+    CollectedVectorParameters[1] =
+    {
+        Value = { R=0.458333, G=0.458333, B=0.458333, A=0 }
+        Name = DetailColor
+        Group = None
+    }
+    CollectedVectorParameters[2] =
+    {
+        Value = { R=1, G=1, B=0, A=0 }
+        Name = NoiseUV
+        Group = None
+    }
+    CollectedVectorParameters[3] =
+    {
+        Value = { R=1, G=1, B=0, A=0 }
+        Name = BaseUV
+        Group = None
+    }
+    CollectedVectorParameters[4] =
+    {
+        Value = { R=0.719475, G=2, B=1.53102, A=0 }
+        Name = Caustic
+        Group = None
+    }
+    CollectedVectorParameters[5] =
+    {
+        Value = { R=0, G=0, B=1, A=1 }
+        Name = LightDir
+        Group = None
+    }
+    CollectedVectorParameters[6] =
+    {
+        Value = { R=270716, G=296223, B=-8780.65, A=0 }
+        Name = FakeLightPos
+        Group = None
+    }
+    CollectedVectorParameters[7] =
+    {
+        Value = { R=0.220039, G=0.57, B=0.484006, A=0 }
+        Name = FakeLight
+        Group = None
+    }
+    CollectedVectorParameters[8] =
+    {
+        Value = { R=1.93017, G=5, B=4.24567, A=0 }
+        Name = FakeSpecLight
+        Group = None
+    }
+    CollectedVectorParameters[9] =
+    {
+        Value = { R=0, G=0, B=0, A=0 }
+        Name = cubemapPos
+        Group = None
+    }
+    CollectedVectorParameters[10] =
+    {
+        Value = { R=0.458333, G=0.458333, B=0.458333, A=0 }
+        Name = BubbleColor
+        Group = None
+    }
+    CollectedVectorParameters[11] =
+    {
+        Value = { R=0.27681, G=1, B=0.859778, A=0 }
+        Name = CenterColor
+        Group = None
+    }
+    CollectedVectorParameters[12] =
+    {
+        Value = { R=1, G=1, B=1, A=0 }
+        Name = RefractionColor
+        Group = None
+    }
+    CollectedVectorParameters[13] =
+    {
+        Value = { R=0, G=0, B=0, A=0 }
+        Name = BaseColor
+        Group = None
+    }
+    CollectedVectorParameters[14] =
+    {
+        Value = { R=1, G=1, B=0, A=0 }
+        Name = BubbleUV
+        Group = None
+    }
+    CollectedVectorParameters[15] =
+    {
+        Value = { R=0, G=0, B=0, A=0 }
+        Name = FogColor
+        Group = None
+    }
+    CollectedVectorParameters[16] =
+    {
+        Value = { R=0.171875, G=0.171875, B=0.171875, A=0 }
+        Name = IndiretionColor
+        Group = None
+    }
+}
+FlattenedTexture = None
+MobileBaseTexture = None
+MobileNormalTexture = None
+bUseMobileSpecular = false
+MobileSpecularPower = 16
+MobileSpecularMask = MSM_Constant (0)
+MobileMaskTexture = None
+TextureStreamingData[0] = {}

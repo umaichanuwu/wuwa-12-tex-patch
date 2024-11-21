@@ -1,0 +1,10 @@
+Diffuse=T_Rid_Tre_12A_D
+Emissive=T_Rid_Tre_12A_MA
+Other[0]=T_Rid_Fol_01A_D
+Other[1]=T_DefaultMaskGreen_M
+Other[2]=DefaultDiffuse
+Other[3]=DebugNumberStrip
+Other[4]=DebugNumberPeriod
+Other[5]=T_Foliage_Noise02_M
+Other[6]=T_Foliage_Noise_M
+Other[7]=T4_Com_Lea_01A_D

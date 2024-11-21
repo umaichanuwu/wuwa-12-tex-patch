@@ -1,0 +1,17 @@
+Diffuse=T_Pro_Box_13A_D
+Normal=T_Pro_Box_13A_N
+Emissive=T_Ice_A_Sub
+Other[0]=T_Pro_Box_13A_M
+Other[1]=Good64x64TilingNoiseHighFreq
+Other[2]=Gradient
+Other[3]=Greyscale
+Other[4]=T_Mask_Scan_002
+Other[5]=T_Cloud_50005
+Other[6]=CommonBtnBg2
+Other[7]=T_DefaultColorBlack_D
+Other[8]=T_DefaultColorBlack_Linear_D
+Other[9]=T_DefaultColorWhite_D
+Other[10]=T_DefaultMaskGreen_M
+Other[11]=T_DefaultNormal_N
+Other[12]=T_soft_smoke
+Other[13]=T_wide_street_02_2k_CUBE

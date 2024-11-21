@@ -1,0 +1,8 @@
+Diffuse=T_DefaultColorWhite_D
+Normal=T_DefaultNormal_N
+Other[0]=Good64x64TilingNoiseHighFreq
+Other[1]=T_DefaultColorWhite_Linear_D
+Other[2]=T_DefaultMaskGreen_M
+Other[3]=T_Noise_Stormy
+Other[4]=T_soft_smoke
+Other[5]=TC_DefaultWaterCube

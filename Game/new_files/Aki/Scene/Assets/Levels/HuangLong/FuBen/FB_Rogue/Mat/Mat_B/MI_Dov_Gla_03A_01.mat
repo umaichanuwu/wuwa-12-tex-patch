@@ -1,0 +1,7 @@
+Diffuse=T_DefaultColorWhite_D
+Normal=T2_Res_Met_04A_N
+Cube=TC_DefaultWaterCube
+Other[0]=T2_Res_Met_04A_M
+Other[1]=T_fakeInteriorTest_basecolor
+Other[2]=T_DefaultNormal_N
+Other[3]=T_Zbudio_0011_CUBE

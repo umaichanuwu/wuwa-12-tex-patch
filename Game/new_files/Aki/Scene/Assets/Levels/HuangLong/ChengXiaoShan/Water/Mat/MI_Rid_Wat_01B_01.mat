@@ -1,0 +1,15 @@
+Diffuse=T_DefaultColorWhite_D
+Normal=T_Com_Wat_01B_N
+SpecPower=T_SpecularHighlights_M
+Cube=TC_DefaultWaterCube
+Other[0]=T_Com_Wat_01A_HD
+Other[1]=DefaultTexture
+Other[2]=T_Noise_2
+Other[3]=T_Caustics_Animated_01_M
+Other[4]=T_Caustics_Animated_07_M
+Other[5]=T_WaterFall_Foam
+Other[6]=T_WaterfallNoise
+Other[7]=T_WaterTIlling_Default_M
+Other[8]=T_DefaultNormal_N
+Other[9]=T_SingleLayerWaterNoise
+Other[10]=T_NoonSky_CUBE

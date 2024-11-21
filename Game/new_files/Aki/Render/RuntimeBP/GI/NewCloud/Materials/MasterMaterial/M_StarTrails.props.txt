@@ -1,0 +1,149 @@
+TwoSided = true
+bDisableDepthTest = false
+bIsMasked = false
+ReferencedTextures[3] =
+{
+    ReferencedTextures[0] = Texture2D'/Game/Aki/Render/Common/T_DefaultColorWhite_D.T_DefaultColorWhite_D'
+    ReferencedTextures[1] = Texture2D'/Game/Aki/Render/Common/T_Foliage_Noise_M1.T_Foliage_Noise_M1'
+    ReferencedTextures[2] = Texture2D'/Game/Aki/Scene/Assets/SkyBox/FuBen/T_Yea_Sky_02A_M.T_Yea_Sky_02A_M'
+}
+Expressions[0] = {}
+CachedExpressionData =
+{
+    Parameters =
+    {
+        Entries[5] =
+        {
+            Entries[0] =
+            {
+                ParameterInfos[7] =
+                {
+                    ParameterInfos[0] = { Name=StarTilling }
+                    ParameterInfos[1] = { Name=Mask }
+                    ParameterInfos[2] = { Name=NoiseTilling }
+                    ParameterInfos[3] = { Name=Tilling }
+                    ParameterInfos[4] = { Name=StarTrails }
+                    ParameterInfos[5] = { Name=Speed }
+                    ParameterInfos[6] = { Name=Lerp }
+                }
+            }
+            Entries[1] =
+            {
+                ParameterInfos[6] =
+                {
+                    ParameterInfos[0] = { Name=Trails2 }
+                    ParameterInfos[1] = { Name=Trails1 }
+                    ParameterInfos[2] = { Name=Color2 }
+                    ParameterInfos[3] = { Name=Color3 }
+                    ParameterInfos[4] = { Name=Color1 }
+                    ParameterInfos[5] = { Name=Star }
+                }
+            }
+            Entries[2] =
+            {
+                ParameterInfos[2] =
+                {
+                    ParameterInfos[0] = { Name=StarMask }
+                    ParameterInfos[1] = { Name=StarTex }
+                }
+            }
+            Entries[3] = { ParameterInfos[0]={} }
+            Entries[4] = { ParameterInfos[0]={} }
+        }
+        ScalarValues[7] = { 4, 0, 5, 0, 0, 0, 1 }
+        VectorValues[6] =
+        {
+            VectorValues[0] = { R=0, G=0, B=0, A=0 }
+            VectorValues[1] = { R=0, G=0, B=0, A=0 }
+            VectorValues[2] = { R=1, G=1, B=1, A=0 }
+            VectorValues[3] = { R=1, G=1, B=1, A=0 }
+            VectorValues[4] = { R=1, G=1, B=1, A=0 }
+            VectorValues[5] = { R=0, G=0, B=0, A=0 }
+        }
+        TextureValues[2] =
+        {
+            TextureValues[0] = Texture2D'/Game/Aki/Render/Common/T_Foliage_Noise_M1.T_Foliage_Noise_M1'
+            TextureValues[1] = Texture2D'/Game/Aki/Scene/Assets/SkyBox/FuBen/T_Yea_Sky_02A_M.T_Yea_Sky_02A_M'
+        }
+    }
+    ReferencedTextures[3] =
+    {
+        ReferencedTextures[0] = Texture2D'/Game/Aki/Render/Common/T_DefaultColorWhite_D.T_DefaultColorWhite_D'
+        ReferencedTextures[1] = Texture2D'/Game/Aki/Scene/Assets/SkyBox/FuBen/T_Yea_Sky_02A_M.T_Yea_Sky_02A_M'
+        ReferencedTextures[2] = Texture2D'/Game/Aki/Render/Common/T_Foliage_Noise_M1.T_Foliage_Noise_M1'
+    }
+}
+BlendMode = BLEND_Additive (3)
+OpacityMaskClipValue = 0.333
+CollectedTextureParameters[2] =
+{
+    CollectedTextureParameters[0] =
+    {
+        Texture = Texture2D'/Game/Aki/Render/Common/T_Foliage_Noise_M1.T_Foliage_Noise_M1'
+        Name = StarMask
+        Group = None
+    }
+    CollectedTextureParameters[1] =
+    {
+        Texture = Texture2D'/Game/Aki/Scene/Assets/SkyBox/FuBen/T_Yea_Sky_02A_M.T_Yea_Sky_02A_M'
+        Name = StarTex
+        Group = None
+    }
+}
+CollectedScalarParameters[7] =
+{
+    CollectedScalarParameters[0] = { Value=4, Name=StarTilling, Group=None }
+    CollectedScalarParameters[1] = { Value=0, Name=Mask, Group=None }
+    CollectedScalarParameters[2] = { Value=5, Name=NoiseTilling, Group=None }
+    CollectedScalarParameters[3] = { Value=0, Name=Tilling, Group=None }
+    CollectedScalarParameters[4] = { Value=0, Name=StarTrails, Group=None }
+    CollectedScalarParameters[5] = { Value=0, Name=Speed, Group=None }
+    CollectedScalarParameters[6] = { Value=1, Name=Lerp, Group=None }
+}
+CollectedVectorParameters[6] =
+{
+    CollectedVectorParameters[0] =
+    {
+        Value = { R=0, G=0, B=0, A=0 }
+        Name = Trails2
+        Group = None
+    }
+    CollectedVectorParameters[1] =
+    {
+        Value = { R=0, G=0, B=0, A=0 }
+        Name = Trails1
+        Group = None
+    }
+    CollectedVectorParameters[2] =
+    {
+        Value = { R=1, G=1, B=1, A=0 }
+        Name = Color2
+        Group = None
+    }
+    CollectedVectorParameters[3] =
+    {
+        Value = { R=1, G=1, B=1, A=0 }
+        Name = Color3
+        Group = None
+    }
+    CollectedVectorParameters[4] =
+    {
+        Value = { R=1, G=1, B=1, A=0 }
+        Name = Color1
+        Group = None
+    }
+    CollectedVectorParameters[5] =
+    {
+        Value = { R=0, G=0, B=0, A=0 }
+        Name = Star
+        Group = None
+    }
+}
+FlattenedTexture = None
+MobileBaseTexture = None
+MobileNormalTexture = None
+bUseMobileSpecular = false
+MobileSpecularPower = 16
+MobileSpecularMask = MSM_Constant (0)
+MobileMaskTexture = None
+TextureStreamingData[0] = {}

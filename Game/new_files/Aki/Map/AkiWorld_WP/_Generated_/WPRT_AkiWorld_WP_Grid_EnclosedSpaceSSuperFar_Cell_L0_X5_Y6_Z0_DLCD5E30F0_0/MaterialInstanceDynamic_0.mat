@@ -1,0 +1,15 @@
+Diffuse=T_DefaultColorWhite_D
+Normal=T_Rid_Wat_04AM_N
+Cube=KuroTetCubemapST_0
+Other[0]=KuroTetCubemapST_15
+Other[1]=KuroTetCubemapST_26
+Other[2]=KuroTetCubemapST_21
+Other[3]=T_Rid_Bui_14E_D
+Other[4]=T_Rid_Wat_03A_D
+Other[5]=T_ChengXiaoShan_01_RCUBE
+Other[6]=T_FlareNoise_M
+Other[7]=T_PerlinNoiseMid
+Other[8]=T_WaterNormal_Rain
+Other[9]=T_flowDetail_M
+Other[10]=DefaultTextureCube
+Other[11]=T_ZbyStudio_0028_CUBE

@@ -1,0 +1,266 @@
+TwoSided = true
+bDisableDepthTest = false
+bIsMasked = false
+ReferencedTextures[1] =
+{
+    ReferencedTextures[0] = Texture2D'/Game/Aki/Render/Common/T_DefaultColorWhite_D.T_DefaultColorWhite_D'
+}
+Expressions[0] = {}
+CachedExpressionData =
+{
+    Parameters =
+    {
+        Entries[5] =
+        {
+            Entries[0] =
+            {
+                ParameterInfos[26] =
+                {
+                    ParameterInfos[0] = { Name=ToonRimWidth }
+                    ParameterInfos[1] = { Name=UseLightOffset_Pitch_DYN }
+                    ParameterInfos[2] = { Name=E_Dither_DitherValue }
+                    ParameterInfos[3] = { Name=E_Tex_MaskRange }
+                    ParameterInfos[4] = { Name=LightOffset_Yaw }
+                    ParameterInfos[5] = { Name=E_Tex_UseTex }
+                    ParameterInfos[6] = { Name=E_Dissolve_Smooth }
+                    ParameterInfos[7] = { Name=E_Dissolve_UseDissolve }
+                    ParameterInfos[8] = { Name=LightOffset_Pitch }
+                    ParameterInfos[9] = { Name=E_Emission_Intensity }
+                    ParameterInfos[10] = { Name=E_Emission_UseTex }
+                    ParameterInfos[11] = { Name=E_Dither_DitherValue2 }
+                    ParameterInfos[12] = { Name=E_Dissolve_Progress }
+                    ParameterInfos[13] = { Name=CustomLightDir }
+                    ParameterInfos[14] = { Name=E_Tex_UseScreenUV }
+                    ParameterInfos[15] = { Name=E_Dither_UseDither }
+                    ParameterInfos[16] = { Name=E_Dissolve_Multi }
+                    ParameterInfos[17] = { Name=E_Tex_UseMask }
+                    ParameterInfos[18] = { Name=E_Tex_UseVCMask_Set }
+                    ParameterInfos[19] = { Name=ShadowWidth }
+                    ParameterInfos[20] = { Name=UseLightOffset_Yaw_DYN }
+                    ParameterInfos[21] = { Name=LightPitch(False=30,True=45)_DYN }
+                    ParameterInfos[22] = { Name=E_Tex_Rotation }
+                    ParameterInfos[23] = { Name=Custom0(Yaw) }
+                    ParameterInfos[24] = { Name=ShadowProcess }
+                    ParameterInfos[25] = { Name=E_Dither_UseDither2 }
+                }
+            }
+            Entries[1] =
+            {
+                ParameterInfos[11] =
+                {
+                    ParameterInfos[0] = { Name=E_Dissolve_Emission }
+                    ParameterInfos[1] = { Name=E_Tex_Speed }
+                    ParameterInfos[2] = { Name=CinematicDirection }
+                    ParameterInfos[3] = { Name=SubsurfaceColor }
+                    ParameterInfos[4] = { Name=E_Tex_UVSwitch }
+                    ParameterInfos[5] = { Name=E_Tex_ScaleAndOffset }
+                    ParameterInfos[6] = { Name=ActorPosition }
+                    ParameterInfos[7] = { Name=E_Dissolve_Channel }
+                    ParameterInfos[8] = { Name=SkinSubsurfaceColor }
+                    ParameterInfos[9] = { Name=E_Tex_Color }
+                    ParameterInfos[10] = { Name=E_Emission_Color }
+                }
+            }
+            Entries[2] =
+            {
+                ParameterInfos[2] =
+                {
+                    ParameterInfos[0] = { Name=MainTex }
+                    ParameterInfos[1] = { Name=E_Tex_NoiseTex }
+                }
+            }
+            Entries[3] = { ParameterInfos[0]={} }
+            Entries[4] = { ParameterInfos[0]={} }
+        }
+        ScalarValues[26] =
+        {
+            ScalarValues[0] = 0.05
+            ScalarValues[1] = 0
+            ScalarValues[2] = 1.2
+            ScalarValues[3] = 1
+            ScalarValues[4] = 0
+            ScalarValues[5] = 0
+            ScalarValues[6] = 5
+            ScalarValues[7] = 0
+            ScalarValues[8] = 0
+            ScalarValues[9] = 1
+            ScalarValues[10] = 0
+            ScalarValues[11] = 1.2
+            ScalarValues[12] = 0
+            ScalarValues[13] = 0
+            ScalarValues[14] = 0
+            ScalarValues[15] = 0
+            ScalarValues[16] = 100
+            ScalarValues[17] = 0
+            ScalarValues[18] = 0
+            ScalarValues[19] = 0.01
+            ScalarValues[20] = 0
+            ScalarValues[21] = 1
+            ScalarValues[22] = 0
+            ScalarValues[23] = 0
+            ScalarValues[24] = 0.5
+            ScalarValues[25] = 0
+        }
+        VectorValues[11] =
+        {
+            VectorValues[0] = { R=0, G=0, B=0, A=0 }
+            VectorValues[1] = { R=0, G=0, B=0, A=0 }
+            VectorValues[2] = { R=0, G=0, B=0, A=0 }
+            VectorValues[3] = { R=0, G=0, B=0, A=0 }
+            VectorValues[4] = { R=1, G=0, B=0, A=0 }
+            VectorValues[5] = { R=1, G=1, B=0, A=0 }
+            VectorValues[6] = { R=0, G=0, B=100, A=1 }
+            VectorValues[7] = { R=1, G=0, B=0, A=0 }
+            VectorValues[8] = { R=0.938686, G=0.603828, B=0.40724, A=1 }
+            VectorValues[9] = { R=1, G=1, B=1, A=1 }
+            VectorValues[10] = { R=0, G=0, B=0, A=0 }
+        }
+        TextureValues[2] =
+        {
+            TextureValues[0] = Texture2D'/Game/Aki/Render/Common/T_DefaultColorWhite_D.T_DefaultColorWhite_D'
+            TextureValues[1] = Texture2D'/Game/Aki/Render/Common/T_DefaultColorWhite_D.T_DefaultColorWhite_D'
+        }
+    }
+    ReferencedTextures[2] =
+    {
+        ReferencedTextures[1] = Texture2D'/Game/Aki/Render/Common/T_DefaultColorWhite_D.T_DefaultColorWhite_D'
+    }
+}
+BlendMode = BLEND_Opaque (0)
+OpacityMaskClipValue = 0.333
+CollectedTextureParameters[2] =
+{
+    CollectedTextureParameters[0] =
+    {
+        Texture = Texture2D'/Game/Aki/Render/Common/T_DefaultColorWhite_D.T_DefaultColorWhite_D'
+        Name = MainTex
+        Group = None
+    }
+    CollectedTextureParameters[1] =
+    {
+        Texture = Texture2D'/Game/Aki/Render/Common/T_DefaultColorWhite_D.T_DefaultColorWhite_D'
+        Name = E_Tex_NoiseTex
+        Group = None
+    }
+}
+CollectedScalarParameters[26] =
+{
+    CollectedScalarParameters[0] = { Value=0.05, Name=ToonRimWidth, Group=None }
+    CollectedScalarParameters[1] =
+    {
+        Value = 0
+        Name = UseLightOffset_Pitch_DYN
+        Group = None
+    }
+    CollectedScalarParameters[2] = { Value=1.2, Name=E_Dither_DitherValue, Group=None }
+    CollectedScalarParameters[3] = { Value=1, Name=E_Tex_MaskRange, Group=None }
+    CollectedScalarParameters[4] = { Value=0, Name=LightOffset_Yaw, Group=None }
+    CollectedScalarParameters[5] = { Value=0, Name=E_Tex_UseTex, Group=None }
+    CollectedScalarParameters[6] = { Value=5, Name=E_Dissolve_Smooth, Group=None }
+    CollectedScalarParameters[7] = { Value=0, Name=E_Dissolve_UseDissolve, Group=None }
+    CollectedScalarParameters[8] = { Value=0, Name=LightOffset_Pitch, Group=None }
+    CollectedScalarParameters[9] = { Value=1, Name=E_Emission_Intensity, Group=None }
+    CollectedScalarParameters[10] = { Value=0, Name=E_Emission_UseTex, Group=None }
+    CollectedScalarParameters[11] =
+    {
+        Value = 1.2
+        Name = E_Dither_DitherValue2
+        Group = None
+    }
+    CollectedScalarParameters[12] = { Value=0, Name=E_Dissolve_Progress, Group=None }
+    CollectedScalarParameters[13] = { Value=0, Name=CustomLightDir, Group=None }
+    CollectedScalarParameters[14] = { Value=0, Name=E_Tex_UseScreenUV, Group=None }
+    CollectedScalarParameters[15] = { Value=0, Name=E_Dither_UseDither, Group=None }
+    CollectedScalarParameters[16] = { Value=100, Name=E_Dissolve_Multi, Group=None }
+    CollectedScalarParameters[17] = { Value=0, Name=E_Tex_UseMask, Group=None }
+    CollectedScalarParameters[18] = { Value=0, Name=E_Tex_UseVCMask_Set, Group=None }
+    CollectedScalarParameters[19] = { Value=0.01, Name=ShadowWidth, Group=None }
+    CollectedScalarParameters[20] = { Value=0, Name=UseLightOffset_Yaw_DYN, Group=None }
+    CollectedScalarParameters[21] =
+    {
+        Value = 1
+        Name = LightPitch(False=30,True=45)_DYN
+        Group = None
+    }
+    CollectedScalarParameters[22] = { Value=0, Name=E_Tex_Rotation, Group=None }
+    CollectedScalarParameters[23] = { Value=0, Name=Custom0(Yaw), Group=None }
+    CollectedScalarParameters[24] = { Value=0.5, Name=ShadowProcess, Group=None }
+    CollectedScalarParameters[25] = { Value=0, Name=E_Dither_UseDither2, Group=None }
+}
+CollectedVectorParameters[11] =
+{
+    CollectedVectorParameters[0] =
+    {
+        Value = { R=0, G=0, B=0, A=0 }
+        Name = E_Dissolve_Emission
+        Group = None
+    }
+    CollectedVectorParameters[1] =
+    {
+        Value = { R=0, G=0, B=0, A=0 }
+        Name = E_Tex_Speed
+        Group = None
+    }
+    CollectedVectorParameters[2] =
+    {
+        Value = { R=0, G=0, B=0, A=0 }
+        Name = CinematicDirection
+        Group = None
+    }
+    CollectedVectorParameters[3] =
+    {
+        Value = { R=0, G=0, B=0, A=0 }
+        Name = SubsurfaceColor
+        Group = None
+    }
+    CollectedVectorParameters[4] =
+    {
+        Value = { R=1, G=0, B=0, A=0 }
+        Name = E_Tex_UVSwitch
+        Group = None
+    }
+    CollectedVectorParameters[5] =
+    {
+        Value = { R=1, G=1, B=0, A=0 }
+        Name = E_Tex_ScaleAndOffset
+        Group = None
+    }
+    CollectedVectorParameters[6] =
+    {
+        Value = { R=0, G=0, B=100, A=1 }
+        Name = ActorPosition
+        Group = None
+    }
+    CollectedVectorParameters[7] =
+    {
+        Value = { R=1, G=0, B=0, A=0 }
+        Name = E_Dissolve_Channel
+        Group = None
+    }
+    CollectedVectorParameters[8] =
+    {
+        Value = { R=0.938686, G=0.603828, B=0.40724, A=1 }
+        Name = SkinSubsurfaceColor
+        Group = None
+    }
+    CollectedVectorParameters[9] =
+    {
+        Value = { R=1, G=1, B=1, A=1 }
+        Name = E_Tex_Color
+        Group = None
+    }
+    CollectedVectorParameters[10] =
+    {
+        Value = { R=0, G=0, B=0, A=0 }
+        Name = E_Emission_Color
+        Group = None
+    }
+}
+FlattenedTexture = None
+MobileBaseTexture = None
+MobileNormalTexture = None
+bUseMobileSpecular = false
+MobileSpecularPower = 16
+MobileSpecularMask = MSM_Constant (0)
+MobileMaskTexture = None
+TextureStreamingData[0] = {}

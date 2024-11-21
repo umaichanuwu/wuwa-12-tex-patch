@@ -1,0 +1,235 @@
+TwoSided = false
+bDisableDepthTest = false
+bIsMasked = false
+ReferencedTextures[6] =
+{
+    ReferencedTextures[0] = Texture2D'/Engine/EngineVolumetrics/Fogsheet/Materials/T_EV_BlankWhite_01.T_EV_BlankWhite_01'
+    ReferencedTextures[1] = Texture2D'/Game/Aki/Render/Common/T_DefaultColorWhite_D.T_DefaultColorWhite_D'
+    ReferencedTextures[2] = Texture2D'/Game/Aki/Render/Common/T_DefaultMaskBlack_M.T_DefaultMaskBlack_M'
+    ReferencedTextures[3] = Texture2D'/Game/Aki/Render/Common/T_DefaultMaskGreen_M.T_DefaultMaskGreen_M'
+    ReferencedTextures[4] = Texture2D'/Game/Aki/Render/Common/T_DefaultNormal_N.T_DefaultNormal_N'
+    ReferencedTextures[5] = Texture2D'/Game/Aki/Render/Common/T_WaterNormal_Rain.T_WaterNormal_Rain'
+}
+Expressions[0] = {}
+CachedExpressionData =
+{
+    Parameters =
+    {
+        Entries[5] =
+        {
+            Entries[0] =
+            {
+                ParameterInfos[16] =
+                {
+                    ParameterInfos[0] = { Name=Max Steps (S) }
+                    ParameterInfos[1] = { Name=Mid UVTili }
+                    ParameterInfos[2] = { Name=WaterNormalSpeed (S) }
+                    ParameterInfos[3] = { Name=Max Expensive Steps Debug Color }
+                    ParameterInfos[4] = { Name=NoiseIntensity(s1) }
+                    ParameterInfos[5] = { Name=UV_Tili }
+                    ParameterInfos[6] = { Name=HeightTex Scale(s2) }
+                    ParameterInfos[7] = { Name=Min Steps (S) }
+                    ParameterInfos[8] = { Name=Height Ratio (S) }
+                    ParameterInfos[9] = { Name=depth }
+                    ParameterInfos[10] = { Name=VertexHeight Scale(a1) }
+                    ParameterInfos[11] = { Name=a2 }
+                    ParameterInfos[12] = { Name=WaterNormal_Scale (S) }
+                    ParameterInfos[13] = { Name=NormalIntensity (S) }
+                    ParameterInfos[14] = { Name=BaseUV_Tili }
+                    ParameterInfos[15] = { Name=Close SideFaceWall }
+                }
+            }
+            Entries[1] =
+            {
+                ParameterInfos[1] =
+                {
+                    ParameterInfos[0] = { Name=DepthTex Channel }
+                }
+            }
+            Entries[2] =
+            {
+                ParameterInfos[8] =
+                {
+                    ParameterInfos[0] = { Name=MidDiffTexture }
+                    ParameterInfos[1] = { Name=BaseNormalTexture }
+                    ParameterInfos[2] = { Name=DepthTex }
+                    ParameterInfos[3] = { Name=MidMaskTexture }
+                    ParameterInfos[4] = { Name=MidNormalTexture }
+                    ParameterInfos[5] = { Name=BaseDiffTexture }
+                    ParameterInfos[6] = { Name=BaseMaskTexture }
+                    ParameterInfos[7] = { Name=RainNormal }
+                }
+            }
+            Entries[3] = { ParameterInfos[0]={} }
+            Entries[4] = { ParameterInfos[0]={} }
+        }
+        ScalarValues[16] =
+        {
+            ScalarValues[0] = 3
+            ScalarValues[1] = 1
+            ScalarValues[2] = 30
+            ScalarValues[3] = 32
+            ScalarValues[4] = 1
+            ScalarValues[5] = 1
+            ScalarValues[6] = 1
+            ScalarValues[7] = 2
+            ScalarValues[8] = 0.04
+            ScalarValues[9] = 0.05
+            ScalarValues[10] = 1
+            ScalarValues[11] = 1
+            ScalarValues[12] = 100
+            ScalarValues[13] = 10
+            ScalarValues[14] = 1
+            ScalarValues[15] = 0
+        }
+        VectorValues[1] =
+        {
+            VectorValues[0] = { R=0, G=0, B=0, A=1 }
+        }
+        TextureValues[8] =
+        {
+            TextureValues[0] = Texture2D'/Game/Aki/Render/Common/T_DefaultColorWhite_D.T_DefaultColorWhite_D'
+            TextureValues[1] = Texture2D'/Game/Aki/Render/Common/T_DefaultNormal_N.T_DefaultNormal_N'
+            TextureValues[2] = Texture2D'/Game/Aki/Render/Common/T_DefaultMaskBlack_M.T_DefaultMaskBlack_M'
+            TextureValues[3] = Texture2D'/Game/Aki/Render/Common/T_DefaultMaskGreen_M.T_DefaultMaskGreen_M'
+            TextureValues[4] = Texture2D'/Game/Aki/Render/Common/T_DefaultNormal_N.T_DefaultNormal_N'
+            TextureValues[5] = Texture2D'/Game/Aki/Render/Common/T_DefaultColorWhite_D.T_DefaultColorWhite_D'
+            TextureValues[6] = Texture2D'/Game/Aki/Render/Common/T_DefaultMaskGreen_M.T_DefaultMaskGreen_M'
+            TextureValues[7] = Texture2D'/Game/Aki/Render/Common/T_WaterNormal_Rain.T_WaterNormal_Rain'
+        }
+    }
+    ReferencedTextures[6] =
+    {
+        ReferencedTextures[0] = Texture2D'/Game/Aki/Render/Common/T_DefaultColorWhite_D.T_DefaultColorWhite_D'
+        ReferencedTextures[1] = Texture2D'/Game/Aki/Render/Common/T_DefaultMaskGreen_M.T_DefaultMaskGreen_M'
+        ReferencedTextures[2] = Texture2D'/Game/Aki/Render/Common/T_DefaultNormal_N.T_DefaultNormal_N'
+        ReferencedTextures[3] = Texture2D'/Game/Aki/Render/Common/T_WaterNormal_Rain.T_WaterNormal_Rain'
+        ReferencedTextures[4] = Texture2D'/Engine/EngineVolumetrics/Fogsheet/Materials/T_EV_BlankWhite_01.T_EV_BlankWhite_01'
+        ReferencedTextures[5] = Texture2D'/Game/Aki/Render/Common/T_DefaultMaskBlack_M.T_DefaultMaskBlack_M'
+    }
+}
+BlendMode = BLEND_Opaque (0)
+OpacityMaskClipValue = 0.333
+CollectedTextureParameters[8] =
+{
+    CollectedTextureParameters[0] =
+    {
+        Texture = Texture2D'/Game/Aki/Render/Common/T_DefaultColorWhite_D.T_DefaultColorWhite_D'
+        Name = MidDiffTexture
+        Group = None
+    }
+    CollectedTextureParameters[1] =
+    {
+        Texture = Texture2D'/Game/Aki/Render/Common/T_DefaultNormal_N.T_DefaultNormal_N'
+        Name = BaseNormalTexture
+        Group = None
+    }
+    CollectedTextureParameters[2] =
+    {
+        Texture = Texture2D'/Game/Aki/Render/Common/T_DefaultMaskBlack_M.T_DefaultMaskBlack_M'
+        Name = DepthTex
+        Group = None
+    }
+    CollectedTextureParameters[3] =
+    {
+        Texture = Texture2D'/Game/Aki/Render/Common/T_DefaultMaskGreen_M.T_DefaultMaskGreen_M'
+        Name = MidMaskTexture
+        Group = None
+    }
+    CollectedTextureParameters[4] =
+    {
+        Texture = Texture2D'/Game/Aki/Render/Common/T_DefaultNormal_N.T_DefaultNormal_N'
+        Name = MidNormalTexture
+        Group = None
+    }
+    CollectedTextureParameters[5] =
+    {
+        Texture = Texture2D'/Game/Aki/Render/Common/T_DefaultColorWhite_D.T_DefaultColorWhite_D'
+        Name = BaseDiffTexture
+        Group = None
+    }
+    CollectedTextureParameters[6] =
+    {
+        Texture = Texture2D'/Game/Aki/Render/Common/T_DefaultMaskGreen_M.T_DefaultMaskGreen_M'
+        Name = BaseMaskTexture
+        Group = None
+    }
+    CollectedTextureParameters[7] =
+    {
+        Texture = Texture2D'/Game/Aki/Render/Common/T_WaterNormal_Rain.T_WaterNormal_Rain'
+        Name = RainNormal
+        Group = None
+    }
+}
+CollectedScalarParameters[16] =
+{
+    CollectedScalarParameters[0] = { Value=3, Name=Max Steps (S), Group=None }
+    CollectedScalarParameters[1] = { Value=1, Name=Mid UVTili, Group=None }
+    CollectedScalarParameters[2] = { Value=30, Name=WaterNormalSpeed (S), Group=None }
+    CollectedScalarParameters[3] =
+    {
+        Value = 32
+        Name = Max Expensive Steps Debug Color
+        Group = None
+    }
+    CollectedScalarParameters[4] = { Value=1, Name=NoiseIntensity(s1), Group=None }
+    CollectedScalarParameters[5] = { Value=1, Name=UV_Tili, Group=None }
+    CollectedScalarParameters[6] = { Value=1, Name=HeightTex Scale(s2), Group=None }
+    CollectedScalarParameters[7] = { Value=2, Name=Min Steps (S), Group=None }
+    CollectedScalarParameters[8] = { Value=0.04, Name=Height Ratio (S), Group=None }
+    CollectedScalarParameters[9] = { Value=0.05, Name=depth, Group=None }
+    CollectedScalarParameters[10] = { Value=1, Name=VertexHeight Scale(a1), Group=None }
+    CollectedScalarParameters[11] = { Value=1, Name=a2, Group=None }
+    CollectedScalarParameters[12] =
+    {
+        Value = 100
+        Name = WaterNormal_Scale (S)
+        Group = None
+    }
+    CollectedScalarParameters[13] = { Value=10, Name=NormalIntensity (S), Group=None }
+    CollectedScalarParameters[14] = { Value=1, Name=BaseUV_Tili, Group=None }
+    CollectedScalarParameters[15] = { Value=0, Name=Close SideFaceWall, Group=None }
+}
+CollectedVectorParameters[1] =
+{
+    CollectedVectorParameters[0] =
+    {
+        Value = { R=0, G=0, B=0, A=1 }
+        Name = DepthTex Channel
+        Group = None
+    }
+}
+FlattenedTexture = None
+MobileBaseTexture = None
+MobileNormalTexture = None
+bUseMobileSpecular = false
+MobileSpecularPower = 16
+MobileSpecularMask = MSM_Constant (0)
+MobileMaskTexture = None
+TextureStreamingData[4] =
+{
+    TextureStreamingData[0] =
+    {
+        SamplingScale = 1
+        UVChannelIndex = 0
+        TextureName = T_DefaultColorWhite_D
+    }
+    TextureStreamingData[1] =
+    {
+        SamplingScale = 1
+        UVChannelIndex = 0
+        TextureName = T_DefaultMaskGreen_M
+    }
+    TextureStreamingData[2] =
+    {
+        SamplingScale = 1
+        UVChannelIndex = 0
+        TextureName = T_DefaultNormal_N
+    }
+    TextureStreamingData[3] =
+    {
+        SamplingScale = 0.3125
+        UVChannelIndex = 0
+        TextureName = T_WaterNormal_Rain
+    }
+}

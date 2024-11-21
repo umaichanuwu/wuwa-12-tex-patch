@@ -1,0 +1,163 @@
+TwoSided = true
+bDisableDepthTest = false
+bIsMasked = false
+ReferencedTextures[2] =
+{
+    ReferencedTextures[0] = Texture2D'/Engine/EngineResources/DefaultTexture.DefaultTexture'
+    ReferencedTextures[1] = Texture2D'/Game/Aki/Render/Common/T_Foliage_Noise02_M.T_Foliage_Noise02_M'
+}
+Expressions[0] = {}
+CachedExpressionData =
+{
+    Parameters =
+    {
+        Entries[5] =
+        {
+            Entries[0] =
+            {
+                ParameterInfos[13] =
+                {
+                    ParameterInfos[0] = { Name=Roughness }
+                    ParameterInfos[1] = { Name=WindTimeBias }
+                    ParameterInfos[2] = { Name=WPOFadeFactor }
+                    ParameterInfos[3] = { Name=Subsurface Edge Weight }
+                    ParameterInfos[4] = { Name=WindSizeMax }
+                    ParameterInfos[5] = { Name=LeafHiddenSmooth }
+                    ParameterInfos[6] = { Name=WPODistance }
+                    ParameterInfos[7] = { Name=LeafHiddenMax }
+                    ParameterInfos[8] = { Name=WindSizeMin }
+                    ParameterInfos[9] = { Name=ShadowMeshHideStrength }
+                    ParameterInfos[10] = { Name=LeafHiddenStrengthShadow }
+                    ParameterInfos[11] = { Name=3S_Intensity }
+                    ParameterInfos[12] = { Name=LeafHiddenStrength }
+                }
+            }
+            Entries[1] =
+            {
+                ParameterInfos[3] =
+                {
+                    ParameterInfos[0] = { Name=WindScale }
+                    ParameterInfos[1] = { Name=BaseColorTint }
+                    ParameterInfos[2] = { Name=UVScaleBias }
+                }
+            }
+            Entries[2] =
+            {
+                ParameterInfos[2] =
+                {
+                    ParameterInfos[0] = { Name=Base Color Map }
+                    ParameterInfos[1] = { Name=Wind Field Tex }
+                }
+            }
+            Entries[3] = { ParameterInfos[0]={} }
+            Entries[4] = { ParameterInfos[0]={} }
+        }
+        ScalarValues[13] =
+        {
+            ScalarValues[0] = 0
+            ScalarValues[1] = 0
+            ScalarValues[2] = 0.003
+            ScalarValues[3] = 0
+            ScalarValues[4] = 0
+            ScalarValues[5] = 0.1
+            ScalarValues[6] = 0
+            ScalarValues[7] = 0.5
+            ScalarValues[8] = 0
+            ScalarValues[9] = 1
+            ScalarValues[10] = 0.5
+            ScalarValues[11] = 1.5
+            ScalarValues[12] = 0.3
+        }
+        VectorValues[3] =
+        {
+            VectorValues[0] = { R=0, G=0, B=0, A=1 }
+            VectorValues[1] = { R=1, G=1, B=1, A=1 }
+            VectorValues[2] = { R=1, G=1, B=0, A=0 }
+        }
+        TextureValues[2] =
+        {
+            TextureValues[0] = Texture2D'/Engine/EngineResources/DefaultTexture.DefaultTexture'
+            TextureValues[1] = Texture2D'/Game/Aki/Render/Common/T_Foliage_Noise02_M.T_Foliage_Noise02_M'
+        }
+    }
+    ReferencedTextures[2] =
+    {
+        ReferencedTextures[0] = Texture2D'/Engine/EngineResources/DefaultTexture.DefaultTexture'
+        ReferencedTextures[1] = Texture2D'/Game/Aki/Render/Common/T_Foliage_Noise02_M.T_Foliage_Noise02_M'
+    }
+}
+BlendMode = BLEND_Masked (1)
+OpacityMaskClipValue = 0.333
+CollectedTextureParameters[2] =
+{
+    CollectedTextureParameters[0] =
+    {
+        Texture = Texture2D'/Engine/EngineResources/DefaultTexture.DefaultTexture'
+        Name = Base Color Map
+        Group = None
+    }
+    CollectedTextureParameters[1] =
+    {
+        Texture = Texture2D'/Game/Aki/Render/Common/T_Foliage_Noise02_M.T_Foliage_Noise02_M'
+        Name = Wind Field Tex
+        Group = None
+    }
+}
+CollectedScalarParameters[13] =
+{
+    CollectedScalarParameters[0] = { Value=0, Name=Roughness, Group=None }
+    CollectedScalarParameters[1] = { Value=0, Name=WindTimeBias, Group=None }
+    CollectedScalarParameters[2] = { Value=0.003, Name=WPOFadeFactor, Group=None }
+    CollectedScalarParameters[3] = { Value=0, Name=Subsurface Edge Weight, Group=None }
+    CollectedScalarParameters[4] = { Value=0, Name=WindSizeMax, Group=None }
+    CollectedScalarParameters[5] = { Value=0.1, Name=LeafHiddenSmooth, Group=None }
+    CollectedScalarParameters[6] = { Value=0, Name=WPODistance, Group=None }
+    CollectedScalarParameters[7] = { Value=0.5, Name=LeafHiddenMax, Group=None }
+    CollectedScalarParameters[8] = { Value=0, Name=WindSizeMin, Group=None }
+    CollectedScalarParameters[9] = { Value=1, Name=ShadowMeshHideStrength, Group=None }
+    CollectedScalarParameters[10] =
+    {
+        Value = 0.5
+        Name = LeafHiddenStrengthShadow
+        Group = None
+    }
+    CollectedScalarParameters[11] = { Value=1.5, Name=3S_Intensity, Group=None }
+    CollectedScalarParameters[12] = { Value=0.3, Name=LeafHiddenStrength, Group=None }
+}
+CollectedVectorParameters[3] =
+{
+    CollectedVectorParameters[0] =
+    {
+        Value = { R=0, G=0, B=0, A=1 }
+        Name = WindScale
+        Group = None
+    }
+    CollectedVectorParameters[1] =
+    {
+        Value = { R=1, G=1, B=1, A=1 }
+        Name = BaseColorTint
+        Group = None
+    }
+    CollectedVectorParameters[2] =
+    {
+        Value = { R=1, G=1, B=0, A=0 }
+        Name = UVScaleBias
+        Group = None
+    }
+}
+FlattenedTexture = None
+MobileBaseTexture = None
+MobileNormalTexture = None
+bUseMobileSpecular = false
+MobileSpecularPower = 16
+MobileSpecularMask = MSM_Constant (0)
+MobileMaskTexture = None
+TextureStreamingData[1] =
+{
+    TextureStreamingData[0] =
+    {
+        SamplingScale = 1
+        UVChannelIndex = 0
+        TextureName = DefaultTexture
+    }
+}

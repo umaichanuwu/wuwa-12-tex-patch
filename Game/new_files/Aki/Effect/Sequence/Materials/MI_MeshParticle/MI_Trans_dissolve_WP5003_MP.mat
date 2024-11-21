@@ -1,0 +1,8 @@
+Diffuse=T_DefaultColorWhite_D
+Other[0]=T_Normal_12001
+Other[1]=T_Trail_18008
+Other[2]=T_Tile_20002
+Other[3]=T_Aura_40001
+Other[4]=T_Cloud_30006
+Other[5]=T_Tile_20000
+Other[6]=Good64x64TilingNoiseHighFreq
