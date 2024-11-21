@@ -1,0 +1,7 @@
+Diffuse=T_DefaultColorBlack_Linear_D
+Normal=T_P2bingkua01_N
+Other[0]=T_P2bingkua01_D
+Other[1]=T_P2bingkua01_FX
+Other[2]=T_DefaultColorWhite_D
+Other[3]=T_DefaultMaskGreen_M
+Other[4]=T_DefaultNormalMask_M

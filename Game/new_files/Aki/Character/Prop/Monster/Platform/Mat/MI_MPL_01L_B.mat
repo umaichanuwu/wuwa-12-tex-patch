@@ -1,0 +1,9 @@
+Diffuse=T_MPL_01L_B_D
+Normal=T_MPL_01L_B_N
+Other[0]=T_PlatformFurNoise_M
+Other[1]=T_DefaultMaskWhite_M
+Other[2]=T_DefaultNormalMask_M
+Other[3]=T_DefaultColorWhite_D
+Other[4]=Good64x64TilingNoiseHighFreq
+Other[5]=CommonNoise
+Other[6]=T_DefaultMaskGreen_M
