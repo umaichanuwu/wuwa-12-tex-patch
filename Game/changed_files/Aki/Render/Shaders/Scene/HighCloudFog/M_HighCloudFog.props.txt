@@ -1,0 +1,202 @@
+TwoSided = false
+bDisableDepthTest = false
+bIsMasked = false
+ReferencedTextures[1] =
+{
+    ReferencedTextures[0] = Texture2D'/Game/Aki/Render/Common/T_PerlinNoise.T_PerlinNoise'
+}
+Expressions[0] = {}
+CachedExpressionData =
+{
+    Parameters =
+    {
+        Entries[5] =
+        {
+            Entries[0] =
+            {
+                ParameterInfos[26] =
+                {
+                    ParameterInfos[0] = { Name=NoiseSpeed2 }
+                    ParameterInfos[1] = { Name=HorizonFadeDistance }
+                    ParameterInfos[2] = { Name=FogColorPower }
+                    ParameterInfos[3] = { Name=WPOFar }
+                    ParameterInfos[4] = { Name=FadeDistanceCloudFactor }
+                    ParameterInfos[5] = { Name=FogColorFarDistance }
+                    ParameterInfos[6] = { Name=NoiseSpeed }
+                    ParameterInfos[7] = { Name=NoiseScale }
+                    ParameterInfos[8] = { Name=RimRangeMax }
+                    ParameterInfos[9] = { Name=S }
+                    ParameterInfos[10] = { Name=NoiseScale2 }
+                    ParameterInfos[11] = { Name=FogColorNearDistance }
+                    ParameterInfos[12] = { Name=NoiseStrength }
+                    ParameterInfos[13] = { Name=FadeDistance }
+                    ParameterInfos[14] = { Name=WPOStrength }
+                    ParameterInfos[15] = { Name=Near }
+                    ParameterInfos[16] = { Name=Far }
+                    ParameterInfos[17] = { Name=HeightFadeMin }
+                    ParameterInfos[18] = { Name=NoisePower }
+                    ParameterInfos[19] = { Name=WPOPower }
+                    ParameterInfos[20] = { Name=FadeDistanceFarFactor }
+                    ParameterInfos[21] = { Name=BaseIntensity }
+                    ParameterInfos[22] = { Name=Flatness }
+                    ParameterInfos[23] = { Name=WPONear }
+                    ParameterInfos[24] = { Name=HeightFadeMax }
+                    ParameterInfos[25] = { Name=RimRangeMin }
+                }
+            }
+            Entries[1] =
+            {
+                ParameterInfos[4] =
+                {
+                    ParameterInfos[0] = { Name=RimLight }
+                    ParameterInfos[1] = { Name=DiffuseLight }
+                    ParameterInfos[2] = { Name=FogColor2 }
+                    ParameterInfos[3] = { Name=FogColor }
+                }
+            }
+            Entries[2] =
+            {
+                ParameterInfos[1] =
+                {
+                    ParameterInfos[0] = { Name=CloudNoise }
+                }
+            }
+            Entries[3] = { ParameterInfos[0]={} }
+            Entries[4] = { ParameterInfos[0]={} }
+        }
+        ScalarValues[26] =
+        {
+            ScalarValues[0] = -0.3
+            ScalarValues[1] = 503902
+            ScalarValues[2] = 1
+            ScalarValues[3] = 0
+            ScalarValues[4] = 0.25
+            ScalarValues[5] = 425000
+            ScalarValues[6] = 0.15
+            ScalarValues[7] = 60
+            ScalarValues[8] = 1
+            ScalarValues[9] = 11698.3
+            ScalarValues[10] = 30
+            ScalarValues[11] = 0
+            ScalarValues[12] = 2
+            ScalarValues[13] = 130000
+            ScalarValues[14] = 4000
+            ScalarValues[15] = 0
+            ScalarValues[16] = 250000
+            ScalarValues[17] = 1000
+            ScalarValues[18] = 2
+            ScalarValues[19] = 0.28
+            ScalarValues[20] = 3
+            ScalarValues[21] = 0
+            ScalarValues[22] = 0.2
+            ScalarValues[23] = 1.3
+            ScalarValues[24] = 3000
+            ScalarValues[25] = 0
+        }
+        VectorValues[4] =
+        {
+            VectorValues[0] = { R=0.35, G=0.35, B=0.35, A=0 }
+            VectorValues[1] = { R=0.2, G=0.2, B=0.2, A=0 }
+            VectorValues[2] = { R=0.598958, G=0.598958, B=0.598958, A=0 }
+            VectorValues[3] = { R=1, G=1, B=1, A=0 }
+        }
+        TextureValues[1] =
+        {
+            TextureValues[0] = Texture2D'/Game/Aki/Render/Common/T_PerlinNoise.T_PerlinNoise'
+        }
+    }
+    ReferencedTextures[1] =
+    {
+        ReferencedTextures[0] = Texture2D'/Game/Aki/Render/Common/T_PerlinNoise.T_PerlinNoise'
+    }
+}
+BlendMode = BLEND_Translucent (2)
+OpacityMaskClipValue = 0.333
+CollectedTextureParameters[1] =
+{
+    CollectedTextureParameters[0] =
+    {
+        Texture = Texture2D'/Game/Aki/Render/Common/T_PerlinNoise.T_PerlinNoise'
+        Name = CloudNoise
+        Group = None
+    }
+}
+CollectedScalarParameters[26] =
+{
+    CollectedScalarParameters[0] = { Value=-0.3, Name=NoiseSpeed2, Group=None }
+    CollectedScalarParameters[1] =
+    {
+        Value = 503902
+        Name = HorizonFadeDistance
+        Group = None
+    }
+    CollectedScalarParameters[2] = { Value=1, Name=FogColorPower, Group=None }
+    CollectedScalarParameters[3] = { Value=0, Name=WPOFar, Group=None }
+    CollectedScalarParameters[4] =
+    {
+        Value = 0.25
+        Name = FadeDistanceCloudFactor
+        Group = None
+    }
+    CollectedScalarParameters[5] =
+    {
+        Value = 425000
+        Name = FogColorFarDistance
+        Group = None
+    }
+    CollectedScalarParameters[6] = { Value=0.15, Name=NoiseSpeed, Group=None }
+    CollectedScalarParameters[7] = { Value=60, Name=NoiseScale, Group=None }
+    CollectedScalarParameters[8] = { Value=1, Name=RimRangeMax, Group=None }
+    CollectedScalarParameters[9] = { Value=11698.3, Name=S, Group=None }
+    CollectedScalarParameters[10] = { Value=30, Name=NoiseScale2, Group=None }
+    CollectedScalarParameters[11] = { Value=0, Name=FogColorNearDistance, Group=None }
+    CollectedScalarParameters[12] = { Value=2, Name=NoiseStrength, Group=None }
+    CollectedScalarParameters[13] = { Value=130000, Name=FadeDistance, Group=None }
+    CollectedScalarParameters[14] = { Value=4000, Name=WPOStrength, Group=None }
+    CollectedScalarParameters[15] = { Value=0, Name=Near, Group=None }
+    CollectedScalarParameters[16] = { Value=250000, Name=Far, Group=None }
+    CollectedScalarParameters[17] = { Value=1000, Name=HeightFadeMin, Group=None }
+    CollectedScalarParameters[18] = { Value=2, Name=NoisePower, Group=None }
+    CollectedScalarParameters[19] = { Value=0.28, Name=WPOPower, Group=None }
+    CollectedScalarParameters[20] = { Value=3, Name=FadeDistanceFarFactor, Group=None }
+    CollectedScalarParameters[21] = { Value=0, Name=BaseIntensity, Group=None }
+    CollectedScalarParameters[22] = { Value=0.2, Name=Flatness, Group=None }
+    CollectedScalarParameters[23] = { Value=1.3, Name=WPONear, Group=None }
+    CollectedScalarParameters[24] = { Value=3000, Name=HeightFadeMax, Group=None }
+    CollectedScalarParameters[25] = { Value=0, Name=RimRangeMin, Group=None }
+}
+CollectedVectorParameters[4] =
+{
+    CollectedVectorParameters[0] =
+    {
+        Value = { R=0.35, G=0.35, B=0.35, A=0 }
+        Name = RimLight
+        Group = None
+    }
+    CollectedVectorParameters[1] =
+    {
+        Value = { R=0.2, G=0.2, B=0.2, A=0 }
+        Name = DiffuseLight
+        Group = None
+    }
+    CollectedVectorParameters[2] =
+    {
+        Value = { R=0.598958, G=0.598958, B=0.598958, A=0 }
+        Name = FogColor2
+        Group = None
+    }
+    CollectedVectorParameters[3] =
+    {
+        Value = { R=1, G=1, B=1, A=0 }
+        Name = FogColor
+        Group = None
+    }
+}
+FlattenedTexture = None
+MobileBaseTexture = None
+MobileNormalTexture = None
+bUseMobileSpecular = false
+MobileSpecularPower = 16
+MobileSpecularMask = MSM_Constant (0)
+MobileMaskTexture = None
+TextureStreamingData[0] = {}

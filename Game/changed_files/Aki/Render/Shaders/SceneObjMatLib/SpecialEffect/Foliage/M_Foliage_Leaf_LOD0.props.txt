@@ -1,0 +1,377 @@
+TwoSided = true
+bDisableDepthTest = false
+bIsMasked = false
+ReferencedTextures[8] =
+{
+    ReferencedTextures[0] = Texture2D'/Engine/EngineMaterials/DefaultDiffuse.DefaultDiffuse'
+    ReferencedTextures[1] = Texture2D'/Engine/Functions/Engine_MaterialFunctions02/ExampleContent/DebugNumberStrip.DebugNumberStrip'
+    ReferencedTextures[2] = Texture2D'/Engine/Functions/Engine_MaterialFunctions02/ExampleContent/Textures/DebugNumberPeriod.DebugNumberPeriod'
+    ReferencedTextures[3] = Texture2D'/Game/Aki/Render/Common/T_DefaultMaskGreen_M.T_DefaultMaskGreen_M'
+    ReferencedTextures[4] = Texture2D'/Game/Aki/Render/Common/T_FlareNoise_M.T_FlareNoise_M'
+    ReferencedTextures[5] = Texture2D'/Game/Aki/Render/Common/T_Foliage_Noise02_M.T_Foliage_Noise02_M'
+    ReferencedTextures[6] = Texture2D'/Game/Aki/Render/Common/T_PerlinNoise.T_PerlinNoise'
+    ReferencedTextures[7] = Texture2D'/Game/Aki/Scene/Assets/Common/Foliage/Tex/T4_Com_Lea_01A_D.T4_Com_Lea_01A_D'
+}
+Expressions[0] = {}
+CachedExpressionData =
+{
+    Parameters =
+    {
+        Entries[5] =
+        {
+            Entries[0] =
+            {
+                ParameterInfos[54] =
+                {
+                    ParameterInfos[0] = { Name=RampColorScope }
+                    ParameterInfos[1] = { Name=AOMinColor }
+                    ParameterInfos[2] = { Name=Wind Noise }
+                    ParameterInfos[3] = { Name=Dis_ColorMulti }
+                    ParameterInfos[4] = { Name=N Softness }
+                    ParameterInfos[5] = { Name=Tree Sway Speed }
+                    ParameterInfos[6] = { Name=Billboard Inflate }
+                    ParameterInfos[7] = { Name=Dis_Process }
+                    ParameterInfos[8] = { Name=Dis_Width }
+                    ParameterInfos[9] = { Name=TreeDitherRadius }
+                    ParameterInfos[10] = { Name=EdgeBias }
+                    ParameterInfos[11] = { Name=BackShadowPower }
+                    ParameterInfos[12] = { Name=AOStrength }
+                    ParameterInfos[13] = { Name=Dis_Range }
+                    ParameterInfos[14] = { Name=WindTimeBias }
+                    ParameterInfos[15] = { Name=TextureArraySize }
+                    ParameterInfos[16] = { Name=SelfShadowMax }
+                    ParameterInfos[17] = { Name=ColorBias }
+                    ParameterInfos[18] = { Name=Leave Wind Weight }
+                    ParameterInfos[19] = { Name=ShadowBiasStrength }
+                    ParameterInfos[20] = { Name=Subsurface Edge Weight }
+                    ParameterInfos[21] = { Name=ShadowMax }
+                    ParameterInfos[22] = { Name=LeafHiddenSmooth }
+                    ParameterInfos[23] = { Name=Hue Shift }
+                    ParameterInfos[24] = { Name=GlobalVertexShaodw }
+                    ParameterInfos[25] = { Name=ShadowMin }
+                    ParameterInfos[26] = { Name=Dis_BP_Use_Process }
+                    ParameterInfos[27] = { Name=LeafHiddenMax }
+                    ParameterInfos[28] = { Name=ShakeFrequency }
+                    ParameterInfos[29] = { Name=ShadowBiasTextureScale }
+                    ParameterInfos[30] = { Name=ShadowBiasOffset }
+                    ParameterInfos[31] = { Name=billboardLeafScale }
+                    ParameterInfos[32] = { Name=SelfShadowMin }
+                    ParameterInfos[33] = { Name=Emissive Night }
+                    ParameterInfos[34] = { Name=FrontShadowPower }
+                    ParameterInfos[35] = { Name=ShadowMeshHideStrength }
+                    ParameterInfos[36] = { Name=Tree Sway Amount }
+                    ParameterInfos[37] = { Name=MobileLOD1AOInt }
+                    ParameterInfos[38] = { Name=LeafHiddenStrengthShadow }
+                    ParameterInfos[39] = { Name=Dis_Tilling }
+                    ParameterInfos[40] = { Name=N Power }
+                    ParameterInfos[41] = { Name=Dis_MaskScale }
+                    ParameterInfos[42] = { Name=Dis_BP_Process }
+                    ParameterInfos[43] = { Name=Leaf WindWeight }
+                    ParameterInfos[44] = { Name=3S_Intensity }
+                    ParameterInfos[45] = { Name=ShadowStrength }
+                    ParameterInfos[46] = { Name=Leave Wind Strenght }
+                    ParameterInfos[47] = { Name=Under Color }
+                    ParameterInfos[48] = { Name=Close Emissive Day }
+                    ParameterInfos[49] = { Name=Mipmapbias }
+                    ParameterInfos[50] = { Name=LeafHiddenStrength }
+                    ParameterInfos[51] = { Name=RampAmount }
+                    ParameterInfos[52] = { Name=Wind Weight }
+                    ParameterInfos[53] = { Name=SelfShadow }
+                }
+            }
+            Entries[1] =
+            {
+                ParameterInfos[10] =
+                {
+                    ParameterInfos[0] = { Name=TopColor }
+                    ParameterInfos[1] = { Name=CD_SphereCenter }
+                    ParameterInfos[2] = { Name=CD_BakeWorldData }
+                    ParameterInfos[3] = { Name=ColorTint }
+                    ParameterInfos[4] = { Name=CD_RampColor }
+                    ParameterInfos[5] = { Name=Emissive Color }
+                    ParameterInfos[6] = { Name=AOColorTint }
+                    ParameterInfos[7] = { Name=Dis_DissolveColor }
+                    ParameterInfos[8] = { Name=Wind Seed }
+                    ParameterInfos[9] = { Name=Wind Seed 2 }
+                }
+            }
+            Entries[2] =
+            {
+                ParameterInfos[6] =
+                {
+                    ParameterInfos[0] = { Name=Base Color Map }
+                    ParameterInfos[1] = { Name=Wind Field Tex }
+                    ParameterInfos[2] = { Name=Emissive mask }
+                    ParameterInfos[3] = { Name=Base Color Map Array }
+                    ParameterInfos[4] = { Name=ShadowBiasTex }
+                    ParameterInfos[5] = { Name=DissolveTexture }
+                }
+            }
+            Entries[3] = { ParameterInfos[0]={} }
+            Entries[4] = { ParameterInfos[0]={} }
+        }
+        ScalarValues[54] =
+        {
+            ScalarValues[0] = 1
+            ScalarValues[1] = 0.3
+            ScalarValues[2] = 4.2
+            ScalarValues[3] = 50
+            ScalarValues[4] = 2
+            ScalarValues[5] = 1.1
+            ScalarValues[6] = 0
+            ScalarValues[7] = 1.2
+            ScalarValues[8] = 0.937
+            ScalarValues[9] = 33000
+            ScalarValues[10] = 0
+            ScalarValues[11] = 2
+            ScalarValues[12] = 0
+            ScalarValues[13] = 0.3467
+            ScalarValues[14] = 0
+            ScalarValues[15] = 0
+            ScalarValues[16] = 0.5
+            ScalarValues[17] = 1
+            ScalarValues[18] = 0.34
+            ScalarValues[19] = 20
+            ScalarValues[20] = 0
+            ScalarValues[21] = 0.25
+            ScalarValues[22] = 0.1
+            ScalarValues[23] = 0.2
+            ScalarValues[24] = 0.7
+            ScalarValues[25] = 0
+            ScalarValues[26] = 1.2
+            ScalarValues[27] = 0.5
+            ScalarValues[28] = 5
+            ScalarValues[29] = 1
+            ScalarValues[30] = -0.45
+            ScalarValues[31] = 1
+            ScalarValues[32] = 0
+            ScalarValues[33] = 1
+            ScalarValues[34] = 0.45
+            ScalarValues[35] = 1
+            ScalarValues[36] = 0.015
+            ScalarValues[37] = 0.8
+            ScalarValues[38] = 0.5
+            ScalarValues[39] = 2
+            ScalarValues[40] = 1.5
+            ScalarValues[41] = 1
+            ScalarValues[42] = 1.2
+            ScalarValues[43] = 0.2
+            ScalarValues[44] = 1.5
+            ScalarValues[45] = 0.2
+            ScalarValues[46] = 0.14
+            ScalarValues[47] = 0.8
+            ScalarValues[48] = 1
+            ScalarValues[49] = -0.75
+            ScalarValues[50] = 0.3
+            ScalarValues[51] = 1
+            ScalarValues[52] = 0.1
+            ScalarValues[53] = 0.38
+        }
+        VectorValues[10] =
+        {
+            VectorValues[0] = { R=1, G=1, B=1, A=0 }
+            VectorValues[1] = { R=0, G=0, B=0, A=0 }
+            VectorValues[2] = { R=0.23074, G=0.346704, B=0.068478, A=0 }
+            VectorValues[3] = { R=1, G=1, B=1, A=1 }
+            VectorValues[4] = { R=0, G=0, B=0, A=0 }
+            VectorValues[5] = { R=1, G=1, B=1, A=1 }
+            VectorValues[6] = { R=1, G=1, B=1, A=1 }
+            VectorValues[7] = { R=0.066667, G=1, B=0, A=0 }
+            VectorValues[8] = { R=0.022971, G=0.024178, B=0.065, A=0.1 }
+            VectorValues[9] = { R=0.041, G=0.044132, B=0.045, A=0.486239 }
+        }
+        TextureValues[6] =
+        {
+            TextureValues[0] = Texture2D'/Game/Aki/Scene/Assets/Common/Foliage/Tex/T4_Com_Lea_01A_D.T4_Com_Lea_01A_D'
+            TextureValues[1] = Texture2D'/Game/Aki/Render/Common/T_Foliage_Noise02_M.T_Foliage_Noise02_M'
+            TextureValues[2] = Texture2D'/Game/Aki/Render/Common/T_DefaultMaskGreen_M.T_DefaultMaskGreen_M'
+            TextureValues[4] = Texture2D'/Game/Aki/Render/Common/T_PerlinNoise.T_PerlinNoise'
+            TextureValues[5] = Texture2D'/Game/Aki/Render/Common/T_FlareNoise_M.T_FlareNoise_M'
+        }
+    }
+    ReferencedTextures[10] =
+    {
+        ReferencedTextures[0] = Texture2D'/Game/Aki/Render/Common/T_DefaultMaskGreen_M.T_DefaultMaskGreen_M'
+        ReferencedTextures[2] = Texture2D'/Game/Aki/Scene/Assets/Common/Foliage/Tex/T4_Com_Lea_01A_D.T4_Com_Lea_01A_D'
+        ReferencedTextures[3] = Texture2D'/Game/Aki/Render/Common/T_FlareNoise_M.T_FlareNoise_M'
+        ReferencedTextures[4] = Texture2D'/Game/Aki/Render/Common/T_Foliage_Noise02_M.T_Foliage_Noise02_M'
+        ReferencedTextures[6] = Texture2D'/Engine/EngineMaterials/DefaultDiffuse.DefaultDiffuse'
+        ReferencedTextures[7] = Texture2D'/Engine/Functions/Engine_MaterialFunctions02/ExampleContent/DebugNumberStrip.DebugNumberStrip'
+        ReferencedTextures[8] = Texture2D'/Engine/Functions/Engine_MaterialFunctions02/ExampleContent/Textures/DebugNumberPeriod.DebugNumberPeriod'
+        ReferencedTextures[9] = Texture2D'/Game/Aki/Render/Common/T_PerlinNoise.T_PerlinNoise'
+    }
+}
+BlendMode = BLEND_Masked (1)
+OpacityMaskClipValue = 0.333
+CollectedTextureParameters[6] =
+{
+    CollectedTextureParameters[0] =
+    {
+        Texture = Texture2D'/Game/Aki/Scene/Assets/Common/Foliage/Tex/T4_Com_Lea_01A_D.T4_Com_Lea_01A_D'
+        Name = Base Color Map
+        Group = None
+    }
+    CollectedTextureParameters[1] =
+    {
+        Texture = Texture2D'/Game/Aki/Render/Common/T_Foliage_Noise02_M.T_Foliage_Noise02_M'
+        Name = Wind Field Tex
+        Group = None
+    }
+    CollectedTextureParameters[2] =
+    {
+        Texture = Texture2D'/Game/Aki/Render/Common/T_DefaultMaskGreen_M.T_DefaultMaskGreen_M'
+        Name = Emissive mask
+        Group = None
+    }
+    CollectedTextureParameters[3] =
+    {
+        Texture = None
+        Name = Base Color Map Array
+        Group = None
+    }
+    CollectedTextureParameters[4] =
+    {
+        Texture = Texture2D'/Game/Aki/Render/Common/T_PerlinNoise.T_PerlinNoise'
+        Name = ShadowBiasTex
+        Group = None
+    }
+    CollectedTextureParameters[5] =
+    {
+        Texture = Texture2D'/Game/Aki/Render/Common/T_FlareNoise_M.T_FlareNoise_M'
+        Name = DissolveTexture
+        Group = None
+    }
+}
+CollectedScalarParameters[54] =
+{
+    CollectedScalarParameters[0] = { Value=1, Name=RampColorScope, Group=None }
+    CollectedScalarParameters[1] = { Value=0.3, Name=AOMinColor, Group=None }
+    CollectedScalarParameters[2] = { Value=4.2, Name=Wind Noise, Group=None }
+    CollectedScalarParameters[3] = { Value=50, Name=Dis_ColorMulti, Group=None }
+    CollectedScalarParameters[4] = { Value=2, Name=N Softness, Group=None }
+    CollectedScalarParameters[5] = { Value=1.1, Name=Tree Sway Speed, Group=None }
+    CollectedScalarParameters[6] = { Value=0, Name=Billboard Inflate, Group=None }
+    CollectedScalarParameters[7] = { Value=1.2, Name=Dis_Process, Group=None }
+    CollectedScalarParameters[8] = { Value=0.937, Name=Dis_Width, Group=None }
+    CollectedScalarParameters[9] = { Value=33000, Name=TreeDitherRadius, Group=None }
+    CollectedScalarParameters[10] = { Value=0, Name=EdgeBias, Group=None }
+    CollectedScalarParameters[11] = { Value=2, Name=BackShadowPower, Group=None }
+    CollectedScalarParameters[12] = { Value=0, Name=AOStrength, Group=None }
+    CollectedScalarParameters[13] = { Value=0.3467, Name=Dis_Range, Group=None }
+    CollectedScalarParameters[14] = { Value=0, Name=WindTimeBias, Group=None }
+    CollectedScalarParameters[15] = { Value=0, Name=TextureArraySize, Group=None }
+    CollectedScalarParameters[16] = { Value=0.5, Name=SelfShadowMax, Group=None }
+    CollectedScalarParameters[17] = { Value=1, Name=ColorBias, Group=None }
+    CollectedScalarParameters[18] = { Value=0.34, Name=Leave Wind Weight, Group=None }
+    CollectedScalarParameters[19] = { Value=20, Name=ShadowBiasStrength, Group=None }
+    CollectedScalarParameters[20] = { Value=0, Name=Subsurface Edge Weight, Group=None }
+    CollectedScalarParameters[21] = { Value=0.25, Name=ShadowMax, Group=None }
+    CollectedScalarParameters[22] = { Value=0.1, Name=LeafHiddenSmooth, Group=None }
+    CollectedScalarParameters[23] = { Value=0.2, Name=Hue Shift, Group=None }
+    CollectedScalarParameters[24] = { Value=0.7, Name=GlobalVertexShaodw, Group=None }
+    CollectedScalarParameters[25] = { Value=0, Name=ShadowMin, Group=None }
+    CollectedScalarParameters[26] = { Value=1.2, Name=Dis_BP_Use_Process, Group=None }
+    CollectedScalarParameters[27] = { Value=0.5, Name=LeafHiddenMax, Group=None }
+    CollectedScalarParameters[28] = { Value=5, Name=ShakeFrequency, Group=None }
+    CollectedScalarParameters[29] = { Value=1, Name=ShadowBiasTextureScale, Group=None }
+    CollectedScalarParameters[30] = { Value=-0.45, Name=ShadowBiasOffset, Group=None }
+    CollectedScalarParameters[31] = { Value=1, Name=billboardLeafScale, Group=None }
+    CollectedScalarParameters[32] = { Value=0, Name=SelfShadowMin, Group=None }
+    CollectedScalarParameters[33] = { Value=1, Name=Emissive Night, Group=None }
+    CollectedScalarParameters[34] = { Value=0.45, Name=FrontShadowPower, Group=None }
+    CollectedScalarParameters[35] = { Value=1, Name=ShadowMeshHideStrength, Group=None }
+    CollectedScalarParameters[36] = { Value=0.015, Name=Tree Sway Amount, Group=None }
+    CollectedScalarParameters[37] = { Value=0.8, Name=MobileLOD1AOInt, Group=None }
+    CollectedScalarParameters[38] =
+    {
+        Value = 0.5
+        Name = LeafHiddenStrengthShadow
+        Group = None
+    }
+    CollectedScalarParameters[39] = { Value=2, Name=Dis_Tilling, Group=None }
+    CollectedScalarParameters[40] = { Value=1.5, Name=N Power, Group=None }
+    CollectedScalarParameters[41] = { Value=1, Name=Dis_MaskScale, Group=None }
+    CollectedScalarParameters[42] = { Value=1.2, Name=Dis_BP_Process, Group=None }
+    CollectedScalarParameters[43] = { Value=0.2, Name=Leaf WindWeight, Group=None }
+    CollectedScalarParameters[44] = { Value=1.5, Name=3S_Intensity, Group=None }
+    CollectedScalarParameters[45] = { Value=0.2, Name=ShadowStrength, Group=None }
+    CollectedScalarParameters[46] = { Value=0.14, Name=Leave Wind Strenght, Group=None }
+    CollectedScalarParameters[47] = { Value=0.8, Name=Under Color, Group=None }
+    CollectedScalarParameters[48] = { Value=1, Name=Close Emissive Day, Group=None }
+    CollectedScalarParameters[49] = { Value=-0.75, Name=Mipmapbias, Group=None }
+    CollectedScalarParameters[50] = { Value=0.3, Name=LeafHiddenStrength, Group=None }
+    CollectedScalarParameters[51] = { Value=1, Name=RampAmount, Group=None }
+    CollectedScalarParameters[52] = { Value=0.1, Name=Wind Weight, Group=None }
+    CollectedScalarParameters[53] = { Value=0.38, Name=SelfShadow, Group=None }
+}
+CollectedVectorParameters[10] =
+{
+    CollectedVectorParameters[0] =
+    {
+        Value = { R=1, G=1, B=1, A=0 }
+        Name = TopColor
+        Group = None
+    }
+    CollectedVectorParameters[1] =
+    {
+        Value = { R=0, G=0, B=0, A=0 }
+        Name = CD_SphereCenter
+        Group = None
+    }
+    CollectedVectorParameters[2] =
+    {
+        Value = { R=0.23074, G=0.346704, B=0.068478, A=0 }
+        Name = CD_BakeWorldData
+        Group = None
+    }
+    CollectedVectorParameters[3] =
+    {
+        Value = { R=1, G=1, B=1, A=1 }
+        Name = ColorTint
+        Group = None
+    }
+    CollectedVectorParameters[4] =
+    {
+        Value = { R=0, G=0, B=0, A=0 }
+        Name = CD_RampColor
+        Group = None
+    }
+    CollectedVectorParameters[5] =
+    {
+        Value = { R=1, G=1, B=1, A=1 }
+        Name = Emissive Color
+        Group = None
+    }
+    CollectedVectorParameters[6] =
+    {
+        Value = { R=1, G=1, B=1, A=1 }
+        Name = AOColorTint
+        Group = None
+    }
+    CollectedVectorParameters[7] =
+    {
+        Value = { R=0.066667, G=1, B=0, A=0 }
+        Name = Dis_DissolveColor
+        Group = None
+    }
+    CollectedVectorParameters[8] =
+    {
+        Value = { R=0.022971, G=0.024178, B=0.065, A=0.1 }
+        Name = Wind Seed
+        Group = None
+    }
+    CollectedVectorParameters[9] =
+    {
+        Value = { R=0.041, G=0.044132, B=0.045, A=0.486239 }
+        Name = Wind Seed 2
+        Group = None
+    }
+}
+FlattenedTexture = None
+MobileBaseTexture = None
+MobileNormalTexture = None
+bUseMobileSpecular = false
+MobileSpecularPower = 16
+MobileSpecularMask = MSM_Constant (0)
+MobileMaskTexture = None
+TextureStreamingData[0] = {}

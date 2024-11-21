@@ -1,0 +1,279 @@
+TwoSided = false
+bDisableDepthTest = false
+bIsMasked = false
+ReferencedTextures[5] =
+{
+    ReferencedTextures[0] = Texture2D'/Engine/EngineMaterials/Good64x64TilingNoiseHighFreq.Good64x64TilingNoiseHighFreq'
+    ReferencedTextures[1] = Texture2D'/Game/Aki/Render/Common/T_DefaultColorWhite_D.T_DefaultColorWhite_D'
+    ReferencedTextures[2] = Texture2D'/Game/Aki/Render/Common/T_DefaultMaskGreen_M.T_DefaultMaskGreen_M'
+    ReferencedTextures[3] = Texture2D'/Game/Aki/Render/Common/T_WaterNormal_Rain.T_WaterNormal_Rain'
+    ReferencedTextures[4] = Texture2D'/Game/Aki/Scene/Landscape/ColorMap/T_LandscapeColorMap_D.T_LandscapeColorMap_D'
+}
+Expressions[0] = {}
+CachedExpressionData =
+{
+    Parameters =
+    {
+        Entries[5] =
+        {
+            Entries[0] =
+            {
+                ParameterInfos[22] =
+                {
+                    ParameterInfos[0] = { Name=RampRange_2 }
+                    ParameterInfos[1] = { Name=BakeAO_Min }
+                    ParameterInfos[2] = { Name=TexArrayIndex }
+                    ParameterInfos[3] = { Name=SnowOpacityConstant }
+                    ParameterInfos[4] = { Name=WaterNormalSpeed (S) }
+                    ParameterInfos[5] = { Name=RampRangePow }
+                    ParameterInfos[6] = { Name=RampLerpStrength }
+                    ParameterInfos[7] = { Name=RampStrength }
+                    ParameterInfos[8] = { Name=BakeAOContrast }
+                    ParameterInfos[9] = { Name=BakeAOTop }
+                    ParameterInfos[10] = { Name=UV Tili }
+                    ParameterInfos[11] = { Name=MobileLODColorMul }
+                    ParameterInfos[12] = { Name=BakeAOBaseColor_Min }
+                    ParameterInfos[13] = { Name=BakeAO }
+                    ParameterInfos[14] = { Name=RampRange_1 }
+                    ParameterInfos[15] = { Name=LandBlendMaxDis }
+                    ParameterInfos[16] = { Name=WaterNormal_Scale (S) }
+                    ParameterInfos[17] = { Name=DepthOffset }
+                    ParameterInfos[18] = { Name=NormalIntensity (S) }
+                    ParameterInfos[19] = { Name=WaterPuddleRoughness }
+                    ParameterInfos[20] = { Name=WaterPuddleReflectionIntensity }
+                    ParameterInfos[21] = { Name=BakeAOBaseColor }
+                }
+            }
+            Entries[1] =
+            {
+                ParameterInfos[7] =
+                {
+                    ParameterInfos[0] = { Name=WaterPuddleColorTint }
+                    ParameterInfos[1] = { Name=StoneColorTint }
+                    ParameterInfos[2] = { Name=Grass Roughness }
+                    ParameterInfos[3] = { Name=Color Tint }
+                    ParameterInfos[4] = { Name=RampTex_S_O }
+                    ParameterInfos[5] = { Name=bakeGI }
+                    ParameterInfos[6] = { Name=WorldMapData }
+                }
+            }
+            Entries[2] =
+            {
+                ParameterInfos[7] =
+                {
+                    ParameterInfos[0] = { Name=BlendNormal }
+                    ParameterInfos[1] = { Name=TaskColorMap }
+                    ParameterInfos[2] = { Name=WorldColorMap }
+                    ParameterInfos[3] = { Name=Overall_Diff }
+                    ParameterInfos[4] = { Name=RainNormal }
+                    ParameterInfos[5] = { Name=RampTex }
+                    ParameterInfos[6] = { Name=BakeAOTexArray }
+                }
+            }
+            Entries[3] = { ParameterInfos[0]={} }
+            Entries[4] = { ParameterInfos[0]={} }
+        }
+        ScalarValues[22] =
+        {
+            ScalarValues[0] = 0.8
+            ScalarValues[1] = 0.4
+            ScalarValues[2] = 0
+            ScalarValues[3] = 1
+            ScalarValues[4] = 30
+            ScalarValues[5] = 1
+            ScalarValues[6] = 0
+            ScalarValues[7] = 1
+            ScalarValues[8] = 1
+            ScalarValues[9] = 6
+            ScalarValues[10] = 1
+            ScalarValues[11] = 0.5
+            ScalarValues[12] = 0
+            ScalarValues[13] = 4
+            ScalarValues[14] = 0.3
+            ScalarValues[15] = 65000
+            ScalarValues[16] = 100
+            ScalarValues[17] = 0
+            ScalarValues[18] = 10
+            ScalarValues[19] = 0.1
+            ScalarValues[20] = 0.2
+            ScalarValues[21] = 8
+        }
+        VectorValues[7] =
+        {
+            VectorValues[0] = { R=0.5, G=0.5, B=0.5, A=0 }
+            VectorValues[1] = { R=1, G=1, B=1, A=0 }
+            VectorValues[2] = { R=1, G=0.6, B=1, A=1 }
+            VectorValues[3] = { R=1, G=1, B=1, A=1 }
+            VectorValues[4] = { R=1, G=1, B=0, A=0 }
+            VectorValues[5] = { R=0.841883, G=1, B=0.6, A=0 }
+            VectorValues[6] = { R=0, G=0, B=0, A=0 }
+        }
+        TextureValues[7] =
+        {
+            TextureValues[0] = Texture2D'/Game/Aki/Render/Common/T_DefaultMaskGreen_M.T_DefaultMaskGreen_M'
+            TextureValues[1] = Texture2D'/Game/Aki/Render/Common/T_DefaultColorWhite_D.T_DefaultColorWhite_D'
+            TextureValues[2] = Texture2D'/Game/Aki/Scene/Landscape/ColorMap/T_LandscapeColorMap_D.T_LandscapeColorMap_D'
+            TextureValues[3] = Texture2D'/Game/Aki/Render/Common/T_DefaultColorWhite_D.T_DefaultColorWhite_D'
+            TextureValues[4] = Texture2D'/Game/Aki/Render/Common/T_WaterNormal_Rain.T_WaterNormal_Rain'
+            TextureValues[5] = Texture2D'/Game/Aki/Render/Common/T_DefaultColorWhite_D.T_DefaultColorWhite_D'
+        }
+    }
+    ReferencedTextures[6] =
+    {
+        ReferencedTextures[0] = Texture2D'/Engine/EngineMaterials/Good64x64TilingNoiseHighFreq.Good64x64TilingNoiseHighFreq'
+        ReferencedTextures[2] = Texture2D'/Game/Aki/Render/Common/T_DefaultMaskGreen_M.T_DefaultMaskGreen_M'
+        ReferencedTextures[3] = Texture2D'/Game/Aki/Render/Common/T_DefaultColorWhite_D.T_DefaultColorWhite_D'
+        ReferencedTextures[4] = Texture2D'/Game/Aki/Scene/Landscape/ColorMap/T_LandscapeColorMap_D.T_LandscapeColorMap_D'
+        ReferencedTextures[5] = Texture2D'/Game/Aki/Render/Common/T_WaterNormal_Rain.T_WaterNormal_Rain'
+    }
+}
+BlendMode = BLEND_Opaque (0)
+OpacityMaskClipValue = 0.333
+CollectedTextureParameters[7] =
+{
+    CollectedTextureParameters[0] =
+    {
+        Texture = Texture2D'/Game/Aki/Render/Common/T_DefaultMaskGreen_M.T_DefaultMaskGreen_M'
+        Name = BlendNormal
+        Group = None
+    }
+    CollectedTextureParameters[1] =
+    {
+        Texture = Texture2D'/Game/Aki/Render/Common/T_DefaultColorWhite_D.T_DefaultColorWhite_D'
+        Name = TaskColorMap
+        Group = None
+    }
+    CollectedTextureParameters[2] =
+    {
+        Texture = Texture2D'/Game/Aki/Scene/Landscape/ColorMap/T_LandscapeColorMap_D.T_LandscapeColorMap_D'
+        Name = WorldColorMap
+        Group = None
+    }
+    CollectedTextureParameters[3] =
+    {
+        Texture = Texture2D'/Game/Aki/Render/Common/T_DefaultColorWhite_D.T_DefaultColorWhite_D'
+        Name = Overall_Diff
+        Group = None
+    }
+    CollectedTextureParameters[4] =
+    {
+        Texture = Texture2D'/Game/Aki/Render/Common/T_WaterNormal_Rain.T_WaterNormal_Rain'
+        Name = RainNormal
+        Group = None
+    }
+    CollectedTextureParameters[5] =
+    {
+        Texture = Texture2D'/Game/Aki/Render/Common/T_DefaultColorWhite_D.T_DefaultColorWhite_D'
+        Name = RampTex
+        Group = None
+    }
+    CollectedTextureParameters[6] = { Texture=None, Name=BakeAOTexArray, Group=None }
+}
+CollectedScalarParameters[22] =
+{
+    CollectedScalarParameters[0] = { Value=0.8, Name=RampRange_2, Group=None }
+    CollectedScalarParameters[1] = { Value=0.4, Name=BakeAO_Min, Group=None }
+    CollectedScalarParameters[2] = { Value=0, Name=TexArrayIndex, Group=None }
+    CollectedScalarParameters[3] = { Value=1, Name=SnowOpacityConstant, Group=None }
+    CollectedScalarParameters[4] = { Value=30, Name=WaterNormalSpeed (S), Group=None }
+    CollectedScalarParameters[5] = { Value=1, Name=RampRangePow, Group=None }
+    CollectedScalarParameters[6] = { Value=0, Name=RampLerpStrength, Group=None }
+    CollectedScalarParameters[7] = { Value=1, Name=RampStrength, Group=None }
+    CollectedScalarParameters[8] = { Value=1, Name=BakeAOContrast, Group=None }
+    CollectedScalarParameters[9] = { Value=6, Name=BakeAOTop, Group=None }
+    CollectedScalarParameters[10] = { Value=1, Name=UV Tili, Group=None }
+    CollectedScalarParameters[11] = { Value=0.5, Name=MobileLODColorMul, Group=None }
+    CollectedScalarParameters[12] = { Value=0, Name=BakeAOBaseColor_Min, Group=None }
+    CollectedScalarParameters[13] = { Value=4, Name=BakeAO, Group=None }
+    CollectedScalarParameters[14] = { Value=0.3, Name=RampRange_1, Group=None }
+    CollectedScalarParameters[15] = { Value=65000, Name=LandBlendMaxDis, Group=None }
+    CollectedScalarParameters[16] =
+    {
+        Value = 100
+        Name = WaterNormal_Scale (S)
+        Group = None
+    }
+    CollectedScalarParameters[17] = { Value=0, Name=DepthOffset, Group=None }
+    CollectedScalarParameters[18] = { Value=10, Name=NormalIntensity (S), Group=None }
+    CollectedScalarParameters[19] = { Value=0.1, Name=WaterPuddleRoughness, Group=None }
+    CollectedScalarParameters[20] =
+    {
+        Value = 0.2
+        Name = WaterPuddleReflectionIntensity
+        Group = None
+    }
+    CollectedScalarParameters[21] = { Value=8, Name=BakeAOBaseColor, Group=None }
+}
+CollectedVectorParameters[7] =
+{
+    CollectedVectorParameters[0] =
+    {
+        Value = { R=0.5, G=0.5, B=0.5, A=0 }
+        Name = WaterPuddleColorTint
+        Group = None
+    }
+    CollectedVectorParameters[1] =
+    {
+        Value = { R=1, G=1, B=1, A=0 }
+        Name = StoneColorTint
+        Group = None
+    }
+    CollectedVectorParameters[2] =
+    {
+        Value = { R=1, G=0.6, B=1, A=1 }
+        Name = Grass Roughness
+        Group = None
+    }
+    CollectedVectorParameters[3] =
+    {
+        Value = { R=1, G=1, B=1, A=1 }
+        Name = Color Tint
+        Group = None
+    }
+    CollectedVectorParameters[4] =
+    {
+        Value = { R=1, G=1, B=0, A=0 }
+        Name = RampTex_S_O
+        Group = None
+    }
+    CollectedVectorParameters[5] =
+    {
+        Value = { R=0.841883, G=1, B=0.6, A=0 }
+        Name = bakeGI
+        Group = None
+    }
+    CollectedVectorParameters[6] =
+    {
+        Value = { R=0, G=0, B=0, A=0 }
+        Name = WorldMapData
+        Group = None
+    }
+}
+FlattenedTexture = None
+MobileBaseTexture = None
+MobileNormalTexture = None
+bUseMobileSpecular = false
+MobileSpecularPower = 16
+MobileSpecularMask = MSM_Constant (0)
+MobileMaskTexture = None
+TextureStreamingData[3] =
+{
+    TextureStreamingData[0] =
+    {
+        SamplingScale = 1
+        UVChannelIndex = 0
+        TextureName = T_DefaultColorWhite_D
+    }
+    TextureStreamingData[1] =
+    {
+        SamplingScale = 1
+        UVChannelIndex = 0
+        TextureName = T_DefaultMaskGreen_M
+    }
+    TextureStreamingData[2] =
+    {
+        SamplingScale = 0.640625
+        UVChannelIndex = 0
+        TextureName = T_WaterNormal_Rain
+    }
+}

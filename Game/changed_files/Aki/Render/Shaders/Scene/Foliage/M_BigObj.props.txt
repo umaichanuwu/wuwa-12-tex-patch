@@ -1,0 +1,218 @@
+TwoSided = false
+bDisableDepthTest = false
+bIsMasked = false
+ReferencedTextures[5] =
+{
+    ReferencedTextures[0] = Texture2D'/Engine/EngineMaterials/Good64x64TilingNoiseHighFreq.Good64x64TilingNoiseHighFreq'
+    ReferencedTextures[1] = Texture2D'/Game/Aki/Render/Common/T_DefaultColorWhite_D.T_DefaultColorWhite_D'
+    ReferencedTextures[2] = Texture2D'/Game/Aki/Render/Common/T_DefaultColorWhite_Linear_D.T_DefaultColorWhite_Linear_D'
+    ReferencedTextures[3] = Texture2D'/Game/Aki/Render/Common/T_DefaultMaskGreen_M.T_DefaultMaskGreen_M'
+    ReferencedTextures[4] = Texture2D'/Game/Aki/Render/Common/T_DefaultNormal_N.T_DefaultNormal_N'
+}
+Expressions[0] = {}
+CachedExpressionData =
+{
+    Parameters =
+    {
+        Entries[5] =
+        {
+            Entries[0] =
+            {
+                ParameterInfos[15] =
+                {
+                    ParameterInfos[0] = { Name=Roughness }
+                    ParameterInfos[1] = { Name=Blend Weight }
+                    ParameterInfos[2] = { Name=Mid Blend Weight }
+                    ParameterInfos[3] = { Name=Ao MaskInstensty }
+                    ParameterInfos[4] = { Name=AOScale }
+                    ParameterInfos[5] = { Name=ZUP Dis }
+                    ParameterInfos[6] = { Name=Mid Tili }
+                    ParameterInfos[7] = { Name=AOOffset }
+                    ParameterInfos[8] = { Name=BaseIntensty }
+                    ParameterInfos[9] = { Name=Tex Tili }
+                    ParameterInfos[10] = { Name=Use uvo uv1 }
+                    ParameterInfos[11] = { Name=LandBlendMaxDis }
+                    ParameterInfos[12] = { Name=Start Distence }
+                    ParameterInfos[13] = { Name=DepthOffset }
+                    ParameterInfos[14] = { Name=1 Use Mid Blend Weight }
+                }
+            }
+            Entries[1] =
+            {
+                ParameterInfos[3] =
+                {
+                    ParameterInfos[0] = { Name=BaseColor Tint }
+                    ParameterInfos[1] = { Name=Structure Edge Color }
+                    ParameterInfos[2] = { Name=ChangeColor }
+                }
+            }
+            Entries[2] =
+            {
+                ParameterInfos[9] =
+                {
+                    ParameterInfos[0] = { Name=Tex Structure Mask }
+                    ParameterInfos[1] = { Name=Tex Structrue Normal }
+                    ParameterInfos[2] = { Name=Tex Mid Normal }
+                    ParameterInfos[3] = { Name=Tex Base Normal }
+                    ParameterInfos[4] = { Name=Tex Base Color }
+                    ParameterInfos[5] = { Name=Tex Structure Color }
+                    ParameterInfos[6] = { Name=Tex Base MRA }
+                    ParameterInfos[7] = { Name=TexNormalBlend }
+                    ParameterInfos[8] = { Name=Tex Mid Color }
+                }
+            }
+            Entries[3] = { ParameterInfos[0]={} }
+            Entries[4] = { ParameterInfos[0]={} }
+        }
+        ScalarValues[15] =
+        {
+            ScalarValues[0] = 0.2
+            ScalarValues[1] = 0
+            ScalarValues[2] = 1
+            ScalarValues[3] = 0
+            ScalarValues[4] = 1.2
+            ScalarValues[5] = 0.371429
+            ScalarValues[6] = 5
+            ScalarValues[7] = 1
+            ScalarValues[8] = 0.3
+            ScalarValues[9] = 1
+            ScalarValues[10] = 0.1
+            ScalarValues[11] = 65000
+            ScalarValues[12] = 25
+            ScalarValues[13] = 0
+            ScalarValues[14] = 0
+        }
+        VectorValues[3] =
+        {
+            VectorValues[0] = { R=1, G=1, B=1, A=1 }
+            VectorValues[1] = { R=1, G=1, B=1, A=1 }
+            VectorValues[2] = { R=1, G=1, B=1, A=0 }
+        }
+        TextureValues[9] =
+        {
+            TextureValues[0] = Texture2D'/Game/Aki/Render/Common/T_DefaultMaskGreen_M.T_DefaultMaskGreen_M'
+            TextureValues[1] = Texture2D'/Game/Aki/Render/Common/T_DefaultNormal_N.T_DefaultNormal_N'
+            TextureValues[2] = Texture2D'/Game/Aki/Render/Common/T_DefaultNormal_N.T_DefaultNormal_N'
+            TextureValues[3] = Texture2D'/Game/Aki/Render/Common/T_DefaultMaskGreen_M.T_DefaultMaskGreen_M'
+            TextureValues[4] = Texture2D'/Game/Aki/Render/Common/T_DefaultColorWhite_D.T_DefaultColorWhite_D'
+            TextureValues[5] = Texture2D'/Game/Aki/Render/Common/T_DefaultColorWhite_D.T_DefaultColorWhite_D'
+            TextureValues[6] = Texture2D'/Game/Aki/Render/Common/T_DefaultMaskGreen_M.T_DefaultMaskGreen_M'
+            TextureValues[7] = Texture2D'/Game/Aki/Render/Common/T_DefaultColorWhite_Linear_D.T_DefaultColorWhite_Linear_D'
+            TextureValues[8] = Texture2D'/Game/Aki/Render/Common/T_DefaultColorWhite_D.T_DefaultColorWhite_D'
+        }
+    }
+    ReferencedTextures[5] =
+    {
+        ReferencedTextures[0] = Texture2D'/Engine/EngineMaterials/Good64x64TilingNoiseHighFreq.Good64x64TilingNoiseHighFreq'
+        ReferencedTextures[1] = Texture2D'/Game/Aki/Render/Common/T_DefaultColorWhite_D.T_DefaultColorWhite_D'
+        ReferencedTextures[2] = Texture2D'/Game/Aki/Render/Common/T_DefaultNormal_N.T_DefaultNormal_N'
+        ReferencedTextures[3] = Texture2D'/Game/Aki/Render/Common/T_DefaultMaskGreen_M.T_DefaultMaskGreen_M'
+        ReferencedTextures[4] = Texture2D'/Game/Aki/Render/Common/T_DefaultColorWhite_Linear_D.T_DefaultColorWhite_Linear_D'
+    }
+}
+BlendMode = BLEND_Opaque (0)
+OpacityMaskClipValue = 0.333
+CollectedTextureParameters[9] =
+{
+    CollectedTextureParameters[0] =
+    {
+        Texture = Texture2D'/Game/Aki/Render/Common/T_DefaultMaskGreen_M.T_DefaultMaskGreen_M'
+        Name = Tex Structure Mask
+        Group = None
+    }
+    CollectedTextureParameters[1] =
+    {
+        Texture = Texture2D'/Game/Aki/Render/Common/T_DefaultNormal_N.T_DefaultNormal_N'
+        Name = Tex Structrue Normal
+        Group = None
+    }
+    CollectedTextureParameters[2] =
+    {
+        Texture = Texture2D'/Game/Aki/Render/Common/T_DefaultNormal_N.T_DefaultNormal_N'
+        Name = Tex Mid Normal
+        Group = None
+    }
+    CollectedTextureParameters[3] =
+    {
+        Texture = Texture2D'/Game/Aki/Render/Common/T_DefaultMaskGreen_M.T_DefaultMaskGreen_M'
+        Name = Tex Base Normal
+        Group = None
+    }
+    CollectedTextureParameters[4] =
+    {
+        Texture = Texture2D'/Game/Aki/Render/Common/T_DefaultColorWhite_D.T_DefaultColorWhite_D'
+        Name = Tex Base Color
+        Group = None
+    }
+    CollectedTextureParameters[5] =
+    {
+        Texture = Texture2D'/Game/Aki/Render/Common/T_DefaultColorWhite_D.T_DefaultColorWhite_D'
+        Name = Tex Structure Color
+        Group = None
+    }
+    CollectedTextureParameters[6] =
+    {
+        Texture = Texture2D'/Game/Aki/Render/Common/T_DefaultMaskGreen_M.T_DefaultMaskGreen_M'
+        Name = Tex Base MRA
+        Group = None
+    }
+    CollectedTextureParameters[7] =
+    {
+        Texture = Texture2D'/Game/Aki/Render/Common/T_DefaultColorWhite_Linear_D.T_DefaultColorWhite_Linear_D'
+        Name = TexNormalBlend
+        Group = None
+    }
+    CollectedTextureParameters[8] =
+    {
+        Texture = Texture2D'/Game/Aki/Render/Common/T_DefaultColorWhite_D.T_DefaultColorWhite_D'
+        Name = Tex Mid Color
+        Group = None
+    }
+}
+CollectedScalarParameters[15] =
+{
+    CollectedScalarParameters[0] = { Value=0.2, Name=Roughness, Group=None }
+    CollectedScalarParameters[1] = { Value=0, Name=Blend Weight, Group=None }
+    CollectedScalarParameters[2] = { Value=1, Name=Mid Blend Weight, Group=None }
+    CollectedScalarParameters[3] = { Value=0, Name=Ao MaskInstensty, Group=None }
+    CollectedScalarParameters[4] = { Value=1.2, Name=AOScale, Group=None }
+    CollectedScalarParameters[5] = { Value=0.371429, Name=ZUP Dis, Group=None }
+    CollectedScalarParameters[6] = { Value=5, Name=Mid Tili, Group=None }
+    CollectedScalarParameters[7] = { Value=1, Name=AOOffset, Group=None }
+    CollectedScalarParameters[8] = { Value=0.3, Name=BaseIntensty, Group=None }
+    CollectedScalarParameters[9] = { Value=1, Name=Tex Tili, Group=None }
+    CollectedScalarParameters[10] = { Value=0.1, Name=Use uvo uv1, Group=None }
+    CollectedScalarParameters[11] = { Value=65000, Name=LandBlendMaxDis, Group=None }
+    CollectedScalarParameters[12] = { Value=25, Name=Start Distence, Group=None }
+    CollectedScalarParameters[13] = { Value=0, Name=DepthOffset, Group=None }
+    CollectedScalarParameters[14] = { Value=0, Name=1 Use Mid Blend Weight, Group=None }
+}
+CollectedVectorParameters[3] =
+{
+    CollectedVectorParameters[0] =
+    {
+        Value = { R=1, G=1, B=1, A=1 }
+        Name = BaseColor Tint
+        Group = None
+    }
+    CollectedVectorParameters[1] =
+    {
+        Value = { R=1, G=1, B=1, A=1 }
+        Name = Structure Edge Color
+        Group = None
+    }
+    CollectedVectorParameters[2] =
+    {
+        Value = { R=1, G=1, B=1, A=0 }
+        Name = ChangeColor
+        Group = None
+    }
+}
+FlattenedTexture = None
+MobileBaseTexture = None
+MobileNormalTexture = None
+bUseMobileSpecular = false
+MobileSpecularPower = 16
+MobileSpecularMask = MSM_Constant (0)
+MobileMaskTexture = None
+TextureStreamingData[0] = {}

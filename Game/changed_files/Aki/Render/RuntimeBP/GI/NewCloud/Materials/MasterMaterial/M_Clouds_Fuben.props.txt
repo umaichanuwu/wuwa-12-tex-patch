@@ -1,0 +1,179 @@
+TwoSided = true
+bDisableDepthTest = false
+bIsMasked = false
+ReferencedTextures[4] =
+{
+    ReferencedTextures[0] = Texture2D'/Engine/EngineResources/DefaultTexture.DefaultTexture'
+    ReferencedTextures[1] = Texture2D'/Game/Aki/Effect/Texture/Tile/T_Tile_017.T_Tile_017'
+    ReferencedTextures[2] = Texture2D'/Game/Aki/Render/RuntimeBP/GI/NewCloud/Textures/BasicNoise.BasicNoise'
+    ReferencedTextures[3] = Texture2D'/Game/Aki/Scene/Assets/SkyBox/World/T_Com_Sky_20B_M.T_Com_Sky_20B_M'
+}
+Expressions[0] = {}
+CachedExpressionData =
+{
+    Parameters =
+    {
+        Entries[5] =
+        {
+            Entries[0] =
+            {
+                ParameterInfos[17] =
+                {
+                    ParameterInfos[0] = { Name=DepthFade }
+                    ParameterInfos[1] = { Name=Rotation }
+                    ParameterInfos[2] = { Name=PartialThunderNoiseScale }
+                    ParameterInfos[3] = { Name=ThunderMaskFrom }
+                    ParameterInfos[4] = { Name=OpacityForSwitch }
+                    ParameterInfos[5] = { Name=NoiseSpeed }
+                    ParameterInfos[6] = { Name=ThunderPlaySpeed }
+                    ParameterInfos[7] = { Name=LightBrightness }
+                    ParameterInfos[8] = { Name=NoiseTilling }
+                    ParameterInfos[9] = { Name=NoiseStrength }
+                    ParameterInfos[10] = { Name=UVTiling }
+                    ParameterInfos[11] = { Name=LightRange }
+                    ParameterInfos[12] = { Name=UV1UV2 }
+                    ParameterInfos[13] = { Name=CloudSpeed }
+                    ParameterInfos[14] = { Name=InscatteringPower }
+                    ParameterInfos[15] = { Name=PartialThunderNoise }
+                    ParameterInfos[16] = { Name=ThunderMaskTo }
+                }
+            }
+            Entries[1] =
+            {
+                ParameterInfos[1] =
+                {
+                    ParameterInfos[0] = { Name=ThunderTint }
+                }
+            }
+            Entries[2] =
+            {
+                ParameterInfos[4] =
+                {
+                    ParameterInfos[0] = { Name=Noise }
+                    ParameterInfos[1] = { Name=CloudMask }
+                    ParameterInfos[2] = { Name=ThunderTexture }
+                    ParameterInfos[3] = { Name=PartialThunderNoiseTexture }
+                }
+            }
+            Entries[3] = { ParameterInfos[0]={} }
+            Entries[4] = { ParameterInfos[0]={} }
+        }
+        ScalarValues[17] =
+        {
+            ScalarValues[0] = 829.379
+            ScalarValues[1] = 0
+            ScalarValues[2] = 1
+            ScalarValues[3] = 1
+            ScalarValues[4] = 1
+            ScalarValues[5] = 1
+            ScalarValues[6] = 0
+            ScalarValues[7] = 1
+            ScalarValues[8] = 1
+            ScalarValues[9] = 1
+            ScalarValues[10] = 1
+            ScalarValues[11] = 2
+            ScalarValues[12] = 0
+            ScalarValues[13] = 1
+            ScalarValues[14] = 3
+            ScalarValues[15] = 0
+            ScalarValues[16] = 1
+        }
+        VectorValues[1] =
+        {
+            VectorValues[0] = { R=0, G=0, B=0, A=1 }
+        }
+        TextureValues[4] =
+        {
+            TextureValues[0] = Texture2D'/Game/Aki/Render/RuntimeBP/GI/NewCloud/Textures/BasicNoise.BasicNoise'
+            TextureValues[1] = Texture2D'/Game/Aki/Scene/Assets/SkyBox/World/T_Com_Sky_20B_M.T_Com_Sky_20B_M'
+            TextureValues[2] = Texture2D'/Engine/EngineResources/DefaultTexture.DefaultTexture'
+            TextureValues[3] = Texture2D'/Game/Aki/Effect/Texture/Tile/T_Tile_017.T_Tile_017'
+        }
+    }
+    ReferencedTextures[4] =
+    {
+        ReferencedTextures[0] = Texture2D'/Engine/EngineResources/DefaultTexture.DefaultTexture'
+        ReferencedTextures[1] = Texture2D'/Game/Aki/Effect/Texture/Tile/T_Tile_017.T_Tile_017'
+        ReferencedTextures[2] = Texture2D'/Game/Aki/Scene/Assets/SkyBox/World/T_Com_Sky_20B_M.T_Com_Sky_20B_M'
+        ReferencedTextures[3] = Texture2D'/Game/Aki/Render/RuntimeBP/GI/NewCloud/Textures/BasicNoise.BasicNoise'
+    }
+}
+BlendMode = BLEND_Translucent (2)
+OpacityMaskClipValue = 0.333
+CollectedTextureParameters[4] =
+{
+    CollectedTextureParameters[0] =
+    {
+        Texture = Texture2D'/Game/Aki/Render/RuntimeBP/GI/NewCloud/Textures/BasicNoise.BasicNoise'
+        Name = Noise
+        Group = None
+    }
+    CollectedTextureParameters[1] =
+    {
+        Texture = Texture2D'/Game/Aki/Scene/Assets/SkyBox/World/T_Com_Sky_20B_M.T_Com_Sky_20B_M'
+        Name = CloudMask
+        Group = None
+    }
+    CollectedTextureParameters[2] =
+    {
+        Texture = Texture2D'/Engine/EngineResources/DefaultTexture.DefaultTexture'
+        Name = ThunderTexture
+        Group = None
+    }
+    CollectedTextureParameters[3] =
+    {
+        Texture = Texture2D'/Game/Aki/Effect/Texture/Tile/T_Tile_017.T_Tile_017'
+        Name = PartialThunderNoiseTexture
+        Group = None
+    }
+}
+CollectedScalarParameters[17] =
+{
+    CollectedScalarParameters[0] = { Value=829.379, Name=DepthFade, Group=None }
+    CollectedScalarParameters[1] = { Value=0, Name=Rotation, Group=None }
+    CollectedScalarParameters[2] =
+    {
+        Value = 1
+        Name = PartialThunderNoiseScale
+        Group = None
+    }
+    CollectedScalarParameters[3] = { Value=1, Name=ThunderMaskFrom, Group=None }
+    CollectedScalarParameters[4] = { Value=1, Name=OpacityForSwitch, Group=None }
+    CollectedScalarParameters[5] = { Value=1, Name=NoiseSpeed, Group=None }
+    CollectedScalarParameters[6] = { Value=0, Name=ThunderPlaySpeed, Group=None }
+    CollectedScalarParameters[7] = { Value=1, Name=LightBrightness, Group=None }
+    CollectedScalarParameters[8] = { Value=1, Name=NoiseTilling, Group=None }
+    CollectedScalarParameters[9] = { Value=1, Name=NoiseStrength, Group=None }
+    CollectedScalarParameters[10] = { Value=1, Name=UVTiling, Group=None }
+    CollectedScalarParameters[11] = { Value=2, Name=LightRange, Group=None }
+    CollectedScalarParameters[12] = { Value=0, Name=UV1UV2, Group=None }
+    CollectedScalarParameters[13] = { Value=1, Name=CloudSpeed, Group=None }
+    CollectedScalarParameters[14] = { Value=3, Name=InscatteringPower, Group=None }
+    CollectedScalarParameters[15] = { Value=0, Name=PartialThunderNoise, Group=None }
+    CollectedScalarParameters[16] = { Value=1, Name=ThunderMaskTo, Group=None }
+}
+CollectedVectorParameters[1] =
+{
+    CollectedVectorParameters[0] =
+    {
+        Value = { R=0, G=0, B=0, A=1 }
+        Name = ThunderTint
+        Group = None
+    }
+}
+FlattenedTexture = None
+MobileBaseTexture = None
+MobileNormalTexture = None
+bUseMobileSpecular = false
+MobileSpecularPower = 16
+MobileSpecularMask = MSM_Constant (0)
+MobileMaskTexture = None
+TextureStreamingData[1] =
+{
+    TextureStreamingData[0] =
+    {
+        SamplingScale = 0.988953
+        UVChannelIndex = 0
+        TextureName = T_Com_Sky_20B_M
+    }
+}

@@ -1,0 +1,6 @@
+Diffuse=T_DefaultColorWhite_D
+Normal=T_DefaultNormal_N
+Other[0]=T_Default_SceneMask_M
+Other[1]=T_Foliage_Noise_M
+Other[2]=T_VA_Crosswind_VT
+Other[3]=T_VA_Tailwind_VT

@@ -1,0 +1,9 @@
+Diffuse=T_DefaultColorBlack_Linear_D
+Other[0]=T_Trail_Lightning_40002
+Other[1]=T_Daoguang_30006_2
+Other[2]=T_Tile_50003
+Other[3]=T_Tile_50001
+Other[4]=Good64x64TilingNoiseHighFreq
+Other[5]=Gradient
+Other[6]=Greyscale
+Other[7]=T_DefaultColorWhite_D

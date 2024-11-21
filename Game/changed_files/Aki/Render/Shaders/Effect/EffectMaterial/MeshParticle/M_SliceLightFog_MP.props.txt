@@ -1,0 +1,158 @@
+TwoSided = false
+bDisableDepthTest = false
+bIsMasked = false
+ReferencedTextures[4] =
+{
+    ReferencedTextures[0] = Texture2D'/Engine/EngineMaterials/Good64x64TilingNoiseHighFreq.Good64x64TilingNoiseHighFreq'
+    ReferencedTextures[1] = Texture2D'/Engine/EngineVolumetrics/LightBeam/Materials/T_EV_LightBeam_Falloff_02.T_EV_LightBeam_Falloff_02'
+    ReferencedTextures[2] = Texture2D'/Game/Aki/Render/Common/T_Default_SceneMask_M.T_Default_SceneMask_M'
+    ReferencedTextures[3] = Texture2D'/Game/Aki/Render/Common/T_DefaultColorWhite_D.T_DefaultColorWhite_D'
+}
+Expressions[0] = {}
+CachedExpressionData =
+{
+    Parameters =
+    {
+        Entries[5] =
+        {
+            Entries[0] =
+            {
+                ParameterInfos[11] =
+                {
+                    ParameterInfos[0] = { Name=FallOff_DepthFade }
+                    ParameterInfos[1] = { Name=Opacity_bVertexAlphaToMask }
+                    ParameterInfos[2] = { Name=LightColorStrength }
+                    ParameterInfos[3] = { Name=Noise_Strength }
+                    ParameterInfos[4] = { Name=FallOff_NearFadeDistance }
+                    ParameterInfos[5] = { Name=ScreenFadeFrom }
+                    ParameterInfos[6] = { Name=FallOff_Contrast }
+                    ParameterInfos[7] = { Name=Noise_bScreenUV }
+                    ParameterInfos[8] = { Name=FallOff_Opacity }
+                    ParameterInfos[9] = { Name=Noise_Offset }
+                    ParameterInfos[10] = { Name=ScreenFadeDistance }
+                }
+            }
+            Entries[1] =
+            {
+                ParameterInfos[3] =
+                {
+                    ParameterInfos[0] = { Name=Noise_UV }
+                    ParameterInfos[1] = { Name=Noise_UVSwitch }
+                    ParameterInfos[2] = { Name=FallOff_ColorTint }
+                }
+            }
+            Entries[2] =
+            {
+                ParameterInfos[2] =
+                {
+                    ParameterInfos[0] = { Name=Noise }
+                    ParameterInfos[1] = { Name=Falloff }
+                }
+            }
+            Entries[3] = { ParameterInfos[0]={} }
+            Entries[4] = { ParameterInfos[0]={} }
+        }
+        ScalarValues[11] =
+        {
+            ScalarValues[0] = 100
+            ScalarValues[1] = 0
+            ScalarValues[2] = 0.1
+            ScalarValues[3] = 0.15
+            ScalarValues[4] = 50
+            ScalarValues[5] = 12
+            ScalarValues[6] = 0.25
+            ScalarValues[7] = 0
+            ScalarValues[8] = 0.5
+            ScalarValues[9] = 0
+            ScalarValues[10] = 30
+        }
+        VectorValues[3] =
+        {
+            VectorValues[0] = { R=1, G=1, B=0, A=0 }
+            VectorValues[1] = { R=1, G=0, B=0, A=0 }
+            VectorValues[2] = { R=1, G=1, B=1, A=1 }
+        }
+        TextureValues[2] =
+        {
+            TextureValues[0] = Texture2D'/Game/Aki/Render/Common/T_DefaultColorWhite_D.T_DefaultColorWhite_D'
+            TextureValues[1] = Texture2D'/Game/Aki/Render/Common/T_Default_SceneMask_M.T_Default_SceneMask_M'
+        }
+    }
+    ReferencedTextures[4] =
+    {
+        ReferencedTextures[0] = Texture2D'/Engine/EngineMaterials/Good64x64TilingNoiseHighFreq.Good64x64TilingNoiseHighFreq'
+        ReferencedTextures[1] = Texture2D'/Game/Aki/Render/Common/T_DefaultColorWhite_D.T_DefaultColorWhite_D'
+        ReferencedTextures[2] = Texture2D'/Game/Aki/Render/Common/T_Default_SceneMask_M.T_Default_SceneMask_M'
+        ReferencedTextures[3] = Texture2D'/Engine/EngineVolumetrics/LightBeam/Materials/T_EV_LightBeam_Falloff_02.T_EV_LightBeam_Falloff_02'
+    }
+}
+BlendMode = BLEND_Translucent (2)
+OpacityMaskClipValue = 0.333
+CollectedTextureParameters[2] =
+{
+    CollectedTextureParameters[0] =
+    {
+        Texture = Texture2D'/Game/Aki/Render/Common/T_DefaultColorWhite_D.T_DefaultColorWhite_D'
+        Name = Noise
+        Group = None
+    }
+    CollectedTextureParameters[1] =
+    {
+        Texture = Texture2D'/Game/Aki/Render/Common/T_Default_SceneMask_M.T_Default_SceneMask_M'
+        Name = Falloff
+        Group = None
+    }
+}
+CollectedScalarParameters[11] =
+{
+    CollectedScalarParameters[0] = { Value=100, Name=FallOff_DepthFade, Group=None }
+    CollectedScalarParameters[1] =
+    {
+        Value = 0
+        Name = Opacity_bVertexAlphaToMask
+        Group = None
+    }
+    CollectedScalarParameters[2] = { Value=0.1, Name=LightColorStrength, Group=None }
+    CollectedScalarParameters[3] = { Value=0.15, Name=Noise_Strength, Group=None }
+    CollectedScalarParameters[4] =
+    {
+        Value = 50
+        Name = FallOff_NearFadeDistance
+        Group = None
+    }
+    CollectedScalarParameters[5] = { Value=12, Name=ScreenFadeFrom, Group=None }
+    CollectedScalarParameters[6] = { Value=0.25, Name=FallOff_Contrast, Group=None }
+    CollectedScalarParameters[7] = { Value=0, Name=Noise_bScreenUV, Group=None }
+    CollectedScalarParameters[8] = { Value=0.5, Name=FallOff_Opacity, Group=None }
+    CollectedScalarParameters[9] = { Value=0, Name=Noise_Offset, Group=None }
+    CollectedScalarParameters[10] = { Value=30, Name=ScreenFadeDistance, Group=None }
+}
+CollectedVectorParameters[3] =
+{
+    CollectedVectorParameters[0] =
+    {
+        Value = { R=1, G=1, B=0, A=0 }
+        Name = Noise_UV
+        Group = None
+    }
+    CollectedVectorParameters[1] =
+    {
+        Value = { R=1, G=0, B=0, A=0 }
+        Name = Noise_UVSwitch
+        Group = None
+    }
+    CollectedVectorParameters[2] =
+    {
+        Value = { R=1, G=1, B=1, A=1 }
+        Name = FallOff_ColorTint
+        Group = None
+    }
+}
+FlattenedTexture = None
+MobileBaseTexture = None
+MobileNormalTexture = None
+bUseMobileSpecular = false
+MobileSpecularPower = 16
+MobileSpecularMask = MSM_Constant (0)
+MobileMaskTexture = None
+TextureStreamingData[0] = {}

@@ -1,0 +1,13 @@
+Diffuse=T2_Cit_Met_03A_D
+Normal=T2_Cit_Met_03A_N
+Other[0]=T2_Cit_Met_03A_M
+Other[1]=Good64x64TilingNoiseHighFreq
+Other[2]=Dripping_Pattern_Masks
+Other[3]=ParticleClouds
+Other[4]=T_Default_SceneMask_M
+Other[5]=T_DefaultColorWhite_D
+Other[6]=T_DefaultNormal_N
+Other[7]=T_Noise_Flakes
+Other[8]=T_Noise_Flakes_N
+Other[9]=T_RainRipples
+Other[10]=T_Water_Normal1
